@@ -35,5 +35,7 @@
   }
  },
  "date": "2026-11-05",
- "notes": "0.11.6.0\n- Heavy reworked: M.M.F.P. upgrades your magazine boxes (up to the new white H.Q. Box), M.M.F.S. fills your team's boxes, Belt Fed gives instant reloads, Fire at will boosts the team's fire rate.\n- Sharpshooter: Gauss Rifle rounds per level, Steady Aim pierce, Marked Target can move on, drone vision shared with Sharpshooters.\n- Scavenger: every extension passive now works (Scrounger, Combat Boots and more).\n- Lobbies: only the same game version can join; the list shows each lobby's version.\n- HUD: zombie count / cap at the top.\n- Options: \"In the background\" lets the game run at full speed when it is not in front.\n- Lobby screens: the view holds still while a terminal is open, Back buttons everywhere."
+ "notes": "0.11.6.0\n- Heavy reworked: M.M.F.P. upgrades your magazine boxes (up to the new white H.Q. Box), M.M.F.S. fills your team's boxes, Belt Fed gives instant reloads, Fire at will boosts the team's fire rate.\n- Sharpshooter: Gauss Rifle rounds per level, Steady Aim pierce, Marked Target can move on, drone vision shared with Sharpshooters.\n- Scavenger: every extension passive now works (Scrounger, Combat Boots and more).\n- Lobbies: only the same game version can join; the list shows each lobby's version.\n- HUD: zombie count / cap at the top.\n- Options: \"In the background\" lets the game run at full speed when it is not in front.\n- Lobby screens: the view holds still while a terminal is open, Back buttons everywhere.",
+ "message": "heavy is here",
+ "message_id": "20261105-175739"
 }

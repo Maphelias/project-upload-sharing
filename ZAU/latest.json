@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.11.5.0",
+ "version": "0.11.6.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/Win64-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/Win64-manifest.json",
     "size": 9312,
-    "sha256": "712c0566fadd5eabcbe7ddc6a5aa34dbd7a8d523f5284dd853afa7c14d06bac6"
+    "sha256": "829b4bedd6d6c82d5040d2909f8674867f93c1ef9250dec0d55185bedecb0797"
    },
-   "patch_from": "0.11.4.0",
-   "patch_bytes": 11292790,
-   "full_files_bytes": 108092493,
+   "patch_from": "0.11.5.0",
+   "patch_bytes": 10749592,
+   "full_files_bytes": 108104048,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/ZAU-0.11.5.0-Shipping.zip",
-    "size": 143622800,
-    "sha256": "21eaa7ddfc2644e435352185a7b580c4ae5346e05a77e715303afd91ca70ed54"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/ZAU-0.11.6.0-Shipping.zip",
+    "size": 143632611,
+    "sha256": "0465c4aec047925351a107bfd5bfc4e661dd9d3edc7b00923eefd4c09d1fe800"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/Linux-manifest.json",
     "size": 5182,
-    "sha256": "157ade1967394038984abb71e753074495850041c9baa67a8e5c6372e781b54c"
+    "sha256": "72062df1d31ef53fc579bb795930d1d1c16b8226043d2e69c8c6cffcae9d666a"
    },
-   "patch_from": "0.11.4.0",
-   "patch_bytes": 8950722,
-   "full_files_bytes": 112811645,
+   "patch_from": "0.11.5.0",
+   "patch_bytes": 6964934,
+   "full_files_bytes": 112821577,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/ZAU-0.11.5.0-Linux-Shipping.zip",
-    "size": 153299572,
-    "sha256": "9445aa3b38bdc5f20ddfd98bf8b424eeac20941161efa96d605aacc906c8090f"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/ZAU-0.11.6.0-Linux-Shipping.zip",
+    "size": 153296678,
+    "sha256": "1a30c1f1886671a992e4ac9990c28ddb6265980f31f4853c9f187f9bf1ee7ec2"
    }
   }
  },
  "date": "2026-11-05",
- "notes": "0.11.5.0\n- The game now updates itself: new versions download only what changed.\n- Intel / integrated graphics: a lighter compatibility mode turns on by itself (Options > Graphics > Compatibility).\n- Guests: zombies move smoothly and shots hit what you see.\n- Host lost: the game pauses, everyone reconnects, then 3-2-1-GO.\n- Join requests: no spamming, a separate cancel and a cooldown after a deny.\n- Tesla Marine: Bleached stacks, slower chain that Capacitor speeds up, extension passives working.\n- Maps: no more containers and crates stuck inside each other."
+ "notes": "0.11.6.0\n- Heavy reworked: M.M.F.P. upgrades your magazine boxes (up to the new white H.Q. Box), M.M.F.S. fills your team's boxes, Belt Fed gives instant reloads, Fire at will boosts the team's fire rate.\n- Sharpshooter: Gauss Rifle rounds per level, Steady Aim pierce, Marked Target can move on, drone vision shared with Sharpshooters.\n- Scavenger: every extension passive now works (Scrounger, Combat Boots and more).\n- Lobbies: only the same game version can join; the list shows each lobby's version.\n- HUD: zombie count / cap at the top.\n- Options: \"In the background\" lets the game run at full speed when it is not in front.\n- Lobby screens: the view holds still while a terminal is open, Back buttons everywhere."
 }

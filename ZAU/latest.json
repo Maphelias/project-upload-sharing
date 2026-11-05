@@ -1,0 +1,39 @@
+{
+ "format": 1,
+ "project": "ZAU",
+ "version": "0.11.5.0",
+ "platforms": {
+  "Win64": {
+   "manifest": {
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/Win64-manifest.json",
+    "size": 9312,
+    "sha256": "712c0566fadd5eabcbe7ddc6a5aa34dbd7a8d523f5284dd853afa7c14d06bac6"
+   },
+   "patch_from": "0.11.4.0",
+   "patch_bytes": 11292790,
+   "full_files_bytes": 108092493,
+   "full_zip": {
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/ZAU-0.11.5.0-Shipping.zip",
+    "size": 143622800,
+    "sha256": "21eaa7ddfc2644e435352185a7b580c4ae5346e05a77e715303afd91ca70ed54"
+   }
+  },
+  "Linux": {
+   "manifest": {
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/Linux-manifest.json",
+    "size": 5182,
+    "sha256": "157ade1967394038984abb71e753074495850041c9baa67a8e5c6372e781b54c"
+   },
+   "patch_from": "0.11.4.0",
+   "patch_bytes": 8950722,
+   "full_files_bytes": 112811645,
+   "full_zip": {
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.5.0/ZAU-0.11.5.0-Linux-Shipping.zip",
+    "size": 153299572,
+    "sha256": "9445aa3b38bdc5f20ddfd98bf8b424eeac20941161efa96d605aacc906c8090f"
+   }
+  }
+ },
+ "date": "2026-11-05",
+ "notes": "0.11.5.0\n- The game now updates itself: new versions download only what changed.\n- Intel / integrated graphics: a lighter compatibility mode turns on by itself (Options > Graphics > Compatibility).\n- Guests: zombies move smoothly and shots hit what you see.\n- Host lost: the game pauses, everyone reconnects, then 3-2-1-GO.\n- Join requests: no spamming, a separate cancel and a cooldown after a deny.\n- Tesla Marine: Bleached stacks, slower chain that Capacitor speeds up, extension passives working.\n- Maps: no more containers and crates stuck inside each other."
+}

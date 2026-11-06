@@ -1,41 +1,41 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.11.6.0",
+ "version": "0.11.7.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/Win64-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.7.0/Win64-manifest.json",
     "size": 9312,
-    "sha256": "829b4bedd6d6c82d5040d2909f8674867f93c1ef9250dec0d55185bedecb0797"
+    "sha256": "f1ac8deb17b358a0034b6dd38e262be73f79052fe0a1037241dfcb367a6335a1"
    },
-   "patch_from": "0.11.5.0",
-   "patch_bytes": 10749592,
-   "full_files_bytes": 108104048,
+   "patch_from": "0.11.6.0",
+   "patch_bytes": 10985628,
+   "full_files_bytes": 108164022,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/ZAU-0.11.6.0-Shipping.zip",
-    "size": 143632611,
-    "sha256": "0465c4aec047925351a107bfd5bfc4e661dd9d3edc7b00923eefd4c09d1fe800"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.7.0/ZAU-0.11.7.0-Shipping.zip",
+    "size": 143689777,
+    "sha256": "cd2e8f2e087070f42f6c3b14168f6c71d2b8b9984d49bd367309cf43505644ee"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.7.0/Linux-manifest.json",
     "size": 5182,
-    "sha256": "72062df1d31ef53fc579bb795930d1d1c16b8226043d2e69c8c6cffcae9d666a"
+    "sha256": "dcb174ff82f064055eea19d6e4ddc6fce5813c2937ed2cb9abb3b5ce6713da13"
    },
-   "patch_from": "0.11.5.0",
-   "patch_bytes": 6964934,
-   "full_files_bytes": 112821577,
+   "patch_from": "0.11.6.0",
+   "patch_bytes": 7787678,
+   "full_files_bytes": 112879025,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.6.0/ZAU-0.11.6.0-Linux-Shipping.zip",
-    "size": 153296678,
-    "sha256": "1a30c1f1886671a992e4ac9990c28ddb6265980f31f4853c9f187f9bf1ee7ec2"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.11.7.0/ZAU-0.11.7.0-Linux-Shipping.zip",
+    "size": 153365869,
+    "sha256": "d9f6d90bdf094ebba39cb4b37598d8a48fa235c237f410c9587116596b5c9ff2"
    }
   }
  },
- "date": "2026-11-05",
- "notes": "0.11.6.0\n- Heavy reworked: M.M.F.P. upgrades your magazine boxes (up to the new white H.Q. Box), M.M.F.S. fills your team's boxes, Belt Fed gives instant reloads, Fire at will boosts the team's fire rate.\n- Sharpshooter: Gauss Rifle rounds per level, Steady Aim pierce, Marked Target can move on, drone vision shared with Sharpshooters.\n- Scavenger: every extension passive now works (Scrounger, Combat Boots and more).\n- Lobbies: only the same game version can join; the list shows each lobby's version.\n- HUD: zombie count / cap at the top.\n- Options: \"In the background\" lets the game run at full speed when it is not in front.\n- Lobby screens: the view holds still while a terminal is open, Back buttons everywhere.",
- "message": "heavy is here",
- "message_id": "20261105-175739"
+ "message": "update rollout!",
+ "message_id": "20261106-190803",
+ "date": "2026-11-06",
+ "notes": "update rollout!\n0.11.7.0\n- Player skill tree redone: 26 skills in 10 blocks. Old points are given back once.\n- Classes: the Operator and the Demolitioner reworked, every extension passive of both now works. Bigger Charges also helps the rest of the team.\n- Heavy: Fire at will is an aura round the Heavy with a dashed ring: you have the bonus while you stand inside it.\n- Scavenger: Ransack speeds up searches, terminals and the vault.\n- New items: Molotov, Stims, Prototype Shield, Prototype Cloak and the Auto Revival Tool.\n- New debuff: Maimed halves your attack speed, cured by the Arm Sling.\n- Burning stacks up to 4 times. Surges follow the spawn cap. The hive node now blocks zombies' paths.\n- The Assault Rifle fires every 0.25 s.\n- A hero at the top level passes its XP on to the lowest teammate. The lobby shows your own XP for the run.\n- A failed update now says why and offers the download page."
 }

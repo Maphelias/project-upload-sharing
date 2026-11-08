@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.12.0.0",
+ "version": "0.13.0.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.12.0.0/Win64-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/Win64-manifest.json",
     "size": 9763,
-    "sha256": "05aedb532803abcfe23570a146be90c76140571d16ebfa695bda49b3e91b79ff"
+    "sha256": "37ee2b8555ff1545366ad8556e494c8f55b49e76a902f0f46f28f6e481b106a8"
    },
-   "patch_from": "0.11.7.0",
-   "patch_bytes": 10855189,
-   "full_files_bytes": 108334024,
+   "patch_from": "0.12.0.0",
+   "patch_bytes": 12391669,
+   "full_files_bytes": 108846286,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.12.0.0/ZAU-0.12.0.0-Shipping.zip",
-    "size": 143874092,
-    "sha256": "72f23b6259d5330afb7df739e9bce82e388d9fb5ef1d0d385792998141c55c7d"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/ZAU-0.13.0.0-Shipping.zip",
+    "size": 144557527,
+    "sha256": "5feb3686a0b2213de3fcf3b8c0231ec5681b5204204f583fe73bc7343e33ae36"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.12.0.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/Linux-manifest.json",
     "size": 5633,
-    "sha256": "226c55329687aefbc4f73bf2b542e41e8c7a1c05f1aca52b6061ff6a1a2cb99b"
+    "sha256": "4492387666e77050026e4bd66772b96ce36d6c78e21b044f9037c09eb1edfca8"
    },
-   "patch_from": "0.11.7.0",
-   "patch_bytes": 8641364,
-   "full_files_bytes": 113044652,
+   "patch_from": "0.12.0.0",
+   "patch_bytes": 9913779,
+   "full_files_bytes": 113527869,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.12.0.0/ZAU-0.12.0.0-Linux-Shipping.zip",
-    "size": 153549845,
-    "sha256": "b8a44e6ad66b7785c10f8dcb9551daec93ad91b4fcfb6974919ec395ca618e18"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/ZAU-0.13.0.0-Linux-Shipping.zip",
+    "size": 154222822,
+    "sha256": "88473efb3a3a8eefcbdaa4ba4f1a30d7d105ce1813d9ab00f15f106c4262f8ec"
    }
   }
  },
- "date": "2026-11-07",
- "notes": "0.12.0.0\n- The Brawler is now the Weapons Master. Melee hits land where the blade sweeps; souls cap at 50.\n- Toxicologist reworked: it carries the Assault Rifle and a flask key draws the Lobber.\n- Skills window: grey until learned, the next level's change in green when you hover the +, and a line per class rule at the top.\n- Prestige tree: plaques fit their text, class nodes can be switched on and off, node 23 gives a full Stims and Prototype Shield stack.\n- The reload ring now follows the real reload.\n- Zombies far away are no longer moved; zombies with no way to you are quietly removed.\n- The game now carries its own certificate list, so the update check works on PCs whose Windows lacks it (download this zip once)."
+ "date": "2026-11-08",
+ "notes": "0.13.0.0\n- Campaign mode: city, forest and compound in a row, 10 missions per map, then a boss, then the map's finale. Choose Campaign at the mission setup terminal.\n- Three bosses, Campaign only: the Butcher (city), the Hollow (forest) and the Warden (compound), whose blast tears down the compound's interior.\n- New missions, 23 in all, and Basic and Complex are one category, Objectives. Supplies are a real item now: gather them, then carry them to the delivery zone.\n- New zombies: the Berserker and the Nest.\n- Proximity voice chat: push-to-talk (T) or open mic, Esc > Options > Voice & music.\n- A music player for your own songs: put MP3 files in Documents\\ZAU\\Music and press L.\n- Loot: items you already found get rarer for the rest of the run; fewer defibrillators.\n- Maimed on a zombie hit is now 1 in 25 (the Hunter still always maims).\n- The in-run Skills window shows locked, available, learned and maxed skills in clearly different colours."
 }

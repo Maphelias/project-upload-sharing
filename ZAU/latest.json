@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.0.0",
+ "version": "0.14.1.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/Win64-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/Win64-manifest.json",
     "size": 11159,
-    "sha256": "9866df526eaf600d55723324b2c13002419ca5da5ffabb3ef9dc12acd3250fea"
+    "sha256": "5a91da8ff7a8f132344393fbf8ffd86ecdfd5a1c76a96af6c19a1418c2d00910"
    },
-   "patch_from": "0.13.0.0",
-   "patch_bytes": 11698135,
-   "full_files_bytes": 120842139,
+   "patch_from": "0.14.0.0",
+   "patch_bytes": 11286673,
+   "full_files_bytes": 120860193,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/ZAU-0.14.0.0-Shipping.zip",
-    "size": 156653231,
-    "sha256": "06871efab70619b2472e31189fa6f26fc2d53a403a564e230d665359de4e53f8"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/ZAU-0.14.1.0-Shipping.zip",
+    "size": 156675003,
+    "sha256": "8c896e2459e412504fb5478a75f24c387b45de9c773e71b3dd35ab60bf7a308d"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/Linux-manifest.json",
     "size": 7029,
-    "sha256": "31af58ad4d5801b5ba39fba8f16c21dd64fb776071aab917afd0102c948f0d83"
+    "sha256": "fee092ece4bfaec35d98dbd6460bd25eccc69ebfab1ca09f2e5e554e87a55063"
    },
-   "patch_from": "0.13.0.0",
-   "patch_bytes": 9177165,
-   "full_files_bytes": 125504010,
+   "patch_from": "0.14.0.0",
+   "patch_bytes": 7072031,
+   "full_files_bytes": 125521675,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/ZAU-0.14.0.0-Linux-Shipping.zip",
-    "size": 166284619,
-    "sha256": "0acd1aef089ed4a12ad0ef919c300d4356f97e26c6a5f95fcc091c5a997e6f69"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/ZAU-0.14.1.0-Linux-Shipping.zip",
+    "size": 166318407,
+    "sha256": "9356deaffe5a24c42ce42158b8ee796bd7e37ada4f26e0253ffd067a6c74d0de"
    }
   }
  },
  "date": "2026-11-09",
- "notes": "0.14.0.0\n- Voice chat works for players who join a lobby over the internet (they could neither be heard nor hear before), on Windows and Linux.\n- Esc > Options > Voice: choose your microphone and your output device (headphones or speakers). The old Microphone row is now \"Send voice\".\n- Esc > Options > Audio: \"Sound in the background\" On / Off.\n- Options are split into tabs (Graphics, Audio, Voice, Key bindings, Interface), each with its own reset; a text size slider.\n- The music player ships with three songs, remembers where it stopped, goes up to 200 % volume and has a new look ([L]).\n- Campaign XP: every mission pays 15, doubled for the Campaign, times the time of day. Standard runs are capped at 10 missions.\n- The lobby's exit door is a real door, with a military outpost outside.\n- The city has flower pots and window boxes on some houses.\n- Interacting (F) prefers mission objects and downed teammates over cars and items nearby."
+ "notes": "0.14.1.0\n- Voice chat is much louder: the microphone is boosted before it is sent and received voices play louder. \"Voices you hear\" goes up to 200 %, and other sounds dip more while someone talks.\n- Fixed a crash on a level change (lobby to run and back) while voice chat was on.\n- Name tags: the speaker shows while a player's voice is on, and the sound bars show only while they are actually talking, more bars the louder they are.\n- Demolition: the charge crate is marked orange (CHARGES) and the targets red (TARGET), with their distances.\n- Zombies no longer crowd at a fence or wall when the players stand on its other side; they take the way round.\n- Empty searches get rarer: every time you find nothing in a kind of container, the next one of that kind is less likely to be empty for you (for the rest of the map).\n- Music player: safer against broken MP3 files."
 }

@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.13.0.0",
+ "version": "0.14.0.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/Win64-manifest.json",
-    "size": 9763,
-    "sha256": "37ee2b8555ff1545366ad8556e494c8f55b49e76a902f0f46f28f6e481b106a8"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/Win64-manifest.json",
+    "size": 11159,
+    "sha256": "9866df526eaf600d55723324b2c13002419ca5da5ffabb3ef9dc12acd3250fea"
    },
-   "patch_from": "0.12.0.0",
-   "patch_bytes": 12391669,
-   "full_files_bytes": 108846286,
+   "patch_from": "0.13.0.0",
+   "patch_bytes": 11698135,
+   "full_files_bytes": 120842139,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/ZAU-0.13.0.0-Shipping.zip",
-    "size": 144557527,
-    "sha256": "5feb3686a0b2213de3fcf3b8c0231ec5681b5204204f583fe73bc7343e33ae36"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/ZAU-0.14.0.0-Shipping.zip",
+    "size": 156653231,
+    "sha256": "06871efab70619b2472e31189fa6f26fc2d53a403a564e230d665359de4e53f8"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/Linux-manifest.json",
-    "size": 5633,
-    "sha256": "4492387666e77050026e4bd66772b96ce36d6c78e21b044f9037c09eb1edfca8"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/Linux-manifest.json",
+    "size": 7029,
+    "sha256": "31af58ad4d5801b5ba39fba8f16c21dd64fb776071aab917afd0102c948f0d83"
    },
-   "patch_from": "0.12.0.0",
-   "patch_bytes": 9913779,
-   "full_files_bytes": 113527869,
+   "patch_from": "0.13.0.0",
+   "patch_bytes": 9177165,
+   "full_files_bytes": 125504010,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.13.0.0/ZAU-0.13.0.0-Linux-Shipping.zip",
-    "size": 154222822,
-    "sha256": "88473efb3a3a8eefcbdaa4ba4f1a30d7d105ce1813d9ab00f15f106c4262f8ec"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.0.0/ZAU-0.14.0.0-Linux-Shipping.zip",
+    "size": 166284619,
+    "sha256": "0acd1aef089ed4a12ad0ef919c300d4356f97e26c6a5f95fcc091c5a997e6f69"
    }
   }
  },
- "date": "2026-11-08",
- "notes": "0.13.0.0\n- Campaign mode: city, forest and compound in a row, 10 missions per map, then a boss, then the map's finale. Choose Campaign at the mission setup terminal.\n- Three bosses, Campaign only: the Butcher (city), the Hollow (forest) and the Warden (compound), whose blast tears down the compound's interior.\n- New missions, 23 in all, and Basic and Complex are one category, Objectives. Supplies are a real item now: gather them, then carry them to the delivery zone.\n- New zombies: the Berserker and the Nest.\n- Proximity voice chat: push-to-talk (T) or open mic, Esc > Options > Voice & music.\n- A music player for your own songs: put MP3 files in Documents\\ZAU\\Music and press L.\n- Loot: items you already found get rarer for the rest of the run; fewer defibrillators.\n- Maimed on a zombie hit is now 1 in 25 (the Hunter still always maims).\n- The in-run Skills window shows locked, available, learned and maxed skills in clearly different colours."
+ "date": "2026-11-09",
+ "notes": "0.14.0.0\n- Voice chat works for players who join a lobby over the internet (they could neither be heard nor hear before), on Windows and Linux.\n- Esc > Options > Voice: choose your microphone and your output device (headphones or speakers). The old Microphone row is now \"Send voice\".\n- Esc > Options > Audio: \"Sound in the background\" On / Off.\n- Options are split into tabs (Graphics, Audio, Voice, Key bindings, Interface), each with its own reset; a text size slider.\n- The music player ships with three songs, remembers where it stopped, goes up to 200 % volume and has a new look ([L]).\n- Campaign XP: every mission pays 15, doubled for the Campaign, times the time of day. Standard runs are capped at 10 missions.\n- The lobby's exit door is a real door, with a military outpost outside.\n- The city has flower pots and window boxes on some houses.\n- Interacting (F) prefers mission objects and downed teammates over cars and items nearby."
 }

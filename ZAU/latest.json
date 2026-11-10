@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.1.0",
+ "version": "0.14.2.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/Win64-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.2.0/Win64-manifest.json",
     "size": 11159,
-    "sha256": "5a91da8ff7a8f132344393fbf8ffd86ecdfd5a1c76a96af6c19a1418c2d00910"
+    "sha256": "971b399aa3efeeb9857bdbade4c2134253059d6da105b90f00bd13a8b85cdfbd"
    },
-   "patch_from": "0.14.0.0",
-   "patch_bytes": 11286673,
-   "full_files_bytes": 120860193,
+   "patch_from": "0.14.1.0",
+   "patch_bytes": 11717793,
+   "full_files_bytes": 121020808,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/ZAU-0.14.1.0-Shipping.zip",
-    "size": 156675003,
-    "sha256": "8c896e2459e412504fb5478a75f24c387b45de9c773e71b3dd35ab60bf7a308d"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.2.0/ZAU-0.14.2.0-Shipping.zip",
+    "size": 156893545,
+    "sha256": "dd95923ac3a85537ae6a69d75727ac24efcb4eb2098e2aad8ebad70387d2e845"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.2.0/Linux-manifest.json",
     "size": 7029,
-    "sha256": "fee092ece4bfaec35d98dbd6460bd25eccc69ebfab1ca09f2e5e554e87a55063"
+    "sha256": "a4ab3816e12970c4f394de36e23b3fe18a7c15886226cc2c9a89c4bc2be033f6"
    },
-   "patch_from": "0.14.0.0",
-   "patch_bytes": 7072031,
-   "full_files_bytes": 125521675,
+   "patch_from": "0.14.1.0",
+   "patch_bytes": 9104024,
+   "full_files_bytes": 125666579,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.1.0/ZAU-0.14.1.0-Linux-Shipping.zip",
-    "size": 166318407,
-    "sha256": "9356deaffe5a24c42ce42158b8ee796bd7e37ada4f26e0253ffd067a6c74d0de"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.2.0/ZAU-0.14.2.0-Linux-Shipping.zip",
+    "size": 166499241,
+    "sha256": "f81e2156477fb0728a304df2b4148293a42e5fd2ccf74002eb437be32923ee04"
    }
   }
  },
- "date": "2026-11-09",
- "notes": "0.14.1.0\n- Voice chat is much louder: the microphone is boosted before it is sent and received voices play louder. \"Voices you hear\" goes up to 200 %, and other sounds dip more while someone talks.\n- Fixed a crash on a level change (lobby to run and back) while voice chat was on.\n- Name tags: the speaker shows while a player's voice is on, and the sound bars show only while they are actually talking, more bars the louder they are.\n- Demolition: the charge crate is marked orange (CHARGES) and the targets red (TARGET), with their distances.\n- Zombies no longer crowd at a fence or wall when the players stand on its other side; they take the way round.\n- Empty searches get rarer: every time you find nothing in a kind of container, the next one of that kind is less likely to be empty for you (for the rest of the map).\n- Music player: safer against broken MP3 files."
+ "date": "2026-11-10",
+ "notes": "0.14.2.0\n- Fixed the music player crash: the game could crash a few seconds after a level change (or now and then while playing) while a song was playing.\n- The lobby's military outpost now has a fenced camp and open land around it, so wide screens no longer show empty ground.\n- Fixed flickering surfaces in the lobby and on the compound, city and forest maps.\n- Zombies already on the map stand still during the GET READY time, like everything else."
 }

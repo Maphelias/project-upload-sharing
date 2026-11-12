@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.4.0",
+ "version": "0.14.5.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.4.0/Win64-manifest.json",
-    "size": 11158,
-    "sha256": "4f57c0543654d338475a1466ddf650900958a21b259d9b0530d909640089b854"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/Win64-manifest.json",
+    "size": 11159,
+    "sha256": "5b117761ed348b8015dc6e71fcf809bb18b60c114cd5b9fb63c8177e25e85d1e"
    },
-   "patch_from": "0.14.3.0",
-   "patch_bytes": 4708197,
-   "full_files_bytes": 121432908,
+   "patch_from": "0.14.4.0",
+   "patch_bytes": 10751401,
+   "full_files_bytes": 121446398,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.4.0/ZAU-0.14.4.0-Shipping.zip",
-    "size": 157306748,
-    "sha256": "d0a80d7d1a8ce80a83e2407218bd6b45079b757494bbbbf339cd6ad0edaf43fa"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/ZAU-0.14.5.0-Shipping.zip",
+    "size": 157322173,
+    "sha256": "816ad7bd39d8feeb7cbaf3d9cd072207516f1f5e78c3b01a678b314650b3e884"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.4.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/Linux-manifest.json",
     "size": 7029,
-    "sha256": "034629fe2c1e5f9e70651f7710ec9e5f3069b052576c7f6ebe48cb0f8ee195e4"
+    "sha256": "cd390e263df251544ca4c7a64349df6abcac31f2560136ca51f81fbec81c0ef1"
    },
-   "patch_from": "0.14.3.0",
-   "patch_bytes": 6341497,
-   "full_files_bytes": 126086115,
+   "patch_from": "0.14.4.0",
+   "patch_bytes": 7835224,
+   "full_files_bytes": 126102679,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.4.0/ZAU-0.14.4.0-Linux-Shipping.zip",
-    "size": 166930300,
-    "sha256": "00a66f6103625e87cec05746eca8431089404f5f961a20e5feec246eef13e459"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/ZAU-0.14.5.0-Linux-Shipping.zip",
+    "size": 166949248,
+    "sha256": "340dad9fc8c25eba06642bc049b9549af89e021264f60a80fb0d8a4d2ae0e2c3"
    }
   }
  },
- "date": "2026-11-11",
- "notes": "0.14.4.0\n- Mission markers now stay under the rest of the screen and keep pointing the right way when a notification or banner pops up.\n- When a Siren jams you, your skills show a red lock, a red warning appears and a marker points to the Siren."
+ "date": "2026-11-12",
+ "notes": "0.14.5.0\n- Class extensions: once every pick of a class extension is drawn, its leftover XP and all later XP for that class go to your player XP.\n- Every maxed class extension whose prestige node is taken adds +10% to extension XP and player XP (it adds to the EXP hub's bonus).\n- Smaller class fixes and tweaks."
 }

@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.5.0",
+ "version": "0.14.6.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/Win64-manifest.json",
-    "size": 11159,
-    "sha256": "5b117761ed348b8015dc6e71fcf809bb18b60c114cd5b9fb63c8177e25e85d1e"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.6.0/Win64-manifest.json",
+    "size": 11953,
+    "sha256": "afe1dd566d23ffa8a113567943e9b805bcaeeb8a3ba2f7113686f84b250626be"
    },
-   "patch_from": "0.14.4.0",
-   "patch_bytes": 10751401,
-   "full_files_bytes": 121446398,
+   "patch_from": "0.14.5.0",
+   "patch_bytes": 6440353,
+   "full_files_bytes": 121488900,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/ZAU-0.14.5.0-Shipping.zip",
-    "size": 157322173,
-    "sha256": "816ad7bd39d8feeb7cbaf3d9cd072207516f1f5e78c3b01a678b314650b3e884"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.6.0/ZAU-0.14.6.0-Shipping.zip",
+    "size": 157367978,
+    "sha256": "d18a4757a9f2d9d0ecf75da2d5e4ed4a4cb6a94d7e7d1a64ee742d5b0ecfc615"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/Linux-manifest.json",
-    "size": 7029,
-    "sha256": "cd390e263df251544ca4c7a64349df6abcac31f2560136ca51f81fbec81c0ef1"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.6.0/Linux-manifest.json",
+    "size": 7881,
+    "sha256": "dd97b4cba911357d8d28b94649a7620b61ebb8429e3f95702c27326a263b6a16"
    },
-   "patch_from": "0.14.4.0",
-   "patch_bytes": 7835224,
-   "full_files_bytes": 126102679,
+   "patch_from": "0.14.5.0",
+   "patch_bytes": 6544184,
+   "full_files_bytes": 126127959,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.5.0/ZAU-0.14.5.0-Linux-Shipping.zip",
-    "size": 166949248,
-    "sha256": "340dad9fc8c25eba06642bc049b9549af89e021264f60a80fb0d8a4d2ae0e2c3"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.6.0/ZAU-0.14.6.0-Linux-Shipping.zip",
+    "size": 166977033,
+    "sha256": "c91afadc5421672119415601a078a2b9c05909c21c42f3aca23b2dda270d3903"
    }
   }
  },
  "date": "2026-11-12",
- "notes": "0.14.5.0\n- Class extensions: once every pick of a class extension is drawn, its leftover XP and all later XP for that class go to your player XP.\n- Every maxed class extension whose prestige node is taken adds +10% to extension XP and player XP (it adds to the EXP hub's bonus).\n- Smaller class fixes and tweaks."
+ "notes": "0.14.6.0\n- The game has its own icon (window, taskbar, desktop) and the window is titled Zombie Annihilation Ultimate.\n- Lobby search: the terminal now shows that it is searching (local network and internet), lobbies on your network appear almost at once, and an empty result says No lobbies found.\n- Lobby rows no longer run under the Join button on smaller screens.\n- Skills window: the prestige rank, the filled blocks and the PRESTIGE button are one box at the top.\n- The prestige tree is laid out in four clear groups. The Gunslinger node now hangs from +2 Starting Levels: a profile that has it without that hub gets its point back.\n- Gunslinger: Fan the Hammer's cooldown is 30 s longer (150 s at level 1, 110 s at level 5)."
 }

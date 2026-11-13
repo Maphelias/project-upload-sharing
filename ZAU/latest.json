@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.7.0",
+ "version": "0.14.8.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.7.0/Win64-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/Win64-manifest.json",
     "size": 11598,
-    "sha256": "386662e9a7b853d9a2ac16e745d96c3e302cc55a3c048119679e939742a857e3"
+    "sha256": "b42dffe73d775791bc704f1b7a02ae552870b260b43f57e83fbc77ef38ed2f2d"
    },
-   "patch_from": "0.14.6.0",
-   "patch_bytes": 6181079,
-   "full_files_bytes": 121492773,
+   "patch_from": "0.14.7.0",
+   "patch_bytes": 6405550,
+   "full_files_bytes": 121506401,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.7.0/ZAU-0.14.7.0-Shipping.zip",
-    "size": 157382652,
-    "sha256": "66d8f8b8cafeb460393471ac123ce7a5f7478a7c3ae203ac39ca58791ae660a9"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/ZAU-0.14.8.0-Shipping.zip",
+    "size": 157382385,
+    "sha256": "86dd1b4242aea969bf05a830eefa6a658d26e58b059d696b8abba76c989fa427"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.7.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/Linux-manifest.json",
     "size": 7881,
-    "sha256": "5e5176a8fdbdc11603d1bfdafcc609da23e2940d4d963e158e63236e110852ed"
+    "sha256": "bb8a52c2aabc6aa5cc985dfad60600d53c712a58138312db1aba0ea00b6629c8"
    },
-   "patch_from": "0.14.6.0",
-   "patch_bytes": 6717099,
-   "full_files_bytes": 126131500,
+   "patch_from": "0.14.7.0",
+   "patch_bytes": 6721093,
+   "full_files_bytes": 126137014,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.7.0/ZAU-0.14.7.0-Linux-Shipping.zip",
-    "size": 166986247,
-    "sha256": "21bd3f32a82f93d11d3f09ed754cdfe7fc6d717a7d14132f44ce923a6e3f9518"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/ZAU-0.14.8.0-Linux-Shipping.zip",
+    "size": 167003014,
+    "sha256": "035582da8222024a37ed68f0c93a655d37f14c7b8dc03efdfdb05b53d91d44f1"
    }
   }
  },
- "date": "2026-11-12",
- "notes": "0.14.7.0\n- Clicking in a class window no longer stops your character: held movement keys keep working.\n- A new GUARDED marker shows how many hits are still blocked for you, and teammates see the count on your name tag.\n- Smaller class fixes and tweaks."
+ "date": "2026-11-13",
+ "notes": "0.14.8.0\n- Mission markers keep clear of the HUD that is always on screen again; pop-ups like briefings and notices cover them without moving them, and the arrows glide when the mission box changes size.\n- Lobby search: lobbies appear in the list as soon as each one is found, under a small searching line, and stay in place while more arrive.\n- Fixed two lobbies hosted on the same PC showing as one.\n- Items that can neither stack nor hold charges (class items, magazines, the A.R.T. and similar) no longer show a number in the inventory."
 }

@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.9.0",
+ "version": "0.14.10.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/Win64-manifest.json",
-    "size": 11598,
-    "sha256": "a63d14f883d28ed0d26b27e7a390bdd2751faac2e056eda7226d7d27a6586651"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/Win64-manifest.json",
+    "size": 11961,
+    "sha256": "6342e5e7e7560f6ddb981b934a4371e58d09b4719d140c850ff1898f220e2382"
    },
-   "patch_from": "0.14.8.0",
-   "patch_bytes": 1995033,
-   "full_files_bytes": 121506950,
+   "patch_from": "0.14.9.0",
+   "patch_bytes": 6297370,
+   "full_files_bytes": 121522960,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/ZAU-0.14.9.0-Shipping.zip",
-    "size": 157381262,
-    "sha256": "d43972588d607923f62272936ec6d4c6d4a9991e09aa610090ebb8d8d824213e"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/ZAU-0.14.10.0-Shipping.zip",
+    "size": 157408961,
+    "sha256": "901419be81aed4ef063f8ad0aee280a34d32f9975e20bd88b0aff8b9cbef100b"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/Linux-manifest.json",
-    "size": 7881,
-    "sha256": "612f136cdbefd9438814025f199853b876e1017990094a5651a1ccec66326662"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/Linux-manifest.json",
+    "size": 7889,
+    "sha256": "ba9e2eb5a1f05f6b78fc3243e147e626f4c10b2185e3ebddd566c5a63927f64f"
    },
-   "patch_from": "0.14.8.0",
-   "patch_bytes": 1520147,
-   "full_files_bytes": 126135873,
+   "patch_from": "0.14.9.0",
+   "patch_bytes": 6194714,
+   "full_files_bytes": 126151384,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/ZAU-0.14.9.0-Linux-Shipping.zip",
-    "size": 166995064,
-    "sha256": "d9ae7eec4af7a8fed8b5bef00c6c53841ad729dff6738c84bcd3580af790f499"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/ZAU-0.14.10.0-Linux-Shipping.zip",
+    "size": 167007952,
+    "sha256": "5a1babb184a4250ac5fb4ee9329671653d022e058e5f67dda569106f4c0ff429"
    }
   }
  },
  "date": "2026-11-13",
- "notes": "0.14.9.0\n- Fixed supply pods (Air Drop Recovery) sometimes falling outside the map, beyond the border wall, at the start of a run."
+ "notes": "0.14.10.0\n- The game version is shown at the bottom right of the Esc menu.\n- A bonus goal's loot cache now drops where you finished the last part of the step (for example the last demolition target you blew), not at some other place of the step.\n- Skills window: the pip a + would add now pulses green.\n- The transmitter's upload sound (and the repair and scan sounds) now fade to a quiet background after a few seconds instead of playing at full volume the whole time.\n- New game icon.\n- Esc > Options > Interface: a new \"Cap at health\" switch for the damage numbers. On (the default) a killing hit shows the health the zombie had left; off it shows the attack's whole damage.\n- Gunslinger: Reload Roll's cooldown is 8 s longer (48 s at level 1, 28 s at level 5)."
 }

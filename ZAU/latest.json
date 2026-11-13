@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.8.0",
+ "version": "0.14.9.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/Win64-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/Win64-manifest.json",
     "size": 11598,
-    "sha256": "b42dffe73d775791bc704f1b7a02ae552870b260b43f57e83fbc77ef38ed2f2d"
+    "sha256": "a63d14f883d28ed0d26b27e7a390bdd2751faac2e056eda7226d7d27a6586651"
    },
-   "patch_from": "0.14.7.0",
-   "patch_bytes": 6405550,
-   "full_files_bytes": 121506401,
+   "patch_from": "0.14.8.0",
+   "patch_bytes": 1995033,
+   "full_files_bytes": 121506950,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/ZAU-0.14.8.0-Shipping.zip",
-    "size": 157382385,
-    "sha256": "86dd1b4242aea969bf05a830eefa6a658d26e58b059d696b8abba76c989fa427"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/ZAU-0.14.9.0-Shipping.zip",
+    "size": 157381262,
+    "sha256": "d43972588d607923f62272936ec6d4c6d4a9991e09aa610090ebb8d8d824213e"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/Linux-manifest.json",
     "size": 7881,
-    "sha256": "bb8a52c2aabc6aa5cc985dfad60600d53c712a58138312db1aba0ea00b6629c8"
+    "sha256": "612f136cdbefd9438814025f199853b876e1017990094a5651a1ccec66326662"
    },
-   "patch_from": "0.14.7.0",
-   "patch_bytes": 6721093,
-   "full_files_bytes": 126137014,
+   "patch_from": "0.14.8.0",
+   "patch_bytes": 1520147,
+   "full_files_bytes": 126135873,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.8.0/ZAU-0.14.8.0-Linux-Shipping.zip",
-    "size": 167003014,
-    "sha256": "035582da8222024a37ed68f0c93a655d37f14c7b8dc03efdfdb05b53d91d44f1"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.9.0/ZAU-0.14.9.0-Linux-Shipping.zip",
+    "size": 166995064,
+    "sha256": "d9ae7eec4af7a8fed8b5bef00c6c53841ad729dff6738c84bcd3580af790f499"
    }
   }
  },
  "date": "2026-11-13",
- "notes": "0.14.8.0\n- Mission markers keep clear of the HUD that is always on screen again; pop-ups like briefings and notices cover them without moving them, and the arrows glide when the mission box changes size.\n- Lobby search: lobbies appear in the list as soon as each one is found, under a small searching line, and stay in place while more arrive.\n- Fixed two lobbies hosted on the same PC showing as one.\n- Items that can neither stack nor hold charges (class items, magazines, the A.R.T. and similar) no longer show a number in the inventory."
+ "notes": "0.14.9.0\n- Fixed supply pods (Air Drop Recovery) sometimes falling outside the map, beyond the border wall, at the start of a run."
 }

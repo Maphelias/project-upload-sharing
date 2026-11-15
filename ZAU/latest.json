@@ -1,39 +1,39 @@
 {
  "format": 1,
  "project": "ZAU",
- "version": "0.14.10.0",
+ "version": "0.14.11.0",
  "platforms": {
   "Win64": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/Win64-manifest.json",
-    "size": 11961,
-    "sha256": "6342e5e7e7560f6ddb981b934a4371e58d09b4719d140c850ff1898f220e2382"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.11.0/Win64-manifest.json",
+    "size": 11606,
+    "sha256": "4f2e050d100b6867bd53defa496650c631e59b6f374435802f3a8ebf65ecd6a3"
    },
-   "patch_from": "0.14.9.0",
-   "patch_bytes": 6297370,
-   "full_files_bytes": 121522960,
+   "patch_from": "0.14.10.0",
+   "patch_bytes": 6316455,
+   "full_files_bytes": 121529302,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/ZAU-0.14.10.0-Shipping.zip",
-    "size": 157408961,
-    "sha256": "901419be81aed4ef063f8ad0aee280a34d32f9975e20bd88b0aff8b9cbef100b"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.11.0/ZAU-0.14.11.0-Shipping.zip",
+    "size": 157410329,
+    "sha256": "6071345f57b3493778cbd8d8621a5343f2a241f2a9f38d1e4e1d27f263fd7242"
    }
   },
   "Linux": {
    "manifest": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/Linux-manifest.json",
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.11.0/Linux-manifest.json",
     "size": 7889,
-    "sha256": "ba9e2eb5a1f05f6b78fc3243e147e626f4c10b2185e3ebddd566c5a63927f64f"
+    "sha256": "cb1ccc8480188174b7cc9a42951bad129510e952d381f669d65a5032da1657b1"
    },
-   "patch_from": "0.14.9.0",
-   "patch_bytes": 6194714,
-   "full_files_bytes": 126151384,
+   "patch_from": "0.14.10.0",
+   "patch_bytes": 7408542,
+   "full_files_bytes": 126156367,
    "full_zip": {
-    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.10.0/ZAU-0.14.10.0-Linux-Shipping.zip",
-    "size": 167007952,
-    "sha256": "5a1babb184a4250ac5fb4ee9329671653d022e058e5f67dda569106f4c0ff429"
+    "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/ZAU-0.14.11.0/ZAU-0.14.11.0-Linux-Shipping.zip",
+    "size": 167011999,
+    "sha256": "b73d9c59e74bc27d31d648b9554296dd1685edda9d60715ae95954a5644f005f"
    }
   }
  },
- "date": "2026-11-13",
- "notes": "0.14.10.0\n- The game version is shown at the bottom right of the Esc menu.\n- A bonus goal's loot cache now drops where you finished the last part of the step (for example the last demolition target you blew), not at some other place of the step.\n- Skills window: the pip a + would add now pulses green.\n- The transmitter's upload sound (and the repair and scan sounds) now fade to a quiet background after a few seconds instead of playing at full volume the whole time.\n- New game icon.\n- Esc > Options > Interface: a new \"Cap at health\" switch for the damage numbers. On (the default) a killing hit shows the health the zombie had left; off it shows the attack's whole damage.\n- Gunslinger: Reload Roll's cooldown is 8 s longer (48 s at level 1, 28 s at level 5)."
+ "date": "2026-11-15",
+ "notes": "0.14.11.0\n- Fixed: zombies from nests and hive nodes could appear inside closed houses and stack up in a corner. They now always appear on open ground.\n- Molotovs and every other fire puddle now set hive nodes (and nests) alight when the fire touches them.\n- You can now aim at things right in front of your hero: the guns turn toward the cursor instead of snapping straight ahead.\n- Customization: the preview is lit like the game and you turn the character, not the camera. New \"Class look\" buttons show your hero as any class you have mastered.\n- The Tesla Marine's cap symbol is now a proper thunderbolt.\n- Zombies are faster later in the day: x1.25 on the Day-Night Cycle, x1.5 at Night, x1.75 on Terror Night.\n- Grenades are found twice as often.\n- An item you just found is less likely to drop again only for a while: the reduction wears off over time.\n- A Siren's jam no longer shows a warning line, red screen edge or marker. You hear it instead (a crackle when jammed, a chirp when free), and your skill boxes show red padlocks."
 }

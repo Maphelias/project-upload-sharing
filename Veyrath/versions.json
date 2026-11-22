@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15k",
+ "latest": "m15l",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m15l",
+   "title": "M15 part 10: merchants",
+   "date": "2026-11-22",
+   "notes": "Merchants run between markets, carrying what is plentiful at one end and dear at the other: imports and exports move prices and feed the hungry. Their businesses grow or fail year by year. Talk to merchants about their trade and sell them news of markets; a Trade map view.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15l",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15l/Veyrath-m15l-windows.zip",
+     "size": 74467094,
+     "sha256": "1141b222d6f6436fb56050d38cd81578be3c45b7315c8ad41ad455aeb54492db"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15l/Veyrath-m15l-linux.zip",
+     "size": 64122188,
+     "sha256": "50c8d4af7c991a3fe206822b0fa5ef58b205dc928e86c16dbb073b53106b27bf"
+    }
+   }
+  },
   {
    "version": "m15k",
    "title": "M15 part 9: markets and prices",

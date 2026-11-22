@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15i",
+ "latest": "m15j",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m15j",
+   "title": "M15 part 8: consumption and demand",
+   "date": "2026-11-22",
+   "notes": "Settlements' people by class need food, clothing, fuel, salt, drink and more, by their peoples' diets; hunger drives people away, famine kills, want lowers loyalty to the realm, plenty lets a town grow. A Prosperity map view, how a settlement fares in its economy screen and scenes, news of famines and booms.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15j",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15j/Veyrath-m15j-windows.zip",
+     "size": 74420647,
+     "sha256": "5bbd293f0558e18c04323c6c5955da2725724cfa884fa79de5a8fb25270e5e7d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15j/Veyrath-m15j-linux.zip",
+     "size": 64075757,
+     "sha256": "413fb7c58d2725ed1a1fbe1347b37a5cb7e751fdb1376a2a9c00b0c4dd617df1"
+    }
+   }
+  },
   {
    "version": "m15i",
    "title": "M15 part 7: production",

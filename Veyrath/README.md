@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m15j](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15j) | M15 part 8: consumption and demand | 2026-11-22 |
 | [m15i](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15i) | M15 part 7: production | 2026-11-22 |
 | [m15h](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15h) | M15 part 6: goods and masterpieces | 2026-11-22 |
 | [m15g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15g) | M15 part 5c: choosing where to begin, ruling families | 2026-11-22 |

@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m15w](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15w) | M15 part 17a: decrees and policies | 2026-11-22 |
 | [m15v](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15v) | M15 part 16b: offices of your own | 2026-11-22 |
 | [m15u](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15u) | M15 part 16a: governance | 2026-11-22 |
 | [m15t](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15t) | M15 part 15c: outposts, forts and castles | 2026-11-22 |

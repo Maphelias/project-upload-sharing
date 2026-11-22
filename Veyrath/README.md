@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m15r](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15r) | M15 part 15a: settlement growth and tiers | 2026-11-22 |
 | [m15q](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15q) | M15 part 14: the magic economy | 2026-11-22 |
 | [m15p](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15p) | M15 part 13b: prototyping | 2026-11-22 |
 | [m15o](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15o) | M15 part 13a: your trade | 2026-11-22 |

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15q",
+ "latest": "m15r",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m15r",
+   "title": "M15 part 15a: settlement growth and tiers",
+   "date": "2026-11-22",
+   "notes": "Settlements grow and dwindle between tiers (steading, hamlet, village, town, city), with buildings by district: homes cap growth, granaries soften famine, services and defence. They build from their takings and lose buildings in hard years. Pay for a building anywhere you are; bring settlers to farm the land by your home.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15r",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15r/Veyrath-m15r-windows.zip",
+     "size": 74584998,
+     "sha256": "5438ab77c5539b30e463dfeeaeb5b1bca345ef827a2f27e756c19421bfa86e9b"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15r/Veyrath-m15r-linux.zip",
+     "size": 64240092,
+     "sha256": "725de944a0ed2e5750e90bf667968ef0306b0e5f23927ad1bf948f78f2c909f9"
+    }
+   }
+  },
   {
    "version": "m15q",
    "title": "M15 part 14: the magic economy",

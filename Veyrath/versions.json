@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15r",
+ "latest": "m15s",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m15s",
+   "title": "M15 part 15b: buildings on the town map",
+   "date": "2026-11-22",
+   "notes": "Settlement maps have lots by district where their buildings stand (inn and market doors, the smithy, a temple, a granary, a watchtower) and empty lots to build on; what a town builds or you pay for appears on its map. Steadings, hamlets and cities have maps of their own, and a settlement that changes tier takes its new tier's map.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15s",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15s/Veyrath-m15s-windows.zip",
+     "size": 74587786,
+     "sha256": "ff19065488a8f6df29b9f84fac909cc1122e9ee30695476426d878c0639ddddd"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15s/Veyrath-m15s-linux.zip",
+     "size": 64242880,
+     "sha256": "737dc8f071aa9ea53cf92ed8c92c535c673e921c318665ade07be23806a53b45"
+    }
+   }
+  },
   {
    "version": "m15r",
    "title": "M15 part 15a: settlement growth and tiers",

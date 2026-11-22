@@ -1,0 +1,426 @@
+{
+ "format": 1,
+ "project": "Veyrath",
+ "latest": "m15e",
+ "rule": "The last build of every finished milestone, and every build of the current one. When a milestone is finished, its earlier builds are taken off (publish.py --prune), keeping its last.",
+ "versions": [
+  {
+   "version": "m15e",
+   "title": "M15 part 5a: loading in layers, huge and vast worlds",
+   "date": "2026-11-22",
+   "notes": "Huge (512) and vast (1024) worlds, sketched whole and drawn near you; a loading screen showing each layer being made; worlds up to large unchanged.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15e",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-windows.zip",
+     "size": 74186331,
+     "sha256": "181d97a2b6872690f16af90a39328faa35ce391312bada31ae64ee9b4ae5be1c"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-linux.zip",
+     "size": 63841436,
+     "sha256": "8355656ee1c35c215814d514e2f1875efa1b93c321c09d80e8761ed5f4ad3822"
+    }
+   }
+  },
+  {
+   "version": "m15d",
+   "title": "M15 part 4: realms and settlements from the land",
+   "date": "2026-11-22",
+   "notes": "Settlements where the land feeds them; realms, free cities and tribes with governments, stances towards every people and a history; borders that move.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15d",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15d/Veyrath-m15d-windows.zip",
+     "size": 74149117,
+     "sha256": "85a384f08f1c2dbe63adb78addd7114e1b0672729a5019e215f0176ad53b549f"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15d/Veyrath-m15d-linux.zip",
+     "size": 63804224,
+     "sha256": "468bcbbd3ef7f2d397df550c2add443ec0edc2078193e55f31462b6631a8dc03"
+    }
+   }
+  },
+  {
+   "version": "m15c",
+   "title": "M15 part 3: geology and soil",
+   "date": "2026-11-22",
+   "notes": "Bedrock from the plates, soils, timber, mineral deposits, mines and quarries; prospecting, working the land, smelting and alloying.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15c",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15c/Veyrath-m15c-windows.zip",
+     "size": 74097642,
+     "sha256": "9331dd346410ba344bc6e7c4ad67eb18c1eef50774c6b69af3abee8f854cab12"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15c/Veyrath-m15c-linux.zip",
+     "size": 63752751,
+     "sha256": "ac8cb3826f59059aecc59360917aec6089001ca4d9dc9ba27cf6466e8cace364"
+    }
+   }
+  },
+  {
+   "version": "m15b",
+   "title": "M15 part 2: climate and water",
+   "date": "2026-11-22",
+   "notes": "Climate by latitude, height and sea; wind belts, rain shadows, monsoons; rivers to great rivers; biomes from climate; snow, frozen rivers and exposure.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15b",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15b/Veyrath-m15b-windows.zip",
+     "size": 74080326,
+     "sha256": "39a5ba99171c625a147fe5af9ec35066bca7915e11cebb377ead33a5a1705752"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15b/Veyrath-m15b-linux.zip",
+     "size": 63735435,
+     "sha256": "78c042021a37fb1383377d70bfc0ca01a9fdcbf62910dfab824efcb6e4ca235a"
+    }
+   }
+  },
+  {
+   "version": "m15a",
+   "title": "M15 part 1: plates, resonance and anima",
+   "date": "2026-11-21",
+   "notes": "Worlds from tectonic plates: ranges, passes, volcanoes, rifts, inland seas; the resonance and anima maps; bigger worlds.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15a",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15a/Veyrath-m15a-windows.zip",
+     "size": 74063686,
+     "sha256": "fcbc15baf524a8eafec7562ce84545f6b7ea57db7d5443d06ba35d19e2e3cc4c"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15a/Veyrath-m15a-linux.zip",
+     "size": 63718795,
+     "sha256": "af5adc4afbd293440672879f4fd5d653ba13ce11e2ac544e5466136828012481"
+    }
+   }
+  },
+  {
+   "version": "m14b",
+   "title": "M14: overworld and parties",
+   "date": "2026-11-21",
+   "notes": "Your party (roles, morale, mounts, food, camping), and groups on the road: caravans, pilgrims, patrols, bandits and warbands.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m14b",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m14b/Veyrath-m14b-windows.zip",
+     "size": 74034501,
+     "sha256": "ef5b0f849fbe04a1e09a31a6fa330784eed88a9723c805da42e37ef6aad1a243"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m14b/Veyrath-m14b-linux.zip",
+     "size": 63689610,
+     "sha256": "d6d3ee0e6196e5bd10dc1e453666fe6e1b3c348171c334037e8231f321551d5a"
+    }
+   }
+  },
+  {
+   "version": "m13c",
+   "title": "M13: souls, anima gems and constructs",
+   "date": "2026-11-21",
+   "notes": "Soul harvesting and anima gems, constructs and their parts, souled constructs, beings of pure soul, speaking with the dead.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m13c",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m13c/Veyrath-m13c-windows.zip",
+     "size": 73990261,
+     "sha256": "9d1a178226b956398cb94ddd2876bedbfdb5da2205e96407cc3d93871a18d459"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m13c/Veyrath-m13c-linux.zip",
+     "size": 63645368,
+     "sha256": "586005199f34729528bff9ef8dfec6da9e15a2246a170f30c831a09c46820b45"
+    }
+   }
+  },
+  {
+   "version": "m12c",
+   "title": "M12: home and household",
+   "date": "2026-11-21",
+   "notes": "Claim and build a home, a household with jobs and rules, and owned people and entities (content setting).",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m12c",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m12c/Veyrath-m12c-windows.zip",
+     "size": 73919241,
+     "sha256": "d704d27ef8abe6f2e03c8b446067d029e42a98fff82c3d9427912948fced734d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m12c/Veyrath-m12c-linux.zip",
+     "size": 63574359,
+     "sha256": "a968a413de1494983ef431a30192c595e3b9c36d837eea18b5cd29ece5aab68c"
+    }
+   }
+  },
+  {
+   "version": "m115b",
+   "title": "M11.5: knowledge, secrets and intrigue",
+   "date": "2026-11-21",
+   "notes": "Deeds and witnesses, gossip that travels, rumours, informants, blackmail and silencing.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m115b",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m115b/Veyrath-m115b-windows.zip",
+     "size": 73802805,
+     "sha256": "4251bdb3bb3729d9eb678a027ba1678c2c8ea76dd08ac035053a273529392d1d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m115b/Veyrath-m115b-linux.zip",
+     "size": 63457928,
+     "sha256": "162005d242524e089b5ded98d144ccbb2c1e9cb1352431aa94523eae875d5d05"
+    }
+   }
+  },
+  {
+   "version": "m11c",
+   "title": "M11: dungeons, guilds and the Dungeon Master",
+   "date": "2026-11-21",
+   "notes": "Dungeons that grow, threats, the Adventurers' and Mercenaries' Guilds, NPC parties, and the Dungeon Master school.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m11c",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m11c/Veyrath-m11c-windows.zip",
+     "size": 73755377,
+     "sha256": "0e6c4972f6aa753cd773c2d6d9a0076b666f6499f84ae67e52c4652a0f255dfa"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m11c/Veyrath-m11c-linux.zip",
+     "size": 63410502,
+     "sha256": "8300b3064f2cf7665aba64a24ea5452d0429e1303d0ff4d701beb6fcd09f5630"
+    }
+   }
+  },
+  {
+   "version": "m10b",
+   "title": "M10: personal combat",
+   "date": "2026-11-21",
+   "notes": "Turn-based combat with action points, telegraphed intents, conditions, summons and believable loot.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m10b",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m10b/Veyrath-m10b-windows.zip",
+     "size": 73611320,
+     "sha256": "a34c1b3694b8fe144c5e50da7cf679c82862eb45232f71f535e34d0b41151378"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m10b/Veyrath-m10b-linux.zip",
+     "size": 63266440,
+     "sha256": "5c8d8ad8800cf81e8bfd94a11d2496a3e81787be34f42f160447286cf8b9a332"
+    }
+   }
+  },
+  {
+   "version": "m9b",
+   "title": "M9: simulation at scale",
+   "date": "2026-11-21",
+   "notes": "The people of the world: schedules, needs, detail tiers; opinions, companions and conversation.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m9b",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m9b/Veyrath-m9b-windows.zip",
+     "size": 73533740,
+     "sha256": "37e043c8c889b9b44b044e168dbbc2e3796aab1569be06522a8a5bb8ada7979d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m9b/Veyrath-m9b-linux.zip",
+     "size": 63188857,
+     "sha256": "f67b1247738c4038991e2f17d8e11fb6a8e857bdd3b59497b9a7b5c6f4c9ef35"
+    }
+   }
+  },
+  {
+   "version": "m8c",
+   "title": "M8: the world",
+   "date": "2026-11-21",
+   "notes": "A generated overworld with anchors, tile-map locations, travel, weather, danger and encounters.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m8c",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m8c/Veyrath-m8c-windows.zip",
+     "size": 73476262,
+     "sha256": "d948bb3d54c922d1a678637d568beded5ef97e733fe0486102139ed25146b280"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m8c/Veyrath-m8c-linux.zip",
+     "size": 63131379,
+     "sha256": "a637a196207564c9662e6893fdf02ff1cc2632aeaf3987fef1190fe1aa3a040f"
+    }
+   }
+  },
+  {
+   "version": "m7c",
+   "title": "M7: resonance and pulse gems",
+   "date": "2026-11-21",
+   "notes": "Pulse gems: natural gems, incubation in a host, charging, refining, gems as spell fuel.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m7c",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m7c/Veyrath-m7c-windows.zip",
+     "size": 73387321,
+     "sha256": "2182b76708b1c36916fff7a7c2e146d72f12e837f1f1e467ccb132b7c4072bf6"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m7c/Veyrath-m7c-linux.zip",
+     "size": 63042443,
+     "sha256": "21cb476941d25038103172d8132010f6610408f90d2a4a403edf86148489fb62"
+    }
+   }
+  },
+  {
+   "version": "m65b",
+   "title": "M6.5: character creation, extended",
+   "date": "2026-11-21",
+   "notes": "Content and game settings, schools and spell trees, and the six pages of character creation.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m65b",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m65b/Veyrath-m65b-windows.zip",
+     "size": 73332127,
+     "sha256": "ff42708603352acdb42095e3e2f3c08bc6a8177c55e7d8cb7d1d2150ea4a1345"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m65b/Veyrath-m65b-linux.zip",
+     "size": 62987249,
+     "sha256": "d223f75be8f78a818b54ee64f16f8cb1dccb686a2609e863355d201ac11ca5ac"
+    }
+   }
+  },
+  {
+   "version": "m6b",
+   "title": "M6: body, magic and resonance",
+   "date": "2026-11-20",
+   "notes": "Bodies and transformation; spells, schools, potions, enchanting and tattoos.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m6b",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m6b/Veyrath-m6b-windows.zip",
+     "size": 73239085,
+     "sha256": "562b5dea4ecd3748f8f00ea5a0237338cf3065f0a5a38e8d6bc26b5f369c4387"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m6b/Veyrath-m6b-linux.zip",
+     "size": 62894227,
+     "sha256": "3a3d7471f18a138ddbea781743d13efb656bd1ff10c1929c69dc16ae13372ea4"
+    }
+   }
+  },
+  {
+   "version": "m5",
+   "title": "M5: gathering and crafting",
+   "date": "2026-11-20",
+   "notes": "Gathering nodes, tools, refining chains, recipes, quality and workstations.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m5",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m5/Veyrath-m5-windows.zip",
+     "size": 73142153,
+     "sha256": "1de0bf876d8bbf80deb032e6291e64371a14ba53a123e3f1efe52867f37579cb"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m5/Veyrath-m5-linux.zip",
+     "size": 62797305,
+     "sha256": "a7b7d2bc83a6b13c6a8bd3e7153be4d3ac6386dcc1da56e3451bd79e620d4d54"
+    }
+   }
+  },
+  {
+   "version": "m4",
+   "title": "M4: items and equipment",
+   "date": "2026-11-20",
+   "notes": "Inventory, layered equipment, materials and shops.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m4",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m4/Veyrath-m4-windows.zip",
+     "size": 73117740,
+     "sha256": "500332feaf13d70656adf1f6433c019368635a60d2bd7c48470c52b81fdc3ef4"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m4/Veyrath-m4-linux.zip",
+     "size": 62772890,
+     "sha256": "4a6a7ef39de06a769457d7c6d20b9058cd25732f6e3e36653e6a015d0cb173ee"
+    }
+   }
+  },
+  {
+   "version": "m3",
+   "title": "M3: time, effects and saves",
+   "date": "2026-11-20",
+   "notes": "The calendar and clock, status effects, regeneration, saving and loading.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m3",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m3/Veyrath-m3-windows.zip",
+     "size": 73083936,
+     "sha256": "f0636c85bec1660d569195a603acad2f5e2aaeef0341d43ddddcb73efb74153d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m3/Veyrath-m3-linux.zip",
+     "size": 62739093,
+     "sha256": "29e2257cee7861e51046fd8314970d182a51f89a8b45a9300d9b1a952b578d02"
+    }
+   }
+  },
+  {
+   "version": "m2",
+   "title": "M2: characters",
+   "date": "2026-11-20",
+   "notes": "Characters, attributes, the character sheet and creation.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m2",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m2/Veyrath-m2-windows.zip",
+     "size": 72640718,
+     "sha256": "948cb111233f338dc645e4a689eb49f8450f8887fd444f11e377dd793e40dda4"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m2/Veyrath-m2-linux.zip",
+     "size": 62700968,
+     "sha256": "ad9cdcb64650e95d7b027827f4abd90476bb76f8c865488ad63b7aa45e420bae"
+    }
+   }
+  },
+  {
+   "version": "m1",
+   "title": "M1: text and scenes",
+   "date": "2026-11-20",
+   "notes": "Scenes, choices, hotkeys and templated text.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m1",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m1/Veyrath-m1-windows.zip",
+     "size": 72989724,
+     "sha256": "d9a32c79aeace5dd5f8cf63e1a8878be9d3837e8d556e29bf705518c2e5ca4f4"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m1/Veyrath-m1-linux.zip",
+     "size": 62644875,
+     "sha256": "f1f2b17f6a1282b7415dcf9d637d519f1b9298528b35b3209e22c64833f83b1c"
+    }
+   }
+  },
+  {
+   "version": "m0",
+   "title": "M0: skeleton",
+   "date": "2026-11-20",
+   "notes": "The first build: content loading, hot reload and the debug console.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m0",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m0/Veyrath-m0-windows.zip",
+     "size": 72960191,
+     "sha256": "bb331ffd371ee7b30cc91252c3b0aa2262d1aedd1aff9a99eaecd5b38767eab6"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m0/Veyrath-m0-linux.zip",
+     "size": 62615347,
+     "sha256": "16cb3d347ed8530cdec6ffe01627e167a32fc42fc4d952ca6935013678504e0a"
+    }
+   }
+  }
+ ]
+}

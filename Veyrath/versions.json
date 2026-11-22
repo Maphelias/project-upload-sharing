@@ -10,16 +10,17 @@
    "date": "2026-11-22",
    "notes": "Huge (512) and vast (1024) worlds, sketched whole and drawn near you; a loading screen showing each layer being made; worlds up to large unchanged.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15e",
+   "picker": true,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-windows.zip",
-     "size": 74186331,
-     "sha256": "181d97a2b6872690f16af90a39328faa35ce391312bada31ae64ee9b4ae5be1c"
+     "size": 74187336,
+     "sha256": "fa46147c0a69811bd1377df30a83e2a03113ddbc6639daeef125732fe997af9a"
     },
     "linux": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-linux.zip",
-     "size": 63841436,
-     "sha256": "8355656ee1c35c215814d514e2f1875efa1b93c321c09d80e8761ed5f4ad3822"
+     "size": 63842441,
+     "sha256": "5ecddc51e23dde8ec97d41fb766cbfff0acde1d9fd22d13928bc9de600c1a3a8"
     }
    }
   },
@@ -29,6 +30,7 @@
    "date": "2026-11-22",
    "notes": "Settlements where the land feeds them; realms, free cities and tribes with governments, stances towards every people and a history; borders that move.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15d",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15d/Veyrath-m15d-windows.zip",
@@ -48,6 +50,7 @@
    "date": "2026-11-22",
    "notes": "Bedrock from the plates, soils, timber, mineral deposits, mines and quarries; prospecting, working the land, smelting and alloying.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15c",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15c/Veyrath-m15c-windows.zip",
@@ -67,6 +70,7 @@
    "date": "2026-11-22",
    "notes": "Climate by latitude, height and sea; wind belts, rain shadows, monsoons; rivers to great rivers; biomes from climate; snow, frozen rivers and exposure.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15b",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15b/Veyrath-m15b-windows.zip",
@@ -86,6 +90,7 @@
    "date": "2026-11-21",
    "notes": "Worlds from tectonic plates: ranges, passes, volcanoes, rifts, inland seas; the resonance and anima maps; bigger worlds.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15a",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15a/Veyrath-m15a-windows.zip",
@@ -105,6 +110,7 @@
    "date": "2026-11-21",
    "notes": "Your party (roles, morale, mounts, food, camping), and groups on the road: caravans, pilgrims, patrols, bandits and warbands.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m14b",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m14b/Veyrath-m14b-windows.zip",
@@ -124,6 +130,7 @@
    "date": "2026-11-21",
    "notes": "Soul harvesting and anima gems, constructs and their parts, souled constructs, beings of pure soul, speaking with the dead.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m13c",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m13c/Veyrath-m13c-windows.zip",
@@ -143,6 +150,7 @@
    "date": "2026-11-21",
    "notes": "Claim and build a home, a household with jobs and rules, and owned people and entities (content setting).",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m12c",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m12c/Veyrath-m12c-windows.zip",
@@ -162,6 +170,7 @@
    "date": "2026-11-21",
    "notes": "Deeds and witnesses, gossip that travels, rumours, informants, blackmail and silencing.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m115b",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m115b/Veyrath-m115b-windows.zip",
@@ -181,6 +190,7 @@
    "date": "2026-11-21",
    "notes": "Dungeons that grow, threats, the Adventurers' and Mercenaries' Guilds, NPC parties, and the Dungeon Master school.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m11c",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m11c/Veyrath-m11c-windows.zip",
@@ -200,6 +210,7 @@
    "date": "2026-11-21",
    "notes": "Turn-based combat with action points, telegraphed intents, conditions, summons and believable loot.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m10b",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m10b/Veyrath-m10b-windows.zip",
@@ -219,6 +230,7 @@
    "date": "2026-11-21",
    "notes": "The people of the world: schedules, needs, detail tiers; opinions, companions and conversation.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m9b",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m9b/Veyrath-m9b-windows.zip",
@@ -238,6 +250,7 @@
    "date": "2026-11-21",
    "notes": "A generated overworld with anchors, tile-map locations, travel, weather, danger and encounters.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m8c",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m8c/Veyrath-m8c-windows.zip",
@@ -257,6 +270,7 @@
    "date": "2026-11-21",
    "notes": "Pulse gems: natural gems, incubation in a host, charging, refining, gems as spell fuel.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m7c",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m7c/Veyrath-m7c-windows.zip",
@@ -276,6 +290,7 @@
    "date": "2026-11-21",
    "notes": "Content and game settings, schools and spell trees, and the six pages of character creation.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m65b",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m65b/Veyrath-m65b-windows.zip",
@@ -295,6 +310,7 @@
    "date": "2026-11-20",
    "notes": "Bodies and transformation; spells, schools, potions, enchanting and tattoos.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m6b",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m6b/Veyrath-m6b-windows.zip",
@@ -314,6 +330,7 @@
    "date": "2026-11-20",
    "notes": "Gathering nodes, tools, refining chains, recipes, quality and workstations.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m5",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m5/Veyrath-m5-windows.zip",
@@ -333,6 +350,7 @@
    "date": "2026-11-20",
    "notes": "Inventory, layered equipment, materials and shops.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m4",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m4/Veyrath-m4-windows.zip",
@@ -352,6 +370,7 @@
    "date": "2026-11-20",
    "notes": "The calendar and clock, status effects, regeneration, saving and loading.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m3",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m3/Veyrath-m3-windows.zip",
@@ -371,6 +390,7 @@
    "date": "2026-11-20",
    "notes": "Characters, attributes, the character sheet and creation.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m2",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m2/Veyrath-m2-windows.zip",
@@ -390,6 +410,7 @@
    "date": "2026-11-20",
    "notes": "Scenes, choices, hotkeys and templated text.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m1",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m1/Veyrath-m1-windows.zip",
@@ -409,6 +430,7 @@
    "date": "2026-11-20",
    "notes": "The first build: content loading, hot reload and the debug console.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m0",
+   "picker": false,
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m0/Veyrath-m0-windows.zip",

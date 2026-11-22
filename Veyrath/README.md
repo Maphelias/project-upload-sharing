@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m15n1](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15n1) | M15 part 12, intrigue reworked | 2026-11-22 |
 | [m15n](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15n) | M15 part 12: merchant guilds | 2026-11-22 |
 | [m15m](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15m) | M15 part 11: merchant caravans | 2026-11-22 |
 | [m15l](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15l) | M15 part 10: merchants | 2026-11-22 |

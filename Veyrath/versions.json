@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15g",
+ "latest": "m15h",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m15h",
+   "title": "M15 part 6: goods and masterpieces",
+   "date": "2026-11-22",
+   "notes": "1,008 trade goods (crops, animals, land, made, magical), each tied to its items and to where it comes from; a Goods view on the world map and a goods codex; 248 new crafts with a craft row in towns; masterpieces: one-of-a-kind named pieces whose worth moves with their history.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15h",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15h/Veyrath-m15h-windows.zip",
+     "size": 74375161,
+     "sha256": "d758e51fd90d55d79e0cf739bb9febbd46cea17b7f1f3f7f7177a35bf044244c"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15h/Veyrath-m15h-linux.zip",
+     "size": 64030247,
+     "sha256": "dd6994bf6fc4d013a3d757f20a0f3b155bc1b6c5545a79a094dae364acc51062"
+    }
+   }
+  },
   {
    "version": "m15g",
    "title": "M15 part 5c: choosing where to begin, ruling families",

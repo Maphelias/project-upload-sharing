@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15u",
+ "latest": "m15v",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m15v",
+   "title": "M15 part 16b: offices of your own",
+   "date": "2026-11-22",
+   "notes": "Seek a town's office (steward, captain of the watch, priest, magister) where you stand well and your people are citizens, with a gift to its head: your attributes are your skill, you choose its focus and draw its pay, and bad years or months away lose it. Head your own steading: appoint its officers from candidates, choose what it builds next, draw on its fund. Once a year, an audience with a town's head: advise them on its weakest stat, or petition for a building. Saves are version 43.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15v",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15v/Veyrath-m15v-windows.zip",
+     "size": 74624973,
+     "sha256": "8ba0cf45c5d46b4e4bfe5aae0fcf36e896ada7e2e571a631c5d7260556e0ac5e"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15v/Veyrath-m15v-linux.zip",
+     "size": 64280067,
+     "sha256": "943ae4c2f1289a133efad6d31dff33dd92a4904247e39fa9271feb597b3b16bc"
+    }
+   }
+  },
   {
    "version": "m15u",
    "title": "M15 part 16a: governance",

@@ -14,13 +14,13 @@
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-windows.zip",
-     "size": 74187336,
-     "sha256": "fa46147c0a69811bd1377df30a83e2a03113ddbc6639daeef125732fe997af9a"
+     "size": 74188283,
+     "sha256": "85cedb2f3ffa91120b77f43abcb2818d8a627573bb64842229c2b8836c65e30c"
     },
     "linux": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-linux.zip",
-     "size": 63842441,
-     "sha256": "5ecddc51e23dde8ec97d41fb766cbfff0acde1d9fd22d13928bc9de600c1a3a8"
+     "size": 63843388,
+     "sha256": "ff91a5625a287195ec1af2d8d17d374fa0df6f955a3614d7f69e123997083f1b"
     }
    }
   },
@@ -440,7 +440,7 @@
     "linux": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m0/Veyrath-m0-linux.zip",
      "size": 62615347,
-     "sha256": "16cb3d347ed8530cdec6ffe01627e167a32fc42fc4d952ca6935013678504e0a"
+     "sha256": "0b99b52b29940833dfc2f7f7b94f0c4352829af54f119ba2af15e172fb5970e1"
     }
    }
   }

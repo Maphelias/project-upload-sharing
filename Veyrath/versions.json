@@ -32,13 +32,13 @@
    "platforms": {
     "windows": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-windows.zip",
-     "size": 74189870,
-     "sha256": "67ac6804850033ba0b147491fb6dc771e6c0d47d6e243cd9c61a8d6e33647c61"
+     "size": 74189995,
+     "sha256": "2683ae0c2fb11b520b7e03cd0add5639e12eb2173f294db670cb714386bd4e52"
     },
     "linux": {
      "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15e/Veyrath-m15e-linux.zip",
-     "size": 63844975,
-     "sha256": "7adf3dd4e94fd97388cb3fea5593e70cb6a42bcb9d494dddb43ee2f33a446188"
+     "size": 63845100,
+     "sha256": "720a0568a08fa30c0b6ab74f5b46b9ff1031a69f618fb33281c646bec7ebbd09"
     }
    }
   },

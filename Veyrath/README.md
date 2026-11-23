@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m19pre2](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19pre2) | M19 groundwork 2: resonance cradles | 2026-11-23 |
 | [m19pre1](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19pre1) | M19 groundwork 1: content loading | 2026-11-23 |
 | [m18e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18e) | M18 part 5: the mod format | 2026-11-23 |
 | [m18d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18d) | M18 part 4: discovery and investigation | 2026-11-23 |

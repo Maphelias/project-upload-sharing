@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m16f",
+ "latest": "m17a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17a",
+   "title": "M17 part 1: lords and holdings",
+   "date": "2026-11-23",
+   "notes": "Realms are held by lords now: dukes, counts and barons in a monarchy, governors under a dictator, great houses in an oligarchy, elected magistrates in a republic, prelates in a theocracy, clan chiefs and village councils. Each settlement outside the ruler's own is a lord's, nested under greater lords. Lords keep a share of their taxes, their loyalty sways the ruler's decrees and their towns, and they seek to rise, feud with rivals, plot for the throne (seizing it or breaking away), and build wealth and retinues. Head a lord's seat and its rents are yours. See it on the realm screen.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17a",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17a/Veyrath-m17a-windows.zip",
+     "size": 74819556,
+     "sha256": "1d187adda598f255e6e294dffecf4d03f045ad3226e93105dd8fa4e47f8f21ad"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17a/Veyrath-m17a-linux.zip",
+     "size": 64474659,
+     "sha256": "8a1f033dc4cf5de7e53a3903807370959af213412b1eb3b172d46424d2603822"
+    }
+   }
+  },
   {
    "version": "m16f",
    "title": "M16 part 6: leaders as people",

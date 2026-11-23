@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17k",
+ "latest": "m18a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m18a",
+   "title": "M18 part 1: quests and the journal",
+   "date": "2026-11-23",
+   "notes": "Quests arrive: written as data with roles filled from the world, stages, objectives (go, talk, bring, slay, clear, defend, learn, find, follow, or any condition), branches, deadlines, rewards, and failures that can sometimes be put right. The journal (J) gathers your quests and every task you hold: guild contracts, mercenary jobs, court tasks, your company's contract, errands, rulers' calls, bounties, commissions and supply contracts. Filter and sort them, read each one's next step, time left, reward and notes, track one (its next step in the side panel, its place marked on the maps), and look back on your history. A sample quest: console `quest`.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18a",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18a/Veyrath-m18a-windows.zip",
+     "size": 74987892,
+     "sha256": "0dceeef7c1a8957286214d046b9b58ddd6e6b3db846a4556086c00e0efdf591d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18a/Veyrath-m18a-linux.zip",
+     "size": 64642994,
+     "sha256": "2e0c3a027658829917af797a26b201ac288ee08c732522d552593fb34e53d2e9"
+    }
+   }
+  },
   {
    "version": "m17k",
    "title": "M17 part 8b: spies",

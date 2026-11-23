@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m18a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18a) | M18 part 1: quests and the journal | 2026-11-23 |
 | [m17k](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17k) | M17 part 8b: spies | 2026-11-23 |
 | [m17j](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17j) | M17 part 8a: envoys | 2026-11-23 |
 | [m17i](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17i) | M17 part 7b: statecraft and projects | 2026-11-23 |

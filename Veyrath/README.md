@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m15z](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15z) | M15 part 18a: unrest, removal and elections | 2026-11-23 |
 | [m15y](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15y) | M15 part 17c: your say | 2026-11-22 |
 | [m15x](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15x) | M15 part 17b: laws that bite you | 2026-11-22 |
 | [m15w](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15w) | M15 part 17a: decrees and policies | 2026-11-22 |

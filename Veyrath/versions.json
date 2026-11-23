@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17i",
+ "latest": "m17j",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17j",
+   "title": "M17 part 8a: envoys",
+   "date": "2026-11-23",
+   "notes": "Speak for the realm you serve or rule at other courts: negotiate treaties for it (your charisma and your name add to their regard), broker treaties or a peace between two others for a fee from each, carry word between courts (messages, gifts that warm, ultimatums that chill; gifts can be robbed on the road), and speak against a court's neighbours. Serving, ask your court for an embassy or word to carry. Words between courts fade month by month, and realms send envoys of their own.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17j",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17j/Veyrath-m17j-windows.zip",
+     "size": 74950592,
+     "sha256": "eff8d873cc57c98305aafbda2474bcbcce07fd339eeb6502bf61e635c5d109e9"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17j/Veyrath-m17j-linux.zip",
+     "size": 64605695,
+     "sha256": "c93b48778092e9f56d3e1b9aaa4040be6d6e567a9bb6f3d8ce4bb94f273a4a32"
+    }
+   }
+  },
   {
    "version": "m17i",
    "title": "M17 part 7b: statecraft and projects",

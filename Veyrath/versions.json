@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m16d",
+ "latest": "m16e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m16e",
+   "title": "M16 part 5: battles",
+   "date": "2026-11-23",
+   "notes": "Your armies now fight real battles: scouting decides who strikes first, then volleys, a charge and rounds of melee, with counters, morale, the ground and the weather all counting. Each foe is a host of its kind (brigands, rebels, warbands, great beasts, dragons, the restless dead, dungeon hosts). The wounded recover, survivors grow seasoned, and a beaten army may lose its leaders to captivity until you ransom them. Bandits ambush armies in the field, and you can send an army to put down a rising in a town you head. Every battle is kept as a report you can read phase by phase.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16e",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16e/Veyrath-m16e-windows.zip",
+     "size": 74782669,
+     "sha256": "115ee59eaff7e6b14febe1e695cbfebf34c688063be1adac57a031caecf4e779"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16e/Veyrath-m16e-linux.zip",
+     "size": 64437772,
+     "sha256": "138a4788eb1158cfca226c29546906d30c932af8a82a81a13e389d4a235a1599"
+    }
+   }
+  },
   {
    "version": "m16d",
    "title": "M16 part 4: armies on the map",

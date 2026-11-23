@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17c",
+ "latest": "m17d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17d",
+   "title": "M17 part 4: war",
+   "date": "2026-11-23",
+   "notes": "Realms go to war now. A realm that regards a neighbour badly enough, and is strong enough with its allies, declares war for land it claims, to bring the other to heel, for revenge, or to swallow it whole (a war without a cause costs honour and its lords' loyalty). Allies join or refuse at a price. Realm armies storm settlements (one battle against the walls for now; sieges come next), take their own back and meet enemy armies in the field. Battles and settlements taken build a war score, losses and months weariness, and peace comes on terms that follow: land ceded, vassalage, reparations, or a realm swallowed. See each realm's wars on the realm screen.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17d",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17d/Veyrath-m17d-windows.zip",
+     "size": 74868851,
+     "sha256": "77f7ab6206e24c10e50b7a9a00e94765c51165bef97ddad0b4c3eb823659cf23"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17d/Veyrath-m17d-linux.zip",
+     "size": 64523954,
+     "sha256": "69ec16496ca60a1beb30bb5b53dff170ef5cc3cdc81ac6f9eae89e981d1ffa0b"
+    }
+   }
+  },
   {
    "version": "m17c",
    "title": "M17 part 3: diplomacy",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m18c",
+ "latest": "m18d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m18d",
+   "title": "M18 part 4: discovery and investigation",
+   "date": "2026-11-23",
+   "notes": "Mysteries to solve: ask people what they know (freely if they trust you, or pay, persuade or lean on them), search where it happened, and name the culprit by your own judgement; name the wrong one and the innocent pays. Cases come from real misdeeds townsfolk actually committed, from thefts among the needs, and from an authored case at Greyfall, the alchemist's missing ledger. What becomes of the guilty is yours to decide: the watch, a bribe, a hold over them, mercy, or exile. Quests also find you: rumours at the inn, a letter in a dungeon hoard, bones in a ruin, a soul's unfinished business; and they lead on to others. Outcomes now decide people's fates, a town's mood and a court's favour.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18d",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18d/Veyrath-m18d-windows.zip",
+     "size": 75024967,
+     "sha256": "94d7c9385b46b4fd0cb17a67f76d3e19f5c658730e45d6fb5f2f404274eb737f"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18d/Veyrath-m18d-linux.zip",
+     "size": 64680069,
+     "sha256": "75edd6c69904733097773ccec173aba9bff9033573b6af4b9c7e40799903bb6e"
+    }
+   }
+  },
   {
    "version": "m18c",
    "title": "M18 part 3: quests from the living world",

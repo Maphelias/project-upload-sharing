@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m18d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18d) | M18 part 4: discovery and investigation | 2026-11-23 |
 | [m18c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18c) | M18 part 3: quests from the living world | 2026-11-23 |
 | [m18b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18b) | M18 part 2: authored quest lines | 2026-11-23 |
 | [m18a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18a) | M18 part 1: quests and the journal | 2026-11-23 |

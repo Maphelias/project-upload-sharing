@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m19pre2",
+ "latest": "m19pre3",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m19pre3",
+   "title": "M19 groundwork 3: trades and Presence",
+   "date": "2026-11-23",
+   "notes": "Presence, a new fighting school of charisma: rebukes, taunts, stares and commands wear down a foe's resolve until they give up the fight, and a rally lifts your whole side. Two trades join the schools: Performer (play any inn for coin and goodwill, hear the room's talk, and talk your way to better prices at every counter; a lute helps) and Husbandry (your animals give more, eat less, forage, breed in their pens, and cost less to buy). With extended creation, Starting trades lets you begin as a performer, a herder or a cradle keeper.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19pre3",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19pre3/Veyrath-m19pre3-windows.zip",
+     "size": 75106989,
+     "sha256": "0dd72d6f09206d8565960a1dc389a7e2e9ba192904a6a53493c8cd1346cd4599"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19pre3/Veyrath-m19pre3-linux.zip",
+     "size": 64761719,
+     "sha256": "bafa38b6aaf4bea12785dbc9617c6cffde3bfc20958ad1d9dec636a7eb11dc3d"
+    }
+   }
+  },
   {
    "version": "m19pre2",
    "title": "M19 groundwork 2: resonance cradles",

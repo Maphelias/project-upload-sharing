@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17j",
+ "latest": "m17k",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17k",
+   "title": "M17 part 8b: spies",
+   "date": "2026-11-23",
+   "notes": "Work in the shadows of other realms: spy out what a realm hides (its treasury, armies, wavering lords and plots), bribe, flatter or blackmail its lords against their ruler, forge insults, fan grudges or sabotage treaties at its court (or calm it towards peace), burn stores, poison wells, open a besieged town's gates, and murder a lord or the ruler. Every covert act risks being caught, against your stealth and disguise and the realm's spymaster: a bounty, your name, and the realm you speak for blamed, a cause for war. Realms' own spies work against their rivals; ruling, you judge the ones caught in your realm (hang, release or turn them). M17 is complete.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17k",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17k/Veyrath-m17k-windows.zip",
+     "size": 74961886,
+     "sha256": "5e652c098ccce57ae6decdfaafa6a4953018a6d60cc930faa1928d2b0d843a6b"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17k/Veyrath-m17k-linux.zip",
+     "size": 64616989,
+     "sha256": "964c20a307fbf83f2ab3347d6742235f34563ce812414e50ea0d392f2ee4eb63"
+    }
+   }
+  },
   {
    "version": "m17j",
    "title": "M17 part 8a: envoys",

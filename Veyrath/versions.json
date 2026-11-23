@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m18a",
+ "latest": "m18b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m18b",
+   "title": "M18 part 2: authored quest lines",
+   "date": "2026-11-23",
+   "notes": "Quest lines written as scenes: roles found from anchors, people and each other (the ruin nearest the waystation, the innkeeper, the guard), scenes that play when you reach a quest's place, several ways through (alternative objectives, skill checks in scenes, endings by the way taken), and moral choices that are remembered by the people involved, spread as word, read by later quests and felt by realms. Rewards can now be land, a title, a knighthood, a follower or a home. The first line: The Lantern's lost wagons, offered at the Lantern Inn of Greyfall Waystation.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18b",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18b/Veyrath-m18b-windows.zip",
+     "size": 74997709,
+     "sha256": "90431bf068ba6c2906d51647151170a6da468dc41ed5c5e195c3907d790143f0"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18b/Veyrath-m18b-linux.zip",
+     "size": 64652811,
+     "sha256": "1e7fbd5fe09cc4ea1f64ab6fefed7b46f420d482a908e285b60c1ccc9c16ef7a"
+    }
+   }
+  },
   {
    "version": "m18a",
    "title": "M18 part 1: quests and the journal",

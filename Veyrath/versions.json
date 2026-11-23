@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15ac",
+ "latest": "m16a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m16a",
+   "title": "M16 part 1: troops and the roster",
+   "date": "2026-11-23",
+   "notes": "Raise your own armies: unit types from militia to heavy cavalry, battle mages and field surgeons, with peoples' variants (dwarf shield walls, elf longbows, centaur riders and lancers…). Levy soldiers in settlements you head (they leave its people and go home when dismissed) and hire mercenary companies in towns and cities; pay and rations every month, or morale falls and soldiers leave. Leaders, orders, marching and battles come in the next parts. Saves are version 50.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16a",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16a/Veyrath-m16a-windows.zip",
+     "size": 74744248,
+     "sha256": "f5220d621662f9c16601db26f2d62a6105af1da071e0de3fb96b49a373144920"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16a/Veyrath-m16a-linux.zip",
+     "size": 64399351,
+     "sha256": "fa433fd69547ade61a4d69da2dcac828923a509c07958cdfeed71da127a9971e"
+    }
+   }
+  },
   {
    "version": "m15ac",
    "title": "M15 part 19b: your part at the halls",

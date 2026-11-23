@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m16c",
+ "latest": "m16d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m16d",
+   "title": "M16 part 4: armies on the map",
+   "date": "2026-11-23",
+   "notes": "Send your armies out: march to a settlement, garrison or patrol around one (the land nearby grows safer), defend a town against threats that come near, hunt a threat the guild knows of, or clear a dungeon. They march day by day, shown on the world map, eat the rations they carry in the field and buy more in towns, go hungry when they run out, and fight what they were sent against (a single exchange for now; full battles come next). Each army keeps a log.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16d",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16d/Veyrath-m16d-windows.zip",
+     "size": 74766692,
+     "sha256": "ac885f67e64f1bf29c69db4a513e8214fc7e756c15560d12ba0bb13bf44e9d6b"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16d/Veyrath-m16d-linux.zip",
+     "size": 64421795,
+     "sha256": "d87d40cf0ea8e518c083c5d41c920123ced113d92e7cc1cdff634918cc9738ec"
+    }
+   }
+  },
   {
    "version": "m16c",
    "title": "M16 part 3: advisors and specialists",

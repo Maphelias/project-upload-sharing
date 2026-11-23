@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m16c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16c) | M16 part 3: advisors and specialists | 2026-11-23 |
 | [m16b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16b) | M16 part 2: leaders and capacity | 2026-11-23 |
 | [m16a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16a) | M16 part 1: troops and the roster | 2026-11-23 |
 | [m15ac](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15ac) | M15 part 19b: your part at the halls | 2026-11-23 |

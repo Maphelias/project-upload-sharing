@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17d",
+ "latest": "m17e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17e",
+   "title": "M17 part 5: sieges",
+   "date": "2026-11-23",
+   "notes": "Walled settlements are besieged now. The besiegers cut them off: their stores run down day by day, siege works and engines breach the walls, sickness thins both sides, the defenders sally. When the walls are breached, a gate is opened, or the town starves and surrenders, it falls, and its conqueror's commander decides: hold it, free its people if they are kin, or sack it (plunder, people killed and fled, buildings burned, a hatred that lasts years). Caught inside, you can't walk out: slip through the lines by night, man the walls, or open a gate for the besiegers for a reward. Food grows dear while it lasts.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17e",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17e/Veyrath-m17e-windows.zip",
+     "size": 74880939,
+     "sha256": "33e56cf75048d176760c4a8cbb60f9e182262ec793b534ff1a0e258cb2600017"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17e/Veyrath-m17e-linux.zip",
+     "size": 64536042,
+     "sha256": "e0a2c1ad47f582fb1a328a0c67ed0cc2862582f2592504375e1b624391ffbf4b"
+    }
+   }
+  },
   {
    "version": "m17d",
    "title": "M17 part 4: war",

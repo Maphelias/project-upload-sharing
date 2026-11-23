@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m16e",
+ "latest": "m16f",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m16f",
+   "title": "M16 part 6: leaders as people",
+   "date": "2026-11-23",
+   "notes": "Your commanders are people now. Their loyalty to your command and their friendship with you feed each other: friends start loyal and forgive more, but a long bad command wears the friendship down. Victories, losses, pay, hunger, captives left unransomed, rivals and being passed over move their loyalty, each by their nature. The discontented grumble, ask for another post, resign, and rarely do worse: desert with followers, go rogue as a warlord, sell your plans, or take the whole army. Leaders grow with battles, earn renown and names like Dragonbane or the Unbroken, and rivals in one command work against each other. M16 is complete.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16f",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16f/Veyrath-m16f-windows.zip",
+     "size": 74798583,
+     "sha256": "d759c2800f434499b72e70b1f42fb5c126ab42aba6683984b3f7bc88030b6ba4"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m16f/Veyrath-m16f-linux.zip",
+     "size": 64453686,
+     "sha256": "5f4ff05b82a084909de8a89870381c2474cf6375ca860ebb4dc663cd6e69f4d9"
+    }
+   }
+  },
   {
    "version": "m16e",
    "title": "M16 part 5: battles",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m15ab",
+ "latest": "m15ac",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m15ac",
+   "title": "M15 part 19b: your part at the halls",
+   "date": "2026-11-23",
+   "notes": "Work a week at a town's incubation halls as an attuner, harvester or refiner, paid by your gem skills; host for a hall (its attuners set a seed in you and pay a fee; the gem is yours); sell pulse gems at markets by grade; pay for a town's hall and own it, with a monthly share of its gems (none where the realm runs its halls). This completes M15. Saves are version 49.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m15ac",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15ac/Veyrath-m15ac-windows.zip",
+     "size": 74725372,
+     "sha256": "874aef0bad721af28f40a5c7f55b3cc644412c5d32ecd5d515237bbdb8580ae4"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m15ac/Veyrath-m15ac-linux.zip",
+     "size": 64380466,
+     "sha256": "94f55d37d9e989835ed5e12eacdec2f3da5fe6c98a272c59f2a71832dffb092f"
+    }
+   }
+  },
   {
    "version": "m15ab",
    "title": "M15 part 19a: incubation halls",

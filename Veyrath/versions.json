@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m18b",
+ "latest": "m18c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m18c",
+   "title": "M18 part 3: quests from the living world",
+   "date": "2026-11-23",
+   "notes": "Every settlement now has a few needs of its own, worked out only when someone asks (so huge worlds stay fast): a dungeon troubling the town, a beast near it, someone gone missing toward a ruin, goods it lacks, a debt called in, a quarrel between neighbours to settle. People who think well of you ask for help when you talk to them, others tell you of a neighbour's trouble (a lead in the journal), and the notice board lists what is posted. Adventuring parties race you for some of them: if they finish first, the work is theirs, and whoever you let down remembers.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18c",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18c/Veyrath-m18c-windows.zip",
+     "size": 75009286,
+     "sha256": "3111d935fade07c9ee32aa7e4649765bf3f8631cc29350c4c0c4fbb7445e757d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18c/Veyrath-m18c-linux.zip",
+     "size": 64664388,
+     "sha256": "ddf81f0ecc23363d7e66e2386b8df07b8ba6de4db54d38b53e2fa95af8220791"
+    }
+   }
+  },
   {
    "version": "m18b",
    "title": "M18 part 2: authored quest lines",

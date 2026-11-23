@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m17c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17c) | M17 part 3: diplomacy | 2026-11-23 |
 | [m17b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17b) | M17 part 2: realm armies | 2026-11-23 |
 | [m17a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17a) | M17 part 1: lords and holdings | 2026-11-23 |
 | [m16f](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m16f) | M16 part 6: leaders as people | 2026-11-23 |

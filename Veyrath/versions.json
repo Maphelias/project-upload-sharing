@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17b",
+ "latest": "m17c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17c",
+   "title": "M17 part 3: diplomacy",
+   "date": "2026-11-23",
+   "notes": "Realms regard their neighbours now, for reasons you can read: shared borders, land taken and kin held down, old grudges and broken treaties, how each treats the other's peoples, alike or opposed governments, embargoes, ambitious rulers, good faith. Their stances follow. Neighbours make trade pacts (half the tariffs), non-aggression pacts, defensive and full alliances, royal marriages, vassalage and tribute, and break them when regard sours, at a cost to their honour. Each realm's claims on another are the causes for the wars to come. See it under Relations on the realm screen.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17c",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17c/Veyrath-m17c-windows.zip",
+     "size": 74851795,
+     "sha256": "5b8277747b7fef070af8597629b76340e34ff9785f5ad4f39cdf7105d04f886d"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17c/Veyrath-m17c-linux.zip",
+     "size": 64506898,
+     "sha256": "2618ca9a3eb954b0347a860c49acf43e6ac70be364e33c2c1cc908647f8f70eb"
+    }
+   }
+  },
   {
    "version": "m17b",
    "title": "M17 part 2: realm armies",

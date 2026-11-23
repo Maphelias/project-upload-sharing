@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m18d",
+ "latest": "m18e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m18e",
+   "title": "M18 part 5: the mod format",
+   "date": "2026-11-23",
+   "notes": "Mods get a proper home. Each mod can carry a manifest (name, version, author, what it needs and what it loads after), and the new Mods screen in the main menu lists them in load order with their status and any errors: turn them on or off and move them up or down, and the content reloads at once. Mods can patch the game instead of copying whole entries (set a field, add to or remove from a list, delete an entry), bring icons and text tables, and saves remember which mods they were made with, warning you before loading with different ones. Two sample mods come next to the game, off until you turn them on: The Wandering Tinker and The Tinker's Road, which needs it. M18 is complete.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m18e",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18e/Veyrath-m18e-windows.zip",
+     "size": 75041099,
+     "sha256": "035acd285b6efb0391e03dfc925c9a465ffde6d3094d3f86b8a3945b681612b5"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m18e/Veyrath-m18e-linux.zip",
+     "size": 64696190,
+     "sha256": "e32eef847082e74e4186861704d6f608d4c7953bd54395c871c0bd6f3f7f7ec0"
+    }
+   }
+  },
   {
    "version": "m18d",
    "title": "M18 part 4: discovery and investigation",

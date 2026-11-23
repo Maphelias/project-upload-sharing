@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17h",
+ "latest": "m17i",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17i",
+   "title": "M17 part 7b: statecraft and projects",
+   "date": "2026-11-23",
+   "notes": "Rule your realm's dealings: treaties others offer come to your court, you propose and break treaties, declare wars for a goal, demand terms or offer peace, and set your armies' doctrine. And projects steer how realms grow: rulers call on the common people (bring goods to the seat, slay a threat, clear a dungeon), on settlement owners (build what a town lacks, more hands in a trade, more output, the most of a trade, a rising ended) or on polities (a treaty), paying from the treasury per unit or as a prize. Answer other realms' calls yourself, or post your own when you rule.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17i",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17i/Veyrath-m17i-windows.zip",
+     "size": 74937193,
+     "sha256": "68d45d36a53c4443b3d7b4d0c9057c3b455bf8c4100c3ff7316253719e8602d1"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17i/Veyrath-m17i-linux.zip",
+     "size": 64592296,
+     "sha256": "2c82ff8cde5fc968aa8f1fa27966a7f750e9e443ec368192c6df38cf08b1fff7"
+    }
+   }
+  },
   {
    "version": "m17h",
    "title": "M17 part 7a: ruling a realm",

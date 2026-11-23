@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m17a",
+ "latest": "m17b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,27 @@
   }
  ],
  "versions": [
+  {
+   "version": "m17b",
+   "title": "M17 part 2: realm armies",
+   "date": "2026-11-23",
+   "notes": "Realms field armies of their own now. Each ruler chooses a doctrine: a standing army paid from the treasury, levies raised when needed, or a mix. When a threat comes near, a rising grows or a lord rebels, the realm sends its standing army or musters one: its lords answer the call by their loyalty (or refuse), conscripts come by its conscription law, mercenaries if it is rich. Rebel lords are met in the field and crushed, or break away if they hold out. Idle standing armies guard the borders. See them on the realm screen and the map.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m17b",
+   "picker": true,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17b/Veyrath-m17b-windows.zip",
+     "size": 74832525,
+     "sha256": "9d0661c3f8f1f3bfb75e6db8475eaa5f61b9731950d3b441d0ba204e5703ce78"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m17b/Veyrath-m17b-linux.zip",
+     "size": 64487628,
+     "sha256": "66e206973ad585ada8de6087322943e995395d6452d2fdb58053994ab3e1f1bc"
+    }
+   }
+  },
   {
    "version": "m17a",
    "title": "M17 part 1: lords and holdings",

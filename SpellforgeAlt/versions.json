@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.10",
+        "released":  "2026-11-24",
+        "notes":  "No more shaking while walking: your character now moves smoothly at any frame rate.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.10"
+    },
+    {
         "version":  "0.1.9",
         "released":  "2026-11-24",
         "notes":  "Walking now goes in straight lines (around walls: a few straight legs past the corners). The spell preview also shows Chain and Prism jumps and Sol\u0027s healing circles.",

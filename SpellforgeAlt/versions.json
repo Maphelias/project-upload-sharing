@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.7",
+        "released":  "2026-11-24",
+        "notes":  "Updated README.txt: explains intertwined roots, the three spell designer tiers and the quick cast option. No gameplay changes.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.7"
+    },
+    {
         "version":  "0.1.6",
         "released":  "2026-11-24",
         "notes":  "Roots part 2: intertwine two roots (Character \u003e Roots, at the spell altar) into one of ten new elements, like Frostfire, Blood, Prism or Armament, each with its own special effect. The spell designer\u0027s Tier 3 is where you make spells of them. Everyone in a lobby needs this version.",

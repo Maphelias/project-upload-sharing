@@ -1,25 +1,25 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.8",
+    "version":  "0.1.9",
     "released":  "2026-11-24",
-    "notes":  "Updates now also refresh README.txt next to the game (from this version\u0027s next update on). No gameplay changes.",
+    "notes":  "Walking now goes in straight lines (around walls: a few straight legs past the corners). The spell preview also shows Chain and Prism jumps and Sol\u0027s healing circles.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.8/SpellforgeAlt.exe",
-                                                "size":  3870720,
-                                                "sha256":  "d0cd9627452dae2d45e3b2ec6b6b091790912cb8421398eab5c645d7962f4253"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.9/SpellforgeAlt.exe",
+                                                "size":  3874304,
+                                                "sha256":  "0cd0023cec7cf3243448ac5933a4a2755445d4ee8f30c9e20ede67672f8f0ec9"
                                             },
                                     "readme":  {
-                                                   "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.8/README.txt",
+                                                   "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.9/README.txt",
                                                    "size":  3542,
                                                    "sha256":  "4c12883d28ff093d31c45d9cac9257110e4dcc03e888b87af6a5c433075d3edf"
                                                },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.8/SpellforgeAlt-0.1.8-Win64.zip",
-                                                "size":  1740528,
-                                                "sha256":  "af487f823e228192eac3357d684c73afaca572f7109e14eedd3584a774aa42e6"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.9/SpellforgeAlt-0.1.9-Win64.zip",
+                                                "size":  1742091,
+                                                "sha256":  "f9336f448f799b325b231164fe45c24a1adfd22f1226df3eafdbb484bd718779"
                                             }
                                 }
                   }

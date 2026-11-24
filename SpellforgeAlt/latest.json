@@ -1,20 +1,25 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.7",
+    "version":  "0.1.8",
     "released":  "2026-11-24",
-    "notes":  "Updated README.txt: explains intertwined roots, the three spell designer tiers and the quick cast option. No gameplay changes.",
+    "notes":  "Updates now also refresh README.txt next to the game (from this version\u0027s next update on). No gameplay changes.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.7/SpellforgeAlt.exe",
-                                                "size":  3866112,
-                                                "sha256":  "f8a0c1d3a4cc6a023643a12eff230840112d266c0908eb36736144df46b36e00"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.8/SpellforgeAlt.exe",
+                                                "size":  3870720,
+                                                "sha256":  "d0cd9627452dae2d45e3b2ec6b6b091790912cb8421398eab5c645d7962f4253"
                                             },
+                                    "readme":  {
+                                                   "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.8/README.txt",
+                                                   "size":  3542,
+                                                   "sha256":  "4c12883d28ff093d31c45d9cac9257110e4dcc03e888b87af6a5c433075d3edf"
+                                               },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.7/SpellforgeAlt-0.1.7-Win64.zip",
-                                                "size":  1738484,
-                                                "sha256":  "44c479094bcc31477404cb26516d7c155559b2abdc8ad351df9f5e134a8a8c15"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.8/SpellforgeAlt-0.1.8-Win64.zip",
+                                                "size":  1740528,
+                                                "sha256":  "af487f823e228192eac3357d684c73afaca572f7109e14eedd3584a774aa42e6"
                                             }
                                 }
                   }

@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m19b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19b) | M19 part 2 | 2026-11-24 |
 | [m19a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19a) | M19 part 1 | 2026-11-24 |
 | [m19pre5](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19pre5) | M19 groundwork 5: the travelling herd | 2026-11-24 |
 | [m19pre4](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19pre4) | M19 groundwork 4: versions to install | 2026-11-23 |

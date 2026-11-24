@@ -1,20 +1,20 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.6",
+    "version":  "0.1.7",
     "released":  "2026-11-24",
-    "notes":  "Roots part 2: intertwine two roots (Character \u003e Roots, at the spell altar) into one of ten new elements, like Frostfire, Blood, Prism or Armament, each with its own special effect. The spell designer\u0027s Tier 3 is where you make spells of them. Everyone in a lobby needs this version.",
+    "notes":  "Updated README.txt: explains intertwined roots, the three spell designer tiers and the quick cast option. No gameplay changes.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.6/SpellforgeAlt.exe",
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.7/SpellforgeAlt.exe",
                                                 "size":  3866112,
-                                                "sha256":  "d58c0c7231296336af0d0b91903dd9adec701f0ea8b7dcd215ba0096890cc790"
+                                                "sha256":  "f8a0c1d3a4cc6a023643a12eff230840112d266c0908eb36736144df46b36e00"
                                             },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.6/SpellforgeAlt-0.1.6-Win64.zip",
-                                                "size":  1738134,
-                                                "sha256":  "9d6610ea7916eee6815b1fdb99f83d5c10bfe67d4e7d2dce9287ce81bc59aee1"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.7/SpellforgeAlt-0.1.7-Win64.zip",
+                                                "size":  1738484,
+                                                "sha256":  "44c479094bcc31477404cb26516d7c155559b2abdc8ad351df9f5e134a8a8c15"
                                             }
                                 }
                   }

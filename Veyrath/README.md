@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ff1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1e) | Free folk part 5: watching a run | 2026-11-24 |
 | [ff1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1d) | Free folk part 4: conflict | 2026-11-24 |
 | [ff1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1c) | Free folk part 3: clans to realms | 2026-11-24 |
 | [ff1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1b) | Free folk part 2: settling | 2026-11-24 |

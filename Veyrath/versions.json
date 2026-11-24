@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m19g",
+ "latest": "m19h",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "m19h",
+   "title": "M19 part 8: summons with a self",
+   "date": "2026-11-24",
+   "notes": "Your elemental and familiars become beings of their own: each gains a name, a nature and an opinion of you, remembers what you did together, and grows stronger with fights and time (new moves at higher levels). Your elemental stays the same being in every element. Talk with them, thank them, reshape them, bind a soul from your gems into one (it takes on who that soul was), send them on errands (scouting, gathering, listening), to live at your home, or with your army. How many you can hold grows with your evocation; they draw on your mana's recovery, and a being that comes to resent you slips its bond. Slain, they reform weaker for a while, remembering.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19h",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19h/Veyrath-m19h-windows.zip",
+     "size": 75278915,
+     "sha256": "e02026d28a3b6390b5189f162eea840d497a893362360e1e0bd48d8279f5fb94"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19h/Veyrath-m19h-linux.zip",
+     "size": 64933639,
+     "sha256": "8d940729b35ee89df9107a39c6c4729e7730f295548bbef14d11a244682f318f"
+    }
+   }
+  },
   {
    "version": "m19g",
    "title": "M19 part 7: servitude",

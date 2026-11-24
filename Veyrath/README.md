@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [df1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1e) | Dev fix part 5: realms at war | 2026-11-24 |
 | [df1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1d) | Dev fix part 4: campaigning | 2026-11-24 |
 | [df1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1c) | Dev fix part 3: raising and keeping armies | 2026-11-24 |
 | [df1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1b) | Dev fix part 2: battles | 2026-11-24 |

@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.6",
+        "released":  "2026-11-24",
+        "notes":  "Roots part 2: intertwine two roots (Character \u003e Roots, at the spell altar) into one of ten new elements, like Frostfire, Blood, Prism or Armament, each with its own special effect. The spell designer\u0027s Tier 3 is where you make spells of them. Everyone in a lobby needs this version.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.6"
+    },
+    {
         "version":  "0.1.5",
         "released":  "2026-11-24",
         "notes":  "Mouse controls: right click to move, left click to use the terminal / spell altar and to revive. Ten spell slots on 1-5 and Q-T. Spell preview hologram with exact paths and areas, and a quick cast option. The spell designer now opens at the spell altar on the training ground. Your old key settings are reset to the new layout.",

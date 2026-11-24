@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.8",
+        "released":  "2026-11-24",
+        "notes":  "Updates now also refresh README.txt next to the game (from this version\u0027s next update on). No gameplay changes.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.8"
+    },
+    {
         "version":  "0.1.7",
         "released":  "2026-11-24",
         "notes":  "Updated README.txt: explains intertwined roots, the three spell designer tiers and the quick cast option. No gameplay changes.",

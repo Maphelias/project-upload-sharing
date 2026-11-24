@@ -1,20 +1,20 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.3",
+    "version":  "0.1.4",
     "released":  "2026-11-24",
-    "notes":  "Settings (Esc \u003e Settings): window mode and resolution, vsync, text size, start zoom, damage numbers and rebindable keys. Updates are now signed: from this version on the game only installs updates signed with the release key. Spell bar cooldowns no longer cover the mana cost; the allied dummies moved clear of the spell bar.",
+    "notes":  "Mage stats: Intelligence, Wisdom, Spirit, Willpower, Focus and Vigor, bought with essence in Character (F2) \u003e Stats, with a paid respec. Element roots: develop any of the five with essence for stronger, cheaper spells of that element. Mix traits now work in play (Steam scalds, Lightning chains, Ice freezes, Sand blinds and more). Your gear is converted to the new stats on the first start. Players on older versions cannot join 0.1.4 lobbies: everyone updates.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.3/SpellforgeAlt.exe",
-                                                "size":  3784192,
-                                                "sha256":  "b63a80b2edcb23c6512af9c0effabb25d00740495306a4f16ff03994b4c5b60f"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.4/SpellforgeAlt.exe",
+                                                "size":  3812864,
+                                                "sha256":  "9eee5098e0e4e4a5e34f5ab29f46ffce2e640ca6857cec553f38a3ef017935c1"
                                             },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.3/SpellforgeAlt-0.1.3-Win64.zip",
-                                                "size":  1696336,
-                                                "sha256":  "099cbea3572975a04e1aceb2c59e0f0da957de1b27f092990d9f62b7ef1d7e05"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.4/SpellforgeAlt-0.1.4-Win64.zip",
+                                                "size":  1711373,
+                                                "sha256":  "2193bc7926e9cc76b3d6af8358f81b2df2eb6732d168e37c6522e0c05eeb0848"
                                             }
                                 }
                   }

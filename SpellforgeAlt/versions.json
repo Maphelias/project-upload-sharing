@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.3",
+        "released":  "2026-11-24",
+        "notes":  "Settings (Esc \u003e Settings): window mode and resolution, vsync, text size, start zoom, damage numbers and rebindable keys. Updates are now signed: from this version on the game only installs updates signed with the release key. Spell bar cooldowns no longer cover the mana cost; the allied dummies moved clear of the spell bar.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.3"
+    },
+    {
         "version":  "0.1.2",
         "released":  "2026-11-24",
         "notes":  "Save failsafes: safe saving with a previous-save copy, daily backups (newest 5), automatic recovery from an interrupted or damaged save, and nothing in a save is ever dropped. Your 0.1.x profile is upgraded on the first start (the old file is kept as .bak). Do not go back to 0.1.0 or 0.1.1 afterwards: they cannot read the new format.",

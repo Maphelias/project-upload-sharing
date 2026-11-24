@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "df1b",
+ "latest": "df1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "df1c",
+   "title": "Dev fix part 3: raising and keeping armies",
+   "date": "2026-11-24",
+   "notes": "Soldiers need real gear: spears, shields, mail, bows and horses come from your stores or the town's market (realms buy theirs too), and without it levies come poorly armed until re-armed. Gear wears out in battle and in the field. Armies drill in towns (rest, drill or hard drill), faster with a drillmaster and training grounds, a new town building and home room. Levies cost their towns: fields go short at sowing and harvest, long absences sour the mood, and the fallen are mourned. Levies can go home on leave and be called back, or be rotated for fresh ones. New goods: spears, mail, bows and shields.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-df1c/Veyrath-df1c-windows.zip",
+     "size": 75373091,
+     "sha256": "c4329b13b97118ef648a577c772f1f76fd52c0c18b5e5cccabcaddb1b19adc2f"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-df1c/Veyrath-df1c-linux.zip",
+     "size": 65027815,
+     "sha256": "423f22e91fa5110f2b1faf2b6f4edf4dc0b677b10282e818dbe0a0c82a25826f"
+    }
+   }
+  },
   {
    "version": "df1b",
    "title": "Dev fix part 2: battles",

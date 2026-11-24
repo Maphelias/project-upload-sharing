@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.4",
+        "released":  "2026-11-24",
+        "notes":  "Mage stats: Intelligence, Wisdom, Spirit, Willpower, Focus and Vigor, bought with essence in Character (F2) \u003e Stats, with a paid respec. Element roots: develop any of the five with essence for stronger, cheaper spells of that element. Mix traits now work in play (Steam scalds, Lightning chains, Ice freezes, Sand blinds and more). Your gear is converted to the new stats on the first start. Players on older versions cannot join 0.1.4 lobbies: everyone updates.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.4"
+    },
+    {
         "version":  "0.1.3",
         "released":  "2026-11-24",
         "notes":  "Settings (Esc \u003e Settings): window mode and resolution, vsync, text size, start zoom, damage numbers and rebindable keys. Updates are now signed: from this version on the game only installs updates signed with the release key. Spell bar cooldowns no longer cover the mana cost; the allied dummies moved clear of the spell bar.",

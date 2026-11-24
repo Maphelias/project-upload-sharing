@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m19b",
+ "latest": "m19c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "m19c",
+   "title": "M19 part 3: relationships",
+   "date": "2026-11-24",
+   "notes": "Relationships: everyone you know has affection and commitment towards you, and what you are to each other follows from them (friend, sweetheart, partner, betrothed, spouse, or rival). Spend time together, pay compliments, give gifts they like and go out together; high charisma helps a great deal. Ask them to be with you, propose, and hold the wedding in a town, where each realm's law says how many spouses you may have and whether a marriage can end. People expect to be the only one, or not, by their nature: those who do grow jealous of your others, unless you talk them round. Your companions and household form friendships, romances and grudges of their own, and party morale follows. Matters of the heart are in conversation; the party screen has a Relationships view.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19c/Veyrath-m19c-windows.zip",
+     "size": 75196206,
+     "sha256": "730079c57f2f89f39685edbcdb2d625a77a3b0ae7134f9176c4fcb8307fbb86a"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19c/Veyrath-m19c-linux.zip",
+     "size": 64850935,
+     "sha256": "2f558403c3eb6c77e62c8607f737e8659b7059f5dcc65f209049aadc877a52a5"
+    }
+   }
+  },
   {
    "version": "m19b",
    "title": "M19 part 2",

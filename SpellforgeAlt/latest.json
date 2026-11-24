@@ -1,20 +1,20 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.5",
+    "version":  "0.1.6",
     "released":  "2026-11-24",
-    "notes":  "Mouse controls: right click to move, left click to use the terminal / spell altar and to revive. Ten spell slots on 1-5 and Q-T. Spell preview hologram with exact paths and areas, and a quick cast option. The spell designer now opens at the spell altar on the training ground. Your old key settings are reset to the new layout.",
+    "notes":  "Roots part 2: intertwine two roots (Character \u003e Roots, at the spell altar) into one of ten new elements, like Frostfire, Blood, Prism or Armament, each with its own special effect. The spell designer\u0027s Tier 3 is where you make spells of them. Everyone in a lobby needs this version.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.5/SpellforgeAlt.exe",
-                                                "size":  3837440,
-                                                "sha256":  "2264826af5d20a1eabbdbce48eeb0c41301104fbe49e1c65ab36baa5c7162564"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.6/SpellforgeAlt.exe",
+                                                "size":  3866112,
+                                                "sha256":  "d58c0c7231296336af0d0b91903dd9adec701f0ea8b7dcd215ba0096890cc790"
                                             },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.5/SpellforgeAlt-0.1.5-Win64.zip",
-                                                "size":  1723615,
-                                                "sha256":  "dfc5f5bad76ccf6a1f310bc9e68a8cd879f8071fcc114204e50bf49f5f813f9a"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.6/SpellforgeAlt-0.1.6-Win64.zip",
+                                                "size":  1738134,
+                                                "sha256":  "9d6610ea7916eee6815b1fdb99f83d5c10bfe67d4e7d2dce9287ce81bc59aee1"
                                             }
                                 }
                   }

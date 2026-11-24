@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1g",
+ "latest": "ff1h",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1h",
+   "title": "Free folk: fixes from the first small test",
+   "date": "2026-11-24",
+   "notes": "Fixes from the first 1k simulation test. Settlements no longer get doubled names like Elmsteadstead, and bands led by someone named for a place read properly (the band of the Hollow Wood). Bands no longer fall on the settlements they founded or their kin's homes. Free folk now start spread over the better land instead of crowded onto a few regions, which ends the bloodbath and famine of the first year. The yearly count of polities now includes the free cities and leagues that break away from the realms, and the chronicle notes them rising and falling.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1h",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1h/Veyrath-ff1h-windows.zip",
+     "size": 75577956,
+     "sha256": "1adc362838fb44cf8a7decdd38448e9bc1feecc6f6cfdbc92d39b39dae3a3d60"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1h/Veyrath-ff1h-linux.zip",
+     "size": 65232680,
+     "sha256": "444277610a943d1aa756eec7bbdea7d5d61e32442db646b27aa3c05991f30741"
+    }
+   }
+  },
   {
    "version": "ff1g",
    "title": "Free folk part 7: the observer",

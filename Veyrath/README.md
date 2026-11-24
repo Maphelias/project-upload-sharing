@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ff1h](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1h) | Free folk: fixes from the first small test | 2026-11-24 |
 | [ff1g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1g) | Free folk part 7: the observer | 2026-11-24 |
 | [ff1f](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1f) | Free folk part 6: wild bands | 2026-11-24 |
 | [ff1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1e) | Free folk part 5: watching a run | 2026-11-24 |

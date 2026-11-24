@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1i",
+ "latest": "ff1j",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1j",
+   "title": "Free folk: food first, and bands come in",
+   "date": "2026-11-24",
+   "notes": "Settlements now put food first: each year their head moves people onto the fields, herds and fishing boats until there is enough for everyone plus a tenth and a winter's store, and moves them back to their trades when there is plenty. This holds for every town, not just the free folk's. Hungry bands, and bands facing winter with little laid by, now head for the nearest settlement that will feed them, kin first, as long as it has food and homes to spare; most who come for the winter stay on, and the rest take to the roads again in spring. The free folk simulation is about four times faster at large scale, and the observer's speed buttons are now on every tab.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1j",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1j/Veyrath-ff1j-windows.zip",
+     "size": 75599377,
+     "sha256": "4fec3134f1334844ff13585b674752124b93ee4aae5fef3733e35711cd7b0ecd"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1j/Veyrath-ff1j-linux.zip",
+     "size": 65254101,
+     "sha256": "ac87ec3f09e5774ff0eac10cdffdabdfb641de71d016d545a6d623b542ff84c5"
+    }
+   }
+  },
   {
    "version": "ff1i",
    "title": "Free folk: explorers, the land, and test sliders",

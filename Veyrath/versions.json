@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1l",
+ "latest": "ff1m",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1m",
+   "title": "Free folk: wild food as the land's own",
+   "date": "2026-11-24",
+   "notes": "Game and wild plants are now part of the land itself: each region holds as much game as its grazing feeds in the season, which regrows when hunted and drifts toward the warm land in winter, and its gathering recovers after it is picked. Wandering bands and settlements' hunters and gatherers draw on the same land and compete for it, so new settlements now spread further apart instead of crowding onto land that is already worked. Bands live their days a few at a time, which makes large worlds faster again, and settlements take in bands even when they have homes for only part of them.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1m",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1m/Veyrath-ff1m-windows.zip",
+     "size": 75605643,
+     "sha256": "e9b54a42f9de2e0dc1c57dd2031841d59319988758d3be607838c225bcdb5c2b"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1m/Veyrath-ff1m-linux.zip",
+     "size": 65260367,
+     "sha256": "a3e3aae84b66b31e4e3f8b57e9a0ad39c9b104caedbbebbce704e2638246fbfe"
+    }
+   }
+  },
   {
    "version": "ff1l",
    "title": "Free folk: no more monthly hitch",

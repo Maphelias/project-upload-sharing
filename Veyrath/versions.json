@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1e",
+ "latest": "ff1f",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1f",
+   "title": "Free folk part 6: wild bands",
+   "date": "2026-11-24",
+   "notes": "Wandering bands now roam normal worlds by default. They trade with the towns they pass, and small or hungry ones settle in; hungry or wronged ones raid villages, and the realm sends patrols after them; where the law allows owning people, slavers take captives. A settlement they found inside a realm's land is the realm's. New bands come from refugees of famine and sacked towns, from peoples a realm drives out, and from tribes' kin roaming their lands. Where you meet a band you can buy food from it, recruit its hunters into your army, lead it if you have the standing, and settle it in a town of yours or beside your home. Also fixed: hungry bands never actually raided.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1f",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1f/Veyrath-ff1f-windows.zip",
+     "size": 75568345,
+     "sha256": "3975c2ea99d5dc5371c806cb2d7366336f08ba9eb49acfa555bf987c643e3e29"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1f/Veyrath-ff1f-linux.zip",
+     "size": 65223068,
+     "sha256": "2b284cfd3b52c05af2ee822c74c626492ecba3e05b5f3b84d57e3be57a2a7d4b"
+    }
+   }
+  },
   {
    "version": "ff1e",
    "title": "Free folk part 5: watching a run",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1j",
+ "latest": "ff1k",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1k",
+   "title": "Free folk: faster once they settle",
+   "date": "2026-11-24",
+   "notes": "Large free folk worlds no longer slow down as their people settle. Clans, settlements and bands looking for a place to live used to redo far more work each month the more settlements there were; with over a thousand settlements a simulated year took nearly two minutes. That work is now done once a month and kept up to date.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1k",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1k/Veyrath-ff1k-windows.zip",
+     "size": 75600272,
+     "sha256": "16132a5afa43e8d848592e9860b22447e397c210d087b0c73e6c646bc293a739"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1k/Veyrath-ff1k-linux.zip",
+     "size": 65254996,
+     "sha256": "f853174c788f30f14ae5ab5c4608d7da333d799b3fc1434db29f90c68cb6b23e"
+    }
+   }
+  },
   {
    "version": "ff1j",
    "title": "Free folk: food first, and bands come in",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "df1g",
+ "latest": "df1h",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "df1h",
+   "title": "Dev fix part 8: communication",
+   "date": "2026-11-24",
+   "notes": "The world has tongues: Common, one for each people, the tribes' own, old tongues and sign. Everyone speaks by their people, home and work, and talk needs a shared way: without one it's gestures, worse prices and no deep talk. Learn tongues by living among speakers, from teachers and from companions; hire interpreters (who may slant things); use the Tongues spell, scrolls or charmed items. Some people (and you, from creation or by a wound or a curse) are deaf, mute or blind, with sign, slates, ear trumpets and guides, and cures at temples, from elixirs and spells. Envoys need a shared tongue with a court. A new Language barriers world setting (off, light, full) and a tongues and senses screen. Also fixed: robbing a caravan could come away with no cargo. This is the last part of the dev fix.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1h",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-df1h/Veyrath-df1h-windows.zip",
+     "size": 75477487,
+     "sha256": "ce37eeb06441795ebfe53934e2c60bfdaecb91251817629f0a2a42af9016e0dc"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-df1h/Veyrath-df1h-linux.zip",
+     "size": 65132212,
+     "sha256": "7718ca5cfe5800cf84b16e570be9dbdd8911f8b0aea8a398ca4ba75bf76659b0"
+    }
+   }
+  },
   {
    "version": "df1g",
    "title": "Dev fix part 7: leaders",

@@ -1,0 +1,8 @@
+[
+    {
+        "version":  "0.1.0",
+        "released":  "2026-11-24",
+        "notes":  "First shipping version: spell designer (tiers 1 and 2), three zones and the Hollow Warden, co-op lobbies for up to 4 players, auto-updater.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.0"
+    }
+]

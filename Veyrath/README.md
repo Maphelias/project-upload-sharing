@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [df1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1b) | Dev fix part 2: battles | 2026-11-24 |
 | [df1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1a) | Dev fix part 1: army settings, pay and morale | 2026-11-24 |
 | [m19i](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19i) | M19 part 9: the last of M19's systems | 2026-11-24 |
 | [m19h](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19h) | M19 part 8: summons with a self | 2026-11-24 |

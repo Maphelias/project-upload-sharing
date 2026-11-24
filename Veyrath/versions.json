@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "df1a",
+ "latest": "df1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "df1b",
+   "title": "Dev fix part 2: battles",
+   "date": "2026-11-24",
+   "notes": "Battles have plans (hold the line, all-out attack, feigned retreat, turning the flanks, ambush), each with its strengths, the ground it needs and the plans it counters; commanders choose by their nature and good tacticians read the enemy's. Armies form lines: a centre, two flanks, a reserve and a rear, by unit kind, by the plan, or as you place each unit, and an open flank gets turned. A battle of your army where you are opens the battle screen: watch it phase by phase or decide between phases (commit the reserve, rally, charge now, change the plan, retreat in order). You can lead an army yourself and fight in its line with your companions. Better generals matter more, at dusk the side in better heart holds the field, and every report can be replayed.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-df1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-df1b/Veyrath-df1b-windows.zip",
+     "size": 75361098,
+     "sha256": "f960a88705492c1703b25b34bdc4ea6d63e040114828bd6c581df2605afbf3e6"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-df1b/Veyrath-df1b-linux.zip",
+     "size": 65015822,
+     "sha256": "f6f57b996f33823609f417318548c1742e323d632ab1e9d63977ae24bdc18079"
+    }
+   }
+  },
   {
    "version": "df1a",
    "title": "Dev fix part 1: army settings, pay and morale",

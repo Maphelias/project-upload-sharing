@@ -1,20 +1,20 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.1",
+    "version":  "0.1.2",
     "released":  "2026-11-24",
-    "notes":  "Update test: checks that the in-game updater moves 0.1.0 players to a new version. No gameplay changes.",
+    "notes":  "Save failsafes: safe saving with a previous-save copy, daily backups (newest 5), automatic recovery from an interrupted or damaged save, and nothing in a save is ever dropped. Your 0.1.x profile is upgraded on the first start (the old file is kept as .bak). Do not go back to 0.1.0 or 0.1.1 afterwards: they cannot read the new format.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.1/SpellforgeAlt.exe",
-                                                "size":  3696128,
-                                                "sha256":  "47377e89f6a6b312105c417c84e03ef7c55ee8f0d7bd63dd7a13ae9211a19e25"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.2/SpellforgeAlt.exe",
+                                                "size":  3737600,
+                                                "sha256":  "37dbce103ad37ac743b473185d11850da06d71a8957ab95fb69ddd8ab41a5b49"
                                             },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.1/SpellforgeAlt-0.1.1-Win64.zip",
-                                                "size":  1652768,
-                                                "sha256":  "5c9789d10981950178bdbaa5fe35c3e448b8df5d42036ddac8cb8a7b26c38fa7"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.2/SpellforgeAlt-0.1.2-Win64.zip",
+                                                "size":  1673938,
+                                                "sha256":  "132270574c8b8821d6d46c74811cf40dab39d3204ea91f889da4314b4e502772"
                                             }
                                 }
                   }

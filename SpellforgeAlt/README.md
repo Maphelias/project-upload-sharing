@@ -5,7 +5,7 @@ four players and beat the Hollow Warden.
 
 ## Download
 
-**Current version: 0.1.2** (2026-11-24) - [SpellforgeAlt-0.1.2-Win64.zip](https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.2/SpellforgeAlt-0.1.2-Win64.zip) (Windows 10/11, 64-bit)
+**Current version: 0.1.3** (2026-11-24) - [SpellforgeAlt-0.1.3-Win64.zip](https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.3/SpellforgeAlt-0.1.3-Win64.zip) (Windows 10/11, 64-bit)
 
 Unzip anywhere and start `SpellforgeAlt.exe`. Nothing to install. Profiles are saved in `Documents\SpellforgeAlt`.
 
@@ -17,6 +17,7 @@ checks its SHA-256 and restarts. Everyone in a lobby needs the same version.
 | File | What |
 |---|---|
 | `latest.json` | The newest version and where its files are (read by the game's updater) |
+| `latest.json.sig` | Ed25519 signature of `latest.json` with the release key; the game installs nothing without a valid one |
 | `versions.json` | Every published version with its notes |
 
 The files themselves are on the [releases page](https://github.com/Maphelias/project-upload-sharing/releases?q=SpellforgeAlt) (tags `SpellforgeAlt-<version>`).

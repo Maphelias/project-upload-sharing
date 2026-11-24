@@ -1,20 +1,20 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.0",
+    "version":  "0.1.1",
     "released":  "2026-11-24",
-    "notes":  "First shipping version: spell designer (tiers 1 and 2), three zones and the Hollow Warden, co-op lobbies for up to 4 players, auto-updater.",
+    "notes":  "Update test: checks that the in-game updater moves 0.1.0 players to a new version. No gameplay changes.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.0/SpellforgeAlt.exe",
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.1/SpellforgeAlt.exe",
                                                 "size":  3696128,
-                                                "sha256":  "281991f9733201fb10372e7e383892e0c40c44471c910033085ea8c37b3c740d"
+                                                "sha256":  "47377e89f6a6b312105c417c84e03ef7c55ee8f0d7bd63dd7a13ae9211a19e25"
                                             },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.0/SpellforgeAlt-0.1.0-Win64.zip",
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.1/SpellforgeAlt-0.1.1-Win64.zip",
                                                 "size":  1652768,
-                                                "sha256":  "fa8838901647e81b3869642e2a2eedaaaddc741656078d860b1be8bf57596f37"
+                                                "sha256":  "5c9789d10981950178bdbaa5fe35c3e448b8df5d42036ddac8cb8a7b26c38fa7"
                                             }
                                 }
                   }

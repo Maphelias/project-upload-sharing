@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.2",
+        "released":  "2026-11-24",
+        "notes":  "Save failsafes: safe saving with a previous-save copy, daily backups (newest 5), automatic recovery from an interrupted or damaged save, and nothing in a save is ever dropped. Your 0.1.x profile is upgraded on the first start (the old file is kept as .bak). Do not go back to 0.1.0 or 0.1.1 afterwards: they cannot read the new format.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.2"
+    },
+    {
         "version":  "0.1.1",
         "released":  "2026-11-24",
         "notes":  "Update test: checks that the in-game updater moves 0.1.0 players to a new version. No gameplay changes.",

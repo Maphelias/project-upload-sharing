@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ff1l](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1l) | Free folk: no more monthly hitch | 2026-11-24 |
 | [ff1k](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1k) | Free folk: faster once they settle | 2026-11-24 |
 | [ff1j](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1j) | Free folk: food first, and bands come in | 2026-11-24 |
 | [ff1i](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1i) | Free folk: explorers, the land, and test sliders | 2026-11-24 |

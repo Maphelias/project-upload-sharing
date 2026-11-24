@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m19e",
+ "latest": "m19f",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "m19f",
+   "title": "M19 part 6",
+   "date": "2026-11-24",
+   "notes": "The sixth part of M19's systems is in this build. Bound spirits can also live on resonance-rich reagents when crystal runs out.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19f",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19f/Veyrath-m19f-windows.zip",
+     "size": 75246594,
+     "sha256": "967f2d21ff706836cbfe226374cdcaf4228b457988c6c18cab3a9a3d31b9cc63"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19f/Veyrath-m19f-linux.zip",
+     "size": 64901318,
+     "sha256": "acb2582f886c44cc62d3208ee8d20f71f43dab9c2c1c001175e6fb7107669b09"
+    }
+   }
+  },
   {
    "version": "m19e",
    "title": "M19 part 5: lineage",

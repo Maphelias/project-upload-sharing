@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1n",
+ "latest": "nh1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "nh1a",
+   "title": "No hunger, part 1: settlements by capacity",
+   "date": "2026-11-24",
+   "notes": "Settlements no longer starve. Each keeps as many people as its farms, herds and fishing can comfortably support, more as it grows into a town or city; its head puts more people to the fields when it nears the limit, and when it is past it, people leave for other places instead of dying. Granaries now hold a reserve that tides a town over bad years and lets it take in winter guests, sell grain when it has plenty, and steady its grain prices. Priests can now also care for the sick, for mothers and newborns, comfort a town through hard years, and keep the peace. Towns are described as crowded or overcrowded instead of hungry or starving.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1a/Veyrath-nh1a-windows.zip",
+     "size": 75611353,
+     "sha256": "2a4dd35148da0c3d69770a138a3d55e0e356813fa3d2cebe803d9b9faeb9a638"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1a/Veyrath-nh1a-linux.zip",
+     "size": 65266077,
+     "sha256": "23b836779b2842ebf9c022e3226ff223260a779e1a71667bbed137628d6fe97f"
+    }
+   }
+  },
   {
    "version": "ff1n",
    "title": "Herders in the open",

@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [m19g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19g) | M19 part 7: servitude | 2026-11-24 |
 | [m19f](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19f) | M19 part 6 | 2026-11-24 |
 | [m19e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19e) | M19 part 5: lineage | 2026-11-24 |
 | [m19d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19d) | M19 part 4 | 2026-11-24 |

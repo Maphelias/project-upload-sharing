@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "m19f",
+ "latest": "m19g",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "m19g",
+   "title": "M19 part 7: servitude",
+   "date": "2026-11-24",
+   "notes": "Ownership and servitude go deeper. The people you own have fear and loyalty as well as obedience: fear makes them comply but eats loyalty; the loyal never run and may refuse freedom. Train them, put them to work in your trading house or hire them out to the mines, take them along (the frightened may run in a lost fight). Runaways leave a trail you can hunt; unhappy households may rise up; liberators come where it is forbidden; the owned save towards buying their freedom, and the freed remember how they were treated. Black markets sell people where it isn't legal; slavers can be hired, and they hunt the roads; your armies' victories bring captives; trade in people is taxed. Rulers can decree the law on owning people. A new dark setting (off by default) lets you break the people you own, and lets slavers take you captive.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-m19g",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19g/Veyrath-m19g-windows.zip",
+     "size": 75263286,
+     "sha256": "eb72e05d6f28f1bf746b8ac720d2fb4e33bd913e940185f29667d9967ecd9758"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-m19g/Veyrath-m19g-linux.zip",
+     "size": 64918010,
+     "sha256": "a76502810dbd7566ca9a04945cb760d94239bd95db2f9be7f4604cca2b7f2633"
+    }
+   }
+  },
   {
    "version": "m19f",
    "title": "M19 part 6",

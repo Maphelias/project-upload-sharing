@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ar1e",
+ "latest": "fr1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "fr1a",
+   "title": "Free folk redo: bands, refugees, outlaws and mercenaries",
+   "date": "2026-11-25",
+   "notes": "Wandering bands now come to terms with the realms whose land they roam. A band that stays in a realm's land may accept its rule, more readily if its leader is easy-going, if the realm's towns are of its own people and if the realm treats its kind well; a proud band refuses. A band that has accepted slowly settles into the realm's nearest towns, a tenth of it each month, its notable people becoming townsfolk there, until it is no more. A band that refuses is an outsider eating the realm's food: the realm's soldiers drive it off, and a band beaten again and again breaks up and is taken in. People who leave a crowded town no longer become wandering bands: they gather as refugees around it and settle month by month in the towns nearby that have room, wandering further as time goes on. A large crowd of refugees makes the roads around it less safe and the towns beside it uneasy, and if it grows too big it marches on the capital as a refugee wave, or across the border to a neighbouring realm, which may take them in or close its border. Those turned away scatter, some of them into outlaws. Refugees who linger too long, and outlaws who gather (turned away, or deserters from a broken army), turn to crime: in a town, a thieves' guild that grows on the refugees, skims the town's building fund, spreads to the next town and is cracked down on by the realm's soldiers; in the wild, a bandit gang with a hidden hideout that robs the villages around until you stumble on it or the realm's patrols find it. Some take up the sword instead: fighting bands with ambitious leaders, and soldiers left without an army, form mercenary companies with camps of their own on the map. A company earns its keep guarding the land around and hunting beasts and bandits for their bounties, and in wartime realms hire it for a fee to fight on their front; its followers may settle a hamlet by the camp in time, and a company left idle and unpaid too long turns outlaw.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fr1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fr1a/Veyrath-fr1a-windows.zip",
+     "size": 38212454,
+     "sha256": "fad8c176420b41cc5792b6a0485592a031840c927abf0a4441f7d250469f5423"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fr1a/Veyrath-fr1a-linux.zip",
+     "size": 65332238,
+     "sha256": "302a08e1b522dd9f719564f9f139e064201caa371e333a4fe4a8ab754cc3dbfa"
+    }
+   }
+  },
   {
    "version": "ar1e",
    "title": "Army redo, part 5: soldiering, the front lines and garrisons",

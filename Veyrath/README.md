@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ar1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ar1c) | Army redo, part 4: war on the fronts | 2026-11-25 |
 | [ar1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ar1b) | Army redo, parts 2 and 3: armies fill, and guard the land | 2026-11-25 |
 | [ar1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ar1a) | Army redo, part 1: planned armies | 2026-11-25 |
 | [nh1g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1g) | Homes keep up | 2026-11-25 |

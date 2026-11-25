@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ar1b",
+ "latest": "ar1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ar1c",
+   "title": "Army redo, part 4: war on the fronts",
+   "date": "2026-11-25",
+   "notes": "Wars are now fought between the realms' planned armies on their fronts. When war comes, each realm calls up its levies from its towns (each town gives up to two in five of its people, as far as it likes the realm) and sends its armies to the front, where they arrive after their march. Each month on a front brings skirmishes or a battle; the stronger side usually wins, and a beaten army's troops may break, some going home, some turning outlaw (enough of them become a warband). The side ahead besieges the enemy's nearest town, which holds out by its stores and its defences. A war stance decreed before the war makes a realm's armies hit harder in a war it starts, or hold better in one started against it. At peace the levies go home. When you rule, you choose each army's front.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ar1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ar1c/Veyrath-ar1c-windows.zip",
+     "size": 75651250,
+     "sha256": "1fde6e9f6593e3bb767c501b79d3b4c75fe75bdb7c655741f0784d41cb1a11dc"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ar1c/Veyrath-ar1c-linux.zip",
+     "size": 65305973,
+     "sha256": "b885541d33b2cad9709bd21db24d6936041201494bcbb4077b8ae5e676837af1"
+    }
+   }
+  },
   {
    "version": "ar1b",
    "title": "Army redo, parts 2 and 3: armies fill, and guard the land",

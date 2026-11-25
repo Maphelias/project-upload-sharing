@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ff1u](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1u) | Everyone counted in the simulation tests; threats kept apart from the slain | 2026-11-25 |
 | [ff1t](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1t) | Cost trims: rulers' projects; a map for mercenary camps | 2026-11-25 |
 | [ff1s](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1s) | Cost trims: a glance at a town | 2026-11-25 |
 | [ff1r](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1r) | Cost trims: founding and the forts' recruits | 2026-11-25 |

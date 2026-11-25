@@ -7,12 +7,12 @@
   {
    "id": "development",
    "name": "Development versions",
-   "description": "Builds made while the game is being developed, milestone by milestone (Mn)."
+   "description": "Builds made while the game was being developed, milestone by milestone (Mn); the last is nh1g (2026-11-25)."
   },
   {
    "id": "alpha",
    "name": "Alpha versions",
-   "description": "Early versions shared with a few people."
+   "description": "Early versions shared with a few people: fine-tuning the game, from 2026-11-25."
   },
   {
    "id": "beta",
@@ -28,7 +28,7 @@
    "notes": "Towns now build as many homes as their people need. Before, a town built at most a few buildings a year whatever it was, so houses fell behind the births while the building funds piled up, and more people left each year than were born. Now new houses go up as the town grows, and people stay unless the farms can't keep them.",
    "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1g",
    "picker": true,
-   "cap": false,
+   "cap": true,
    "open": false,
    "category": "development",
    "platforms": {

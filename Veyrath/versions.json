@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "nh1e",
+ "latest": "nh1f",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "nh1f",
+   "title": "Settlements keep growing",
+   "date": "2026-11-25",
+   "notes": "Settlements no longer hold themselves back by having fewer children when food runs short: people have children every year whatever the harvest, and the town's head puts the extra hands on the fields first. Families crowd into the homes there are, and a crowded town grows unhappy; past what its farms or homes can keep, people leave. Those who leave no longer vanish: some take to the roads as bands, and the rest move to towns nearby with food and homes to spare, their own realm's first. Crowded villages now feed the towns around them and the wild.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1f",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1f/Veyrath-nh1f-windows.zip",
+     "size": 75615924,
+     "sha256": "d93919d127c93a680fc4d230d4a446befdf2ebb1f7791f27a8f0c53973879530"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1f/Veyrath-nh1f-linux.zip",
+     "size": 65270648,
+     "sha256": "c9e079fd31eabfbab9be3b542532c930f3351b5eb131e3755ead55f2f0275c7e"
+    }
+   }
+  },
   {
    "version": "nh1e",
    "title": "No hunger, part 5: animals and the last of it",

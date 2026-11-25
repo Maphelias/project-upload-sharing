@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "nh1d",
+ "latest": "nh1e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "nh1e",
+   "title": "No hunger, part 5: animals and the last of it",
+   "date": "2026-11-25",
+   "notes": "Your animals no longer wander off when there is nothing to feed them: an unfed beast gives no milk, eggs or wool (a little, with good husbandry) until it is fed again, but it stays with you. Bound spirits and wild creatures still leave if neglected. The siege plan Starve them out is now Wear them down, and a besieged town shows how many days of supplies it has left. The last talk of hunger is gone from companions, army leaders and notices. Saves from before the hunger changes load and carry on.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1e",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1e/Veyrath-nh1e-windows.zip",
+     "size": 75614662,
+     "sha256": "0c215ad5d4d8ae6c2d0e2f2933fdc59f24859bb03efa69956a950fdf2a835ee1"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1e/Veyrath-nh1e-linux.zip",
+     "size": 65269386,
+     "sha256": "64347d96319d738c4bc684df8f5341cad440589a4c166c20750ea7dbe3c0188f"
+    }
+   }
+  },
   {
    "version": "nh1d",
    "title": "No hunger, part 4: the free folk",

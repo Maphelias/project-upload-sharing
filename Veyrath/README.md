@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [nh1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1d) | No hunger, part 4: the free folk | 2026-11-25 |
 | [nh1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1c) | No hunger, part 3: armies and sieges | 2026-11-25 |
 | [nh1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1b) | No hunger, part 2: you, your party and household | 2026-11-25 |
 | [nh1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1a) | No hunger, part 1: settlements by capacity | 2026-11-24 |

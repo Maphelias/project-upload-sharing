@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "nh1c",
+ "latest": "nh1d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "nh1d",
+   "title": "No hunger, part 4: the free folk",
+   "date": "2026-11-25",
+   "notes": "The free folk no longer starve. A band still gathers, hunts and keeps stores, but when its land can't keep it and the stores run out it has lean days instead of hungry ones: no one dies or sickens of want, the band grows unhappy, has fewer children the further it is over what the land can carry, and moves on, splits, raids its neighbours or makes for a settlement. In autumn, bands on land where the winter bites hard, or with too little laid by, look for a settlement to winter in. The free folk screen now says whether the land provides, is stretched, or the band is in lean times.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1d",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1d/Veyrath-nh1d-windows.zip",
+     "size": 75614659,
+     "sha256": "d807467631fce90ce94d1ebc190b45963db5ded2733169f4fdeddc1ed7a2321f"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-nh1d/Veyrath-nh1d-linux.zip",
+     "size": 65269383,
+     "sha256": "84856662480a0bf622f7affac2f8b4af0a39e4d1c56156837e34533e70e257df"
+    }
+   }
+  },
   {
    "version": "nh1c",
    "title": "No hunger, part 3: armies and sieges",

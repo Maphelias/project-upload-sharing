@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ar1a",
+ "latest": "ar1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ar1b",
+   "title": "Army redo, parts 2 and 3: armies fill, and guard the land",
+   "date": "2026-11-25",
+   "notes": "Planned armies now fill. Towns build conscription offices, and each month their officer draws recruits, as many as the realm's conscription allows, into the standing troops of the armies based nearby. Their gear comes from the realm's own smiths and workshops, or from merchants at a higher price; a recruit without gear trains and fights at half strength until it arrives. Soldiers are paid each month; a realm deep in debt takes on no more and some desert. Realms no longer keep standing armies marching on the map. Levies still wait for a war. A realm's armies now guard its land from their home towns: their presence is strongest at home and fades with distance (a new Presence map view shows it), making the roads safer. Each week a threat in a realm's land may be hunted by one of its armies, more likely where they are strong; a threat that beats them is reckoned more dangerous, the realm comes back with more armies, and the bounty on it grows.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ar1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ar1b/Veyrath-ar1b-windows.zip",
+     "size": 75643274,
+     "sha256": "6888baefefbb6c88caaacb18a38ad8c3d5daa2b28cc0551add7193799c22f40a"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ar1b/Veyrath-ar1b-linux.zip",
+     "size": 65297997,
+     "sha256": "0f59a40388dc5f9d4eac0254bfca34e1e834e6c80e8258e68b173e4b8ee10fd0"
+    }
+   }
+  },
   {
    "version": "ar1a",
    "title": "Army redo, part 1: planned armies",

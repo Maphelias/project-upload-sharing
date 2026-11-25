@@ -6,6 +6,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ff1r](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1r) | Cost trims: founding and the forts' recruits | 2026-11-25 |
 | [nh1h](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-nh1h) | Births and deaths in every settlement | 2026-11-25 |
 | [fr1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fr1a) | Free folk redo: bands, refugees, outlaws and mercenaries | 2026-11-25 |
 | [ar1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ar1e) | Army redo, part 5: soldiering, the front lines and garrisons | 2026-11-25 |

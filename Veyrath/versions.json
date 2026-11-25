@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "nh1f",
+ "latest": "ff1o",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1o",
+   "title": "Simulation tests: normal worlds",
+   "date": "2026-11-25",
+   "notes": "The simulation tests can now watch a normal game, not only an empty world of free folk: a new game started as a player would start it, on a small, medium or large map, with a dummy character beginning where a new player begins. Pick the population (sparse, normal or crowded) in place of the number of free folk. Besides the free folk's figures, a normal world's run records the whole world year by year: its settlements and their people (born, left, arrived, by size, crowded, founded, ruined), realms and war (loyalty, wars, armies, sieges, towns changing hands), the economy (food kept, grain prices, travellers, building funds) and what a player would find around the dummy's home town, with three more charts.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1o",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "development",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1o/Veyrath-ff1o-windows.zip",
+     "size": 75623182,
+     "sha256": "3077274f5087f18fa336d5ea34acea1de36bc935293e3ca31a756c4127ed24e7"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1o/Veyrath-ff1o-linux.zip",
+     "size": 65277905,
+     "sha256": "f982f197e33636881e2687968d9812d8a32c5f8c61197192f2b5b9f3a8ff70cf"
+    }
+   }
+  },
   {
    "version": "nh1f",
    "title": "Settlements keep growing",

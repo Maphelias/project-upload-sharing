@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ar1d",
+ "latest": "ar1e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,29 @@
   }
  ],
  "versions": [
+  {
+   "version": "ar1e",
+   "title": "Army redo, part 5: soldiering, the front lines and garrisons",
+   "date": "2026-11-25",
+   "notes": "You can enlist again: join one of a realm's armies at its home town (the realm's screen). In peacetime you serve and are paid while free to travel; when war comes you march with your army to its front and fight in its battles, which are fought round by round with you in the line, and their outcome decides the battle on that front. Your own army at your liege's front fights the same way. Near a war's front the roads change: enemy patrols stop travellers, and bands of deserters camp off the road. Visiting a fort now shows its garrison as real troops (spearmen, archers, riders) under a named captain.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ar1e",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ar1e/Veyrath-ar1e-windows.zip",
+     "size": 75661534,
+     "sha256": "ce0ab8475a8b36f2d602cebe075e0ad69e5878356fca222a6de7c195377ca739"
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ar1e/Veyrath-ar1e-linux.zip",
+     "size": 65316257,
+     "sha256": "418be16906968b3f22eaa2c6a292132a82d7085ecb891fc2939dfa8fba8395a2"
+    }
+   }
+  },
   {
    "version": "ar1d",
    "title": "Army redo, part 6: no more marching realm armies",

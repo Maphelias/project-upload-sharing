@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [oc1n](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1n) | Festivals | 2026-11-26 |
 | [oc1m](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1m) | Letters and parcels | 2026-11-26 |
 | [oc1l](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1l) | Hunting and fishing | 2026-11-26 |
 | [oc1k](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1k) | Openings on the work board | 2026-11-26 |

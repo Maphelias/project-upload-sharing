@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1m",
+ "latest": "oc1n",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1n",
+   "title": "Festivals",
+   "date": "2026-11-26",
+   "notes": "Four festivals a year: the Spring Fair, Midsummer, the Harvest Home and the Longest Night. Join in to rest and be seen among the townsfolk, try the wrestling, archery, baking or singing contest for a prize, and sell twice as much in your shop or in the streets that day.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1n",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1n/Veyrath-oc1n-windows.zip",
+     "size": 75774144,
+     "sha256": "4f6d31c79a8a9790f4afbd5a71a1ab075f766637dee03edd34d04bff4edae844",
+     "unpacked": 197702570
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1n/Veyrath-oc1n-linux.zip",
+     "size": 65428867,
+     "sha256": "d8215815a806af3b8db9e8af82fbefb9a3fa645a010145edb8e89aee56ab644e",
+     "unpacked": 161958202
+    }
+   }
+  },
   {
    "version": "oc1m",
    "title": "Letters and parcels",

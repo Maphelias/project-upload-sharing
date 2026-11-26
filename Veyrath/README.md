@@ -4,8 +4,11 @@ A text-based fantasy life, role-playing and strategy game for adults.
 
 Every version is a release here (Windows and Linux zips). The game's main menu has a version picker that reads `versions.json` and can download and start any of them.
 
+**New here? Get the installer:** [Windows](https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-installer/Veyrath-installer-windows.zip) · [Linux](https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-installer/Veyrath-installer-linux.zip). Unzip, run it, pick a version: it installs and starts that version (with a desktop shortcut if you like) and removes itself.
+
 | Version | What | Date |
 |---|---|---|
+| [ff1w](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1w) | Settled as people would; installed sizes and the installer | 2026-11-26 |
 | [ff1v](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1v) | Ruins and the abandoned | 2026-11-25 |
 | [ff1u](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1u) | Everyone counted in the simulation tests; threats kept apart from the slain | 2026-11-25 |
 | [ff1t](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1t) | Cost trims: rulers' projects; a map for mercenary camps | 2026-11-25 |

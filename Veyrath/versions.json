@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ws1b",
+ "latest": "ws1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ws1c",
+   "title": "Scrolls and talismans, set right",
+   "date": "2026-11-26",
+   "notes": "Scrolls are once again only what unlocks a school's spells and abilities, and now every school has one. The one-use written spells are paper talismans alone: scribes copy scrolls and brush talismans, you make your own talismans from paper and cinnabar in the spellbook, and any one-use scroll you had is a talisman now. Talismans and the odd scroll also turn up in dungeon hoards, and on people you beat in a fight.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ws1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ws1c/Veyrath-ws1c-windows.zip",
+     "size": 75802700,
+     "sha256": "7eff48e632b5682225ccbb0237d1037b7744302c68553db89aa43add78188d10",
+     "unpacked": 197788714
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ws1c/Veyrath-ws1c-linux.zip",
+     "size": 65457423,
+     "sha256": "f7551cf1ad9ba3ceb41a67f22b355971451d4e9b204eb50183eeaae3aa15f153",
+     "unpacked": 162044346
+    }
+   }
+  },
   {
    "version": "ws1b",
    "title": "Writing your own scrolls",

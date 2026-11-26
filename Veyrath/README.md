@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ws1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ws1c) | Scrolls and talismans, set right | 2026-11-26 |
 | [ws1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ws1b) | Writing your own scrolls | 2026-11-26 |
 | [ws1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ws1a) | Scrolls and paper talismans | 2026-11-26 |
 | [oc2c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc2c) | Broken bones | 2026-11-26 |

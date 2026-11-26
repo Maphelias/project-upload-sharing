@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1r",
+ "latest": "oc1s",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1s",
+   "title": "A quieter town square",
+   "date": "2026-11-26",
+   "notes": "The town square has far fewer buttons: your job's choices (going to work, your masterwork, your trade's guild, leaving) are on one \"Your work\" page; crying your wares and picking pockets are on the market; and towns and cities have back alleys on their maps, where the thieves' guild is found.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1s",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1s/Veyrath-oc1s-windows.zip",
+     "size": 75781999,
+     "sha256": "702e9dfd8247adbf8dd48497ec37fe72ca3e550e9d34507c5b0eba460b093023",
+     "unpacked": 197728228
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1s/Veyrath-oc1s-linux.zip",
+     "size": 65436722,
+     "sha256": "cf4cdfbc8e4b6e8402eb583da79566bc793e59c6dfeada56577b6997fed49b8a",
+     "unpacked": 161983860
+    }
+   }
+  },
   {
    "version": "oc1r",
    "title": "Magic for hire, scholars",

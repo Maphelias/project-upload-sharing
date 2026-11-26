@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [oc1y](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1y) | The college of magic, room to grow | 2026-11-26 |
 | [oc1x](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1x) | Working your passage | 2026-11-26 |
 | [oc1w](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1w) | Falling ill | 2026-11-26 |
 | [oc1v](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1v) | Stolen goods and the fence | 2026-11-26 |

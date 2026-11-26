@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1x",
+ "latest": "oc1y",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1y",
+   "title": "The college of magic, room to grow",
+   "date": "2026-11-26",
+   "notes": "Cities now have a college of magic, where masters of fire, water, earth, air and the arcane lecture each day for a few coins. And settlements are no longer limited by the lots on their maps: buildings that don't fit stand in a new quarter, so the healer's house, the school and the rest all show.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1y",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1y/Veyrath-oc1y-windows.zip",
+     "size": 75790500,
+     "sha256": "a42786dcf1441123522bda0669bb0d92493917dc269aef718fbede6bc9e9dd95",
+     "unpacked": 197756774
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1y/Veyrath-oc1y-linux.zip",
+     "size": 65445223,
+     "sha256": "942e98cd51bdeb28e242408a20991510de514b3326db12b1ecaf167fe382aabd",
+     "unpacked": 162012406
+    }
+   }
+  },
   {
    "version": "oc1x",
    "title": "Working your passage",

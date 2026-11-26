@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [oc1r](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1r) | Magic for hire, scholars | 2026-11-26 |
 | [oc1q](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1q) | The sick and the square | 2026-11-26 |
 | [oc1p](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1p) | The thieves' guild | 2026-11-26 |
 | [oc1o](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1o) | Your own field | 2026-11-26 |

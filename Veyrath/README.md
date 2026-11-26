@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [oc1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1d) | A house in town | 2026-11-26 |
 | [oc1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1c) | Apprenticeship | 2026-11-26 |
 | [oc1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1b) | The work board | 2026-11-26 |
 | [oc1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1a) | Being employed | 2026-11-26 |

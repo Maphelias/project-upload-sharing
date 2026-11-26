@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1c",
+ "latest": "oc1d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1d",
+   "title": "A house in town",
+   "date": "2026-11-26",
+   "notes": "Buy or rent a house inside a village, town or city from its reeve or elder, instead of a plot outside it. Go home from the streets into your hall, build and furnish rooms, keep a household there. Rent is paid each week from the house's coffer or your purse; fall too far behind and you will be put out, with your things.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1d",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1d/Veyrath-oc1d-windows.zip",
+     "size": 75739513,
+     "sha256": "39afd71cd3024c7aa103095e980b81062f93571cf8d45a3632826097c9b5d45e",
+     "unpacked": 197593669
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1d/Veyrath-oc1d-linux.zip",
+     "size": 65394236,
+     "sha256": "cc8ee3c706a05d60bb18dd2dd7dbea15a60f45b7480e9b09f27db76baa8e1872",
+     "unpacked": 161849301
+    }
+   }
+  },
   {
    "version": "oc1c",
    "title": "Apprenticeship",

@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ff1y](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1y) | Realms take in refugees; gangs dwindle and are hunted | 2026-11-26 |
 | [ff1x](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1x) | Fewer outlaws, more villages | 2026-11-26 |
 | [ff1w](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1w) | Settled as people would; installed sizes and the installer | 2026-11-26 |
 | [ff1v](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1v) | Ruins and the abandoned | 2026-11-25 |

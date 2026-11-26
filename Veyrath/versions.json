@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1x",
+ "latest": "ff1y",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1y",
+   "title": "Realms take in refugees; gangs dwindle and are hunted",
+   "date": "2026-11-26",
+   "notes": "Refugees that no nearby town can take in are now resettled by the realm whose land they are in, in any of its towns with homes to spare, or given land for a village of their own. Bandit gangs no longer hold their people forever: some leave them every year for ordinary lives, and the realms around find their hideouts and break them, more surely where their armies are strong; about half of a broken gang's people come back as refugees. This also fixes a rare crash when refugees arrived just as a crowded village sent out settlers.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1y",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1y/Veyrath-ff1y-windows.zip",
+     "size": 75693155,
+     "sha256": "9a6aace5dd571c767f3f7af906026f31a67ba8fac779e8559a82b48a9a8bbeee",
+     "unpacked": 197453398
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1y/Veyrath-ff1y-linux.zip",
+     "size": 65347878,
+     "sha256": "725f07146716244b1d4af45497e0bb7dfaaadb01a9be88ce728f341eb45bc42f",
+     "unpacked": 161709030
+    }
+   }
+  },
   {
    "version": "ff1x",
    "title": "Fewer outlaws, more villages",

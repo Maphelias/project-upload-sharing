@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1f",
+ "latest": "oc1g",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1g",
+   "title": "Craft guilds",
+   "date": "2026-11-26",
+   "notes": "Towns and cities now have a guild for each craft. Once you are a journeyman or master of a trade, you can join its guild in a town for a fee and monthly dues: guild members' shops get more of the town's custom, outsiders' less.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1g",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1g/Veyrath-oc1g-windows.zip",
+     "size": 75749327,
+     "sha256": "46386cd04f8257a17b7cfbe38da24263ba593cd3e5c384370dc6199ab4218afc",
+     "unpacked": 197628942
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1g/Veyrath-oc1g-linux.zip",
+     "size": 65404050,
+     "sha256": "503b6be9f9f4b61db707490dd422db28446908c6207a7027b2f799258f1f6416",
+     "unpacked": 161884574
+    }
+   }
+  },
   {
    "version": "oc1f",
    "title": "More trades, market days, body age",

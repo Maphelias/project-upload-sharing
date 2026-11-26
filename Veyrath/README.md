@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [oc1k](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1k) | Openings on the work board | 2026-11-26 |
 | [oc1j](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1j) | A soldier's troop | 2026-11-26 |
 | [oc1i](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1i) | Orders | 2026-11-26 |
 | [oc1h](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1h) | Crying your wares | 2026-11-26 |

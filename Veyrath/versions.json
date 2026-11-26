@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1b",
+ "latest": "oc1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1c",
+   "title": "Apprenticeship",
+   "date": "2026-11-26",
+   "notes": "Pay a master smith, baker, weaver, potter or another craftsman a premium to take you as their apprentice: work for pocket money while you learn the craft much faster, and after twelve weeks become a journeyman. A skilled journeyman can present a masterwork and become a master. Your title goes with you to any workshop of the trade.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1c/Veyrath-oc1c-windows.zip",
+     "size": 75735408,
+     "sha256": "bf8f05589713a81c3eb669df682c9c1a5ed0b09fd21536cccae583424ce80a35",
+     "unpacked": 197578107
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1c/Veyrath-oc1c-linux.zip",
+     "size": 65390131,
+     "sha256": "b6504de0cea05a150681a5dda81e60d6a3b9d830120df143fef0008073ef345a",
+     "unpacked": 161833739
+    }
+   }
+  },
   {
    "version": "oc1b",
    "title": "The work board",

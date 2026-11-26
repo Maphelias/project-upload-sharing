@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ff1w",
+ "latest": "ff1x",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ff1x",
+   "title": "Fewer outlaws, more villages",
+   "date": "2026-11-26",
+   "notes": "Whole peoples were quietly vanishing into bandit gangs: refugees from crowded villages that no town could take in turned to crime by the thousands. Now a crowded village of the free folk sends its extra people out to found a daughter village when there is land, refugees nobody takes in found a village of their own or take to the road as a band again, and only those near a realm's towns turn to crime. A bandit gang remembers how many people it took in, and when it is broken about half of them come back as refugees. Long games also stay faster: the danger of a place no longer looks through every beast ever slain and every dungeon ever cleared. The simulation tests bring every town up to date over each month, so their births and populations are counted truly.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1x",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1x/Veyrath-ff1x-windows.zip",
+     "size": 75691356,
+     "sha256": "0b817df5646507826eb180c1aa56831b568b675c58701a087cf8bc17d5738dcb",
+     "unpacked": 197449394
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ff1x/Veyrath-ff1x-linux.zip",
+     "size": 65346079,
+     "sha256": "b8df00c2f0aab8df9b97ac35efca5012fa76a51d35d59286cdbde4dec7984d41",
+     "unpacked": 161705026
+    }
+   }
+  },
   {
    "version": "ff1w",
    "title": "Settled as people would; installed sizes and the installer",

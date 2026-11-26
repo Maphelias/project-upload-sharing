@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1u",
+ "latest": "oc1v",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1v",
+   "title": "Stolen goods and the fence",
+   "date": "2026-11-26",
+   "notes": "What you steal is now marked as stolen, and honest shops and merchants won't buy it. In the back alleys of towns where a thieves' guild works there's a fence who takes anything, for a thief's price; and a job for the guild sometimes brings you a candlestick, a ring or a gem to sell there.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1v",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1v/Veyrath-oc1v-windows.zip",
+     "size": 75784919,
+     "sha256": "8818d6a754ce00ffcdba1b5df63770376b22041c884530968f20fa2746c83fb5",
+     "unpacked": 197738587
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1v/Veyrath-oc1v-linux.zip",
+     "size": 65439642,
+     "sha256": "af5f1afda368aab6de939bb2e41ea4fc686977d2d31bb19cee7fb644b8343d3b",
+     "unpacked": 161994219
+    }
+   }
+  },
   {
    "version": "oc1u",
    "title": "Patrons, acolytes and the watch",

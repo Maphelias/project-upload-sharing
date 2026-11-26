@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1e",
+ "latest": "oc1f",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1f",
+   "title": "More trades, market days, body age",
+   "date": "2026-11-26",
+   "notes": "Towns now have tailors, cobblers, carpenters, coopers, chandlers, butchers, healers, midwives, scribes, masons, barbers, teachers, carters and launderers among their people; each takes on hands, and the crafts among them take apprentices. Every settlement holds a market on a weekday of its own, with busier shops and more odd jobs. And your body's age is now kept apart from the years you have lived: magic can make you younger or older in body, and a change of species keeps the share of life you have left.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1f",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1f/Veyrath-oc1f-windows.zip",
+     "size": 75746101,
+     "sha256": "c82392367d0ad66e5bf21f5795b55d613f16aadf4baab598c83f59404d5592d3",
+     "unpacked": 197621462
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1f/Veyrath-oc1f-linux.zip",
+     "size": 65400824,
+     "sha256": "b05dfc105bb0dfdb7d98873c9a63ea012221fe10d23ffa2efad38c0d2080b496",
+     "unpacked": 161877094
+    }
+   }
+  },
   {
    "version": "oc1e",
    "title": "A shop of your own, a family's wages",

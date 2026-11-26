@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [rg1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1c) | Endless worlds: far lands wait for you | 2026-11-26 |
 | [rg1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1b) | Far-off clans and feuds; news from afar | 2026-11-26 |
 | [rg1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1a) | Rings of detail: the world far away as numbers | 2026-11-26 |
 | [ff1z](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ff1z) | Refugees never turn to crime | 2026-11-26 |

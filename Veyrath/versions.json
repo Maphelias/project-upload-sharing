@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "rg1b",
+ "latest": "rg1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "rg1c",
+   "title": "Endless worlds: far lands wait for you",
+   "date": "2026-11-26",
+   "notes": "On an endless world, the lands you have left far behind now wait for you: their realms, free folk, dungeons and beasts stand still until you come near again, and then catch up on what they would have done in the meantime, so a realm's treasury has grown by its months of taxes. After travelling six continents east, a year of the world now passes in about a third of the time it took before, with much shorter pauses. New endless worlds also place their towns and villages as people would. Realms' diplomacy is faster on large worlds too.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-rg1c/Veyrath-rg1c-windows.zip",
+     "size": 75706772,
+     "sha256": "fc8ba9e01783d702e091c488ae83291dde71b67d9cfd74d03dd7605916dd4b14",
+     "unpacked": 197494257
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-rg1c/Veyrath-rg1c-linux.zip",
+     "size": 65361495,
+     "sha256": "f4740128f57653e7417e5bc4412bd1c536fbabf70ec1949802b80eb75b4023e9",
+     "unpacked": 161749889
+    }
+   }
+  },
   {
    "version": "rg1b",
    "title": "Far-off clans and feuds; news from afar",

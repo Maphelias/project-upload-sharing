@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [oc1h](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1h) | Crying your wares | 2026-11-26 |
 | [oc1g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1g) | Craft guilds | 2026-11-26 |
 | [oc1f](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1f) | More trades, market days, body age | 2026-11-26 |
 | [oc1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1e) | A shop of your own, a family's wages | 2026-11-26 |

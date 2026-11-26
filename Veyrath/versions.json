@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1g",
+ "latest": "oc1h",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1h",
+   "title": "Crying your wares",
+   "date": "2026-11-26",
+   "notes": "Take what you have baked or sewn out into the streets and cry your wares: passers-by stop you to buy, more in a big town and on market day. And bakers can now make meat pies, apple tarts, honey cakes and fruit buns, which only shops and street sellers sell.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1h",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1h/Veyrath-oc1h-windows.zip",
+     "size": 75752267,
+     "sha256": "a428503b27f3dc4c24603e5764f3929973d25e73eb32c1b7759a5a743957911a",
+     "unpacked": 197637383
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1h/Veyrath-oc1h-linux.zip",
+     "size": 65406990,
+     "sha256": "6416d508f14e2287dfe45f8ea36040f202409f5782f0e218b53aea3b8ca0f259",
+     "unpacked": 161893015
+    }
+   }
+  },
   {
    "version": "oc1g",
    "title": "Craft guilds",

@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [rg1g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1g) | Wars that end | 2026-11-26 |
 | [rg1f](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1f) | Far-off bands raid in step | 2026-11-26 |
 | [rg1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1e) | Far-off clans in step | 2026-11-26 |
 | [rg1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1d) | Mercenaries in proportion; smoother travels | 2026-11-26 |

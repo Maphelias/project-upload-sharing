@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ws1c",
+ "latest": "ws1d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ws1d",
+   "title": "Scrolls teach a spell",
+   "date": "2026-11-26",
+   "notes": "A scroll now teaches one particular spell or technique, the one written in it: read it and you know it, as long as its school is already open to you and you don't know the spell yet; otherwise nothing happens and you keep the scroll. Scrolls no longer give school points: those come from using a school's spells and abilities. Scribes copy scrolls of all sorts of spells, and any old school scroll you had now teaches the next spell of its school you don't know. The scroll of tongues is now a talisman.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ws1d",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ws1d/Veyrath-ws1d-windows.zip",
+     "size": 75802583,
+     "sha256": "0bd9b27b6f4c3190859302d96f5b5837976de17fda981f6646a9dd11b05e88d5",
+     "unpacked": 197784202
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ws1d/Veyrath-ws1d-linux.zip",
+     "size": 65457306,
+     "sha256": "5ead87b81d17a9ab72f507f48500a8f27246aebee004dbe5c8ef1a4da4facb98",
+     "unpacked": 162039834
+    }
+   }
+  },
   {
    "version": "ws1c",
    "title": "Scrolls and talismans, set right",

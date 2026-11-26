@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "rg1a",
+ "latest": "rg1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "rg1b",
+   "title": "Far-off clans and feuds; news from afar",
+   "date": "2026-11-26",
+   "notes": "Far from you, the free folk's clans and feuds now move at a slower pace, the farther the slower, while still growing into tribes and realms and fighting their wars. What happens far away now reaches you as a summary each season, by direction ('Word from the far north: three villages founded, two bands split...'), while the big turns, such as a new realm, a war or a massacre, are told at once. Villages founded far away join the nearest clan of their own tongue. This also fixes a crash when a distant band whose named members had all died tried to join a settlement.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-rg1b/Veyrath-rg1b-windows.zip",
+     "size": 75704864,
+     "sha256": "f5aca4d7934ed8bf90ec6abca2d4ba64f614543a4e5505ef8118852383e398e5",
+     "unpacked": 197491185
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-rg1b/Veyrath-rg1b-linux.zip",
+     "size": 65359587,
+     "sha256": "aee5319c4772ac6f0e1649ebbc8218676cf05e3c388b3b408f9f41430ca67a82",
+     "unpacked": 161746817
+    }
+   }
+  },
   {
    "version": "rg1a",
    "title": "Rings of detail: the world far away as numbers",

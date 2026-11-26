@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ws1a",
+ "latest": "ws1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ws1b",
+   "title": "Writing your own scrolls",
+   "date": "2026-11-26",
+   "notes": "Write your own scrolls and paper talismans from the spellbook: any spell or technique you know, poured into the page at its usual cost. A scroll needs vellum, parchment or paper and ink; a talisman paper and cinnabar. Your skill and the material decide how good it comes out, and the scribes' stall now sells the paper, ink and cinnabar.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ws1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ws1b/Veyrath-ws1b-windows.zip",
+     "size": 75801909,
+     "sha256": "b7beef46d6c455ded351737d4dead0d1bd69c1cd471c7094d8ed4027fdc0d20e",
+     "unpacked": 197786592
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ws1b/Veyrath-ws1b-linux.zip",
+     "size": 65456632,
+     "sha256": "0f8f282ed1195dd590ac0be03675c9983744bbbabb255137733b01ecfbf5cf84",
+     "unpacked": 162042224
+    }
+   }
+  },
   {
    "version": "ws1a",
    "title": "Scrolls and paper talismans",

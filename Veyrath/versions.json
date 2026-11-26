@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1z",
+ "latest": "oc2a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc2a",
+   "title": "A wedding feast",
+   "date": "2026-11-26",
+   "notes": "Betrothed? You can now hold the wedding with a feast for the whole town: long tables, a roast, a fiddler, and half the town dancing. It costs more in a bigger place, and the town thinks the better of you for it.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc2a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc2a/Veyrath-oc2a-windows.zip",
+     "size": 75792290,
+     "sha256": "01fe2571d2c64d6f9753ae2109cb6de91e67e32c7a5bf265f2e9a9af287b785c",
+     "unpacked": 197761453
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc2a/Veyrath-oc2a-linux.zip",
+     "size": 65447013,
+     "sha256": "a953fc816708b75bdfce55a618a4f2d7185c2e2ab071b10226f921c36770a610",
+     "unpacked": 162017085
+    }
+   }
+  },
   {
    "version": "oc1z",
    "title": "Another guild's turf",

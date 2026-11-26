@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1o",
+ "latest": "oc1p",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1p",
+   "title": "The thieves' guild",
+   "date": "2026-11-26",
+   "notes": "Pick pockets in the crowds of towns and cities, at the risk of a hand on your wrist and the watch's fines. Where the outlaws keep a thieves' guild, seek it out and join: its lookouts watch your back, it takes its cut, it has jobs for you by night, and you can rise from cutpurse to master thief.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1p",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1p/Veyrath-oc1p-windows.zip",
+     "size": 75779436,
+     "sha256": "33c543ba17bb9abfe30f3a4110c98447723a4bdd6615cd1c43f47a06279848c7",
+     "unpacked": 197718754
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1p/Veyrath-oc1p-linux.zip",
+     "size": 65434159,
+     "sha256": "f435dda34911ccd80eaed764896cef43a6b1fe6d30c2e3b9425023a6a29497d4",
+     "unpacked": 161974386
+    }
+   }
+  },
   {
    "version": "oc1o",
    "title": "Your own field",

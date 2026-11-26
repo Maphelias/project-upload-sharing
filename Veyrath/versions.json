@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc2b",
+ "latest": "oc2c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc2c",
+   "title": "Broken bones",
+   "date": "2026-11-26",
+   "notes": "Playing with lasting injuries, a lost fight can now break an arm, crack your ribs or twist a knee as well as leave a deep wound, and they take weeks to heal on their own. A healer at the healer's house or the temple can set them so they mend in a couple of days.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc2c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc2c/Veyrath-oc2c-windows.zip",
+     "size": 75795077,
+     "sha256": "6fb18d908f78d6643b9665205d5d5b52cab5e599aa542b85835cb7bb2c99a8ed",
+     "unpacked": 197769843
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc2c/Veyrath-oc2c-linux.zip",
+     "size": 65449800,
+     "sha256": "fd58ac1ddc67ecea6fe940a7912cbc3fd1c8eaebc117cc0b188df38dc4ecde3f",
+     "unpacked": 162025475
+    }
+   }
+  },
   {
    "version": "oc2b",
    "title": "Sickness at home",

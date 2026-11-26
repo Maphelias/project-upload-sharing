@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1h",
+ "latest": "oc1i",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1i",
+   "title": "Orders",
+   "date": "2026-11-26",
+   "notes": "Ask townsfolk if they need anything made: a guard wants a blade, a noble a fine gown, an innkeeper chairs, a farmer tools. Make it well enough and bring it within the days they give, and they pay well above its worth and think better of you; let it lapse and they remember that too.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1i",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1i/Veyrath-oc1i-windows.zip",
+     "size": 75758782,
+     "sha256": "b749f064d55c37396098b07769dea2ebae20f337e79577cc448a6eb8f86efdc0",
+     "unpacked": 197653721
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1i/Veyrath-oc1i-linux.zip",
+     "size": 65413505,
+     "sha256": "32298c0aae5095a94feae301340c65c914b3d1775d98f6f246ddddd76799bdc2",
+     "unpacked": 161909353
+    }
+   }
+  },
   {
    "version": "oc1h",
    "title": "Crying your wares",

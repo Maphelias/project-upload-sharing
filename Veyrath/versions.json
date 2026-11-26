@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1t",
+ "latest": "oc1u",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1u",
+   "title": "Patrons, acolytes and the watch",
+   "date": "2026-11-26",
+   "notes": "Nobles now keep a musician: a good enough bard can win a patron and rise to court bard. Priests take acolytes, who can rise to priest of the temple; watch captains hire watchmen; and stewards take on clerks. Ask them, or answer their openings on the work board.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1u",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1u/Veyrath-oc1u-windows.zip",
+     "size": 75784068,
+     "sha256": "2d82ccde6e6be81b41193a690e553f1a9cb7f8551436f7c5fb9304c5714b726f",
+     "unpacked": 197735992
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1u/Veyrath-oc1u-linux.zip",
+     "size": 65438791,
+     "sha256": "c46a897c90e8ef2abde9bd4d6526c1eff2bbf93737f302c5d22d929a6ddea367",
+     "unpacked": 161991624
+    }
+   }
+  },
   {
    "version": "oc1t",
    "title": "The healer's house and the school",

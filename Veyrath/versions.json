@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1k",
+ "latest": "oc1l",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1l",
+   "title": "Hunting and fishing",
+   "date": "2026-11-26",
+   "notes": "Out in the open land you can now go hunting, and fish wherever there is water. What you catch depends on what lives there and how much game the land still holds, and on your hunting skill; hunt a place out and it takes a while for the game to come back.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1l",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1l/Veyrath-oc1l-windows.zip",
+     "size": 75766540,
+     "sha256": "970f7a25cc2b2aed58d6d047f9d119a86acf972b44a33c7bf27ece1675408af1",
+     "unpacked": 197679250
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1l/Veyrath-oc1l-linux.zip",
+     "size": 65421263,
+     "sha256": "ffd1397f1b89b6881a013b119dd2f51a4d3bcc3462f67b1d2a8694d3a59c31ec",
+     "unpacked": 161934882
+    }
+   }
+  },
   {
    "version": "oc1k",
    "title": "Openings on the work board",

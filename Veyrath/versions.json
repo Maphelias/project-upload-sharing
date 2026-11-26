@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc1v",
+ "latest": "oc1w",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc1w",
+   "title": "Falling ill",
+   "date": "2026-11-26",
+   "notes": "You can now fall ill now and then: a fever, a bad cough or the flux, more often in crowded towns and cities, when you're worn out, or after tending the sick, and less if you're hardy. They pass in a few days, or a healer at the healer's house or the temple can break them for a few coins; a tincture eases a cough, and theriac cures them all.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1w",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1w/Veyrath-oc1w-windows.zip",
+     "size": 75786653,
+     "sha256": "ef726a10bbc252a286a21f4e0d3c21544ebd744d3664a9b1b349256ca82caf77",
+     "unpacked": 197746030
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc1w/Veyrath-oc1w-linux.zip",
+     "size": 65441376,
+     "sha256": "83aaf6078418ec0cfbee9c295b5475c8465660036dac0895b2cdf36698d86ff9",
+     "unpacked": 162001662
+    }
+   }
+  },
   {
    "version": "oc1v",
    "title": "Stolen goods and the fence",

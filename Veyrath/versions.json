@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "rg1e",
+ "latest": "rg1f",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "rg1f",
+   "title": "Far-off bands raid in step",
+   "date": "2026-11-26",
+   "notes": "Hungry bands of the free folk far from you now raid their neighbours as often as those close by. With this, the world far away and the world near you now grow alike: over fifty years and three different worlds, their people, settlements, realms, fights, births and deaths all came out within a few percent of each other.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rg1f",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-rg1f/Veyrath-rg1f-windows.zip",
+     "size": 75709802,
+     "sha256": "103ae4641e422b019d0b226fe4dbde003b74eeb3922b71e3820248ebdb0d8237",
+     "unpacked": 197498042
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-rg1f/Veyrath-rg1f-linux.zip",
+     "size": 65364525,
+     "sha256": "7c7d1ca77b130b25f68b26153e79a992b1da43bf4054737c048ef5206444199e",
+     "unpacked": 161753674
+    }
+   }
+  },
   {
    "version": "rg1e",
    "title": "Far-off clans in step",

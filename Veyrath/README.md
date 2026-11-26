@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [oc1t](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1t) | The healer's house and the school | 2026-11-26 |
 | [oc1s](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1s) | A quieter town square | 2026-11-26 |
 | [oc1r](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1r) | Magic for hire, scholars | 2026-11-26 |
 | [oc1q](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc1q) | The sick and the square | 2026-11-26 |

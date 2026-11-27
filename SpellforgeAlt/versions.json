@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.13",
+        "released":  "2026-11-27",
+        "notes":  "Spell altar with Spells, Stats and Roots tabs (stats and roots moved from the character window); the altar is bigger and stands next to the training grounds. Elements go into slots in the designer (drag and drop or a dropdown); only unlocked intertwined elements are listed. Intertwining is a discovery: what two roots make shows only after you have made it once. Fixes: designer ID error on tier 2/3, long element combos wrap, gear window in columns.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.13"
+    },
+    {
         "version":  "0.1.12",
         "released":  "2026-11-27",
         "notes":  "Raids: the host picks element, tier and modifiers at the lobby terminal; each tier is its own boss (Earth: the Cairn Sentinel, the Hollow Warden, the Bedrock Tyrant), and beating one opens the next. Branching maps with side rooms and caches, bigger rooms, maps that grow with difficulty. Note: everyone starts at Earth I. Everyone in a lobby needs this version.",

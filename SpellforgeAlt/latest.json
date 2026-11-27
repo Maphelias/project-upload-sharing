@@ -1,25 +1,25 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.12",
+    "version":  "0.1.13",
     "released":  "2026-11-27",
-    "notes":  "Raids: the host picks element, tier and modifiers at the lobby terminal; each tier is its own boss (Earth: the Cairn Sentinel, the Hollow Warden, the Bedrock Tyrant), and beating one opens the next. Branching maps with side rooms and caches, bigger rooms, maps that grow with difficulty. Note: everyone starts at Earth I. Everyone in a lobby needs this version.",
+    "notes":  "Spell altar with Spells, Stats and Roots tabs (stats and roots moved from the character window); the altar is bigger and stands next to the training grounds. Elements go into slots in the designer (drag and drop or a dropdown); only unlocked intertwined elements are listed. Intertwining is a discovery: what two roots make shows only after you have made it once. Fixes: designer ID error on tier 2/3, long element combos wrap, gear window in columns.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.12/SpellforgeAlt.exe",
-                                                "size":  3977728,
-                                                "sha256":  "f5dbabd25a60574bcf55442f9ae25edfe6ed2773b79d00cb9d8acb031193c4c2"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.13/SpellforgeAlt.exe",
+                                                "size":  3985920,
+                                                "sha256":  "14ea961e6f7f9b562ee6844879c99847fc2ce8e0962ee215a12d3d220d1d8270"
                                             },
                                     "readme":  {
-                                                   "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.12/README.txt",
-                                                   "size":  4174,
-                                                   "sha256":  "041e25be22ccefe1447e708d05242b08a9daa58af20b9935df311851ef0e05a6"
+                                                   "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.13/README.txt",
+                                                   "size":  4368,
+                                                   "sha256":  "510b43dcb13fb4b995bc3a42c8d08741bf7e80216d065476b0ab0b1e3f17a621"
                                                },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.12/SpellforgeAlt-0.1.12-Win64.zip",
-                                                "size":  1794342,
-                                                "sha256":  "f142d0a3c3713901bdecfa81eb9210897f757436ffbaac9144331ff1e50a1dd6"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.13/SpellforgeAlt-0.1.13-Win64.zip",
+                                                "size":  1798091,
+                                                "sha256":  "52b9867c71e228299507db249b828250565d8fd8c54d6011edfe092a3d2cf482"
                                             }
                                 }
                   }

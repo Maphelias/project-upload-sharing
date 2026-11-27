@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ra1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ra1a) | Every realm has an army | 2026-11-27 |
 | [dg1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-dg1b) | Faster new dungeons | 2026-11-27 |
 | [mn1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-mn1a) | Deposits on the Minerals map | 2026-11-27 |
 | [dg1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-dg1a) | Dungeons in a full world | 2026-11-27 |

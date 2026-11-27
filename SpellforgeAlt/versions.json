@@ -1,5 +1,11 @@
 [
     {
+        "version":  "0.1.11",
+        "released":  "2026-11-27",
+        "notes":  "New hub with a walled training grounds wing. Spell book (B): your bar and every spell, drag and drop. Edit, copy and remove spells in the designer; deleting or making a spell cheaper gives back 60 % of its essence. Runs end straight in the hub with your own results window. Chat fades. One Save button in the character window. Everyone in a lobby needs this version.",
+        "release":  "https://github.com/Maphelias/project-upload-sharing/releases/tag/SpellforgeAlt-0.1.11"
+    },
+    {
         "version":  "0.1.10",
         "released":  "2026-11-24",
         "notes":  "No more shaking while walking: your character now moves smoothly at any frame rate.",

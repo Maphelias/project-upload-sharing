@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "oc2d",
+ "latest": "cm1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "cm1a",
+   "title": "Chimes",
+   "date": "2026-11-27",
+   "notes": "Money has a name now: chimes. Every price, wage, fee and treasury is ten times what it was, so there are no fractions left (a loaf is 20 chimes, not half a coin), and your saves are converted when you load them, purse and all. Fees that came up in more than one place are kept in one price table, so a meal or a bed at an inn costs the same everywhere.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cm1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cm1a/Veyrath-cm1a-windows.zip",
+     "size": 75810383,
+     "sha256": "44146041c1b3c9c370190e28f6f18d41822ed832b0406df9b4936288a4a923d2",
+     "unpacked": 197802831
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cm1a/Veyrath-cm1a-linux.zip",
+     "size": 65465106,
+     "sha256": "1f6dbf16ad8e35e9b54eb758e73a7326c5a8846458239ffe08b23ad5579e45f9",
+     "unpacked": 162058463
+    }
+   }
+  },
   {
    "version": "oc2d",
    "title": "Every trade in the economy",

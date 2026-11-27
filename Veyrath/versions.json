@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "dg1a",
+ "latest": "mn1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "mn1a",
+   "title": "Deposits on the Minerals map",
+   "date": "2026-11-27",
+   "notes": "Settlements founded after the world was made now know the deposits around them, as the first towns always did, so the Minerals map shows them (in a world begun with only free folk it showed nothing). Zoomed out on a large world the map shows deposits too, and the observer's runs show every deposit, known or not.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-mn1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-mn1a/Veyrath-mn1a-windows.zip",
+     "size": 75811480,
+     "sha256": "96519a71a8d800deb522ea107eb4545bebf804a1e220c251004a9354746b8efc",
+     "unpacked": 197807341
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-mn1a/Veyrath-mn1a-linux.zip",
+     "size": 65466203,
+     "sha256": "d1f0a55d76fb0993dad10199165a8f8f0e5be897d946d99ad3544fdbdadd5bec",
+     "unpacked": 162062973
+    }
+   }
+  },
   {
    "version": "dg1a",
    "title": "Dungeons in a full world",

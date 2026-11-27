@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ul1a",
+ "latest": "op1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "op1a",
+   "title": "New game in two steps",
+   "date": "2026-11-27",
+   "notes": "Character creation is one step now, its sections as buttons to switch between; Next walks them, then shows the new game's content options to fine-tune before Create the world. Content options are reordered: a new Content page first (ways of life, bodies, hair, skin colours), then Species, then World. With adult content off, adult options are hidden, but not hair and other non-adult ones. Extended creation is gone: its options come from your profile (all open for now).",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-op1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-op1a/Veyrath-op1a-windows.zip",
+     "size": 75847676,
+     "sha256": "f4fc23c0b6801baab2f400ad90de918a798db68482c2989109cccb16ac7df962",
+     "unpacked": 197907824
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-op1a/Veyrath-op1a-linux.zip",
+     "size": 65502399,
+     "sha256": "e593968daf62e49e21e4f474ee978e7ca43ca062d7ac1dd6f026bca0d2f8f58d",
+     "unpacked": 162163456
+    }
+   }
+  },
   {
    "version": "ul1a",
    "title": "Profile for achievements",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "fh1a",
+ "latest": "ag1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ag1a",
+   "title": "Conquest, world age, schools, daily life",
+   "date": "2026-11-27",
+   "notes": "Four parts in one. Realms that conquer: ambitious rulers go for conquest, a realm that grows too big and too fast has its neighbours rise against it together, and a realm with nowhere left to expand builds up its towns, then looks for land by treaty or war; realms born later now meet the realms around them. World age: a new option beside the size, from fresh (only free folk, no ruins) to ancient (more anima, more and deeper dungeons, more ruins, five years of history before you arrive). Schools and universities: pick your schooling at creation, enrol later at a town's school, high school or university, and work that asks for it opens; three years in a realm's army count too. Daily life: small talk, shops that keep hours, a gentle tiredness that sleep clears, two meals a day and a night's sleep keep you Fed and rested, the town's weather and season and nights, things that happen in your work shifts, evenings with your family, walking the streets at night.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ag1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ag1a/Veyrath-ag1a-windows.zip",
+     "size": 75841949,
+     "sha256": "b1df5e79560642cd01996e42e580476abd05fe0ee0a775f95a7b84731b619ed2",
+     "unpacked": 197895776
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ag1a/Veyrath-ag1a-linux.zip",
+     "size": 65496672,
+     "sha256": "3fee355cf5bc47cedd7c74e9784934293fa07ff6217a3333a3181f95f1c2d3ed",
+     "unpacked": 162151408
+    }
+   }
+  },
   {
    "version": "fh1a",
    "title": "Hamlets grow into villages",

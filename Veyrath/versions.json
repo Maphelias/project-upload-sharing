@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ag1a",
+ "latest": "tc1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "tc1a",
+   "title": "Faster years in a growing world",
+   "date": "2026-11-27",
+   "notes": "A speed-up: with hamlets growing into villages and towns, years had grown slow, because every town's merchant history was worked out again from the world's start whenever a settlement grew or any place came or went. Now only the merchants near a change rethink their routes, and only from this year on. In a 10k world the slowest year went from 28 seconds to 7, and the nearby towns' yearly business is spread over the month instead of one day.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tc1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tc1a/Veyrath-tc1a-windows.zip",
+     "size": 75844013,
+     "sha256": "8166c957befd200ac5b4469da0f78516d61af8fce0518e3c2fec7ec8cc850187",
+     "unpacked": 197898848
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tc1a/Veyrath-tc1a-linux.zip",
+     "size": 65498736,
+     "sha256": "de11ddb42f11a0f5b2c97338bb0dff88a4fbe76475d91c30cebac4edb78a2cde",
+     "unpacked": 162154480
+    }
+   }
+  },
   {
    "version": "ag1a",
    "title": "Conquest, world age, schools, daily life",

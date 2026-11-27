@@ -1,25 +1,25 @@
 {
     "format":  1,
     "project":  "SpellforgeAlt",
-    "version":  "0.1.10",
-    "released":  "2026-11-24",
-    "notes":  "No more shaking while walking: your character now moves smoothly at any frame rate.",
+    "version":  "0.1.11",
+    "released":  "2026-11-27",
+    "notes":  "New hub with a walled training grounds wing. Spell book (B): your bar and every spell, drag and drop. Edit, copy and remove spells in the designer; deleting or making a spell cheaper gives back 60 % of its essence. Runs end straight in the hub with your own results window. Chat fades. One Save button in the character window. Everyone in a lobby needs this version.",
     "platforms":  {
                       "Win64":  {
                                     "exe":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.10/SpellforgeAlt.exe",
-                                                "size":  3875328,
-                                                "sha256":  "26038451648102769d5b06a4c07f20311acb14f9ca9366a179d430800237cf59"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.11/SpellforgeAlt.exe",
+                                                "size":  3929088,
+                                                "sha256":  "375430a5a8be60d497dbcdecef26751c4df56e443f11c0ed45b3c77c82625be0"
                                             },
                                     "readme":  {
-                                                   "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.10/README.txt",
-                                                   "size":  3542,
-                                                   "sha256":  "4c12883d28ff093d31c45d9cac9257110e4dcc03e888b87af6a5c433075d3edf"
+                                                   "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.11/README.txt",
+                                                   "size":  3792,
+                                                   "sha256":  "c1250a123dd27d891a405398426d61eea6d8763a7c54e3772552a25044661bbd"
                                                },
                                     "zip":  {
-                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.10/SpellforgeAlt-0.1.10-Win64.zip",
-                                                "size":  1742495,
-                                                "sha256":  "7fb1c3635feed9f3aa3d7da31b31a671cbbf5417b7101b932f911778ff0e345f"
+                                                "url":  "https://github.com/Maphelias/project-upload-sharing/releases/download/SpellforgeAlt-0.1.11/SpellforgeAlt-0.1.11-Win64.zip",
+                                                "size":  1770250,
+                                                "sha256":  "0db457f838fdc7fffe7e1bd090ec536c4deaa695af900bab9fcd9c9909814934"
                                             }
                                 }
                   }

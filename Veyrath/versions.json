@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "op1b",
+ "latest": "op1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "op1c",
+   "title": "Option texts",
+   "date": "2026-11-27",
+   "notes": "World options explain the option you chose, with its numbers, instead of listing every option (world size, age, population, climate, dungeons, kind of world and more). Content options now go Content, Species, World, then the adult pages; the Content page goes Ways of life, Bodies (skin colours first), Hair. Each page says what it is about. Ticked boxes no longer vanish under the mouse. Gem incubation no longer mentions an old milestone and is told apart from the cradle keeper.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-op1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-op1c/Veyrath-op1c-windows.zip",
+     "size": 75850208,
+     "sha256": "6edf6419efb1d001054005a06431ec80674d288b8597a221d54f10ccf5945c20",
+     "unpacked": 197914038
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-op1c/Veyrath-op1c-linux.zip",
+     "size": 65504928,
+     "sha256": "2dfb55ed88e5b6c6547eaa641e12f35470dc93015e8355d2a89f6e34498ae43f",
+     "unpacked": 162169670
+    }
+   }
+  },
   {
    "version": "op1b",
    "title": "Scrolling fixes",

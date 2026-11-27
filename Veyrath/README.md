@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [fx1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1d) | Talking, and difficulty | 2026-11-27 |
 | [fx1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1c) | Building your home | 2026-11-27 |
 | [fx1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1b) | Saves, map and doors | 2026-11-27 |
 | [fx1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1a) | Fixes from hand testing | 2026-11-27 |

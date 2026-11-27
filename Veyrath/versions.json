@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ra1a",
+ "latest": "fh1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "fh1a",
+   "title": "Hamlets grow into villages",
+   "date": "2026-11-27",
+   "notes": "Families in steadings and hamlets now build their own homes, a few a year while they are short of room, instead of the settlement paying for every house. Before, a hamlet spent all it earned on houses it never caught up with, so it never built the shrine a village needs; crowded, its people left to found yet more steadings. Now hamlets grow into villages.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fh1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fh1a/Veyrath-fh1a-windows.zip",
+     "size": 75813810,
+     "sha256": "968628c54da6a46982582841d0795f7ae38aaffc9113265e714e4af9748289a6",
+     "unpacked": 197815421
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fh1a/Veyrath-fh1a-linux.zip",
+     "size": 65468533,
+     "sha256": "fa3e649314eefb7bbd0b0024c327c62211c3df68e22b634911975e45fbd08bdd",
+     "unpacked": 162071053
+    }
+   }
+  },
   {
    "version": "ra1a",
    "title": "Every realm has an army",

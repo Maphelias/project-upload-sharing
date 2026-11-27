@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [fx1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1b) | Saves, map and doors | 2026-11-27 |
 | [fx1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1a) | Fixes from hand testing | 2026-11-27 |
 | [ac1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1b) | Records page fix | 2026-11-27 |
 | [ac1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1a) | Achievements and unlocks | 2026-11-27 |

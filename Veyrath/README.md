@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ul1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ul1a) | Profile for achievements | 2026-11-27 |
 | [tc1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tc1a) | Faster years in a growing world | 2026-11-27 |
 | [ag1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ag1a) | Conquest, world age, schools, daily life | 2026-11-27 |
 | [fh1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fh1a) | Hamlets grow into villages | 2026-11-27 |

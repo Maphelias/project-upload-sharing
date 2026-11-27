@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ac1b",
+ "latest": "fx1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "fx1a",
+   "title": "Fixes from hand testing",
+   "date": "2026-11-27",
+   "notes": "Lust is listed below stamina. Creation's Back asks before leaving for the main menu. People with common jobs are \"a mercenary\", not \"the mercenary here\". Action tooltips set the name apart and give the time in words. Options: metric and imperial listed apart, a live sample for the scene text size, the interface size follows the slider live without un-maximizing the window, and leaving fullscreen goes back to a maximized window.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx1a/Veyrath-fx1a-windows.zip",
+     "size": 75874080,
+     "sha256": "e1e9f1fa9134f4321ea5a6d7beb0e2109d50c3bd500f5954836ee5132a78428a",
+     "unpacked": 197988394
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx1a/Veyrath-fx1a-linux.zip",
+     "size": 65528799,
+     "sha256": "074f39ee2f2c826512dfe188a1447bd2b0573acc87d5d53f6b0f7d3fd60da64e",
+     "unpacked": 162244026
+    }
+   }
+  },
   {
    "version": "ac1b",
    "title": "Records page fix",

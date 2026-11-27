@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "mn1a",
+ "latest": "dg1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "dg1b",
+   "title": "Faster new dungeons",
+   "date": "2026-11-27",
+   "notes": "A speed-up: when a dungeon opens, the free places for it found by the last search are used for a month instead of searching the whole map again each time. In worlds where adventurers clear dungeons often this took most of a second a year; now about a tenth of that.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-dg1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-dg1b/Veyrath-dg1b-windows.zip",
+     "size": 75811804,
+     "sha256": "da0817346e8cf439a8dde704836a1c6bfb69c6a9522e538912e2ec303e77d5d0",
+     "unpacked": 197808365
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-dg1b/Veyrath-dg1b-linux.zip",
+     "size": 65466527,
+     "sha256": "5546b59bef62f88fa169ddd6a9a3c87e5a5fd02839e399c43b77b26e978eef97",
+     "unpacked": 162063997
+    }
+   }
+  },
   {
    "version": "mn1a",
    "title": "Deposits on the Minerals map",

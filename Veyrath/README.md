@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [bc1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-bc1a) | Fair battles | 2026-11-27 |
 | [rb1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-rb1a) | Regard on borders | 2026-11-27 |
 | [cm1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cm1a) | Chimes | 2026-11-27 |
 | [oc2d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc2d) | Every trade in the economy | 2026-11-27 |

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "fx1d",
+ "latest": "fx1e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "fx1e",
+   "title": "In at the door",
+   "date": "2026-11-27",
+   "notes": "Going into a building puts you at its entrance instead of somewhere inside, with the place's own scene as before.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1e",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx1e/Veyrath-fx1e-windows.zip",
+     "size": 75877882,
+     "sha256": "d6763f24c9956b6c2feddf65377a77cbc06617a93375077147b2f2e15acde2eb",
+     "unpacked": 198000776
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx1e/Veyrath-fx1e-linux.zip",
+     "size": 65532601,
+     "sha256": "afe5bda0abf70ff5930484d55da022684941f86e5e3d43ddc03c059de3e2159c",
+     "unpacked": 162256408
+    }
+   }
+  },
   {
    "version": "fx1d",
    "title": "Talking, and difficulty",

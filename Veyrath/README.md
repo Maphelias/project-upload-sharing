@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [op1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-op1d) | Where colours show | 2026-11-27 |
 | [op1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-op1c) | Option texts | 2026-11-27 |
 | [op1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-op1b) | Scrolling fixes | 2026-11-27 |
 | [op1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-op1a) | New game in two steps | 2026-11-27 |

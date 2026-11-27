@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ws1d",
+ "latest": "oc2d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "oc2d",
+   "title": "Every trade in the economy",
+   "date": "2026-11-27",
+   "notes": "The town's trades now make their own goods for the market: tailors the clothes, cobblers the boots and shoes, carpenters the furniture, coopers the barrels, chandlers the candles and soap, butchers the meat, healers the salves and bandages, masons the bricks and mortar, and scribes paper talismans and scrolls, each with a spell of its own. Prices follow who lives where: clothes are cheap in a town of tailors. Ask a tradesperson about their work to hear how many hands they keep and whether they have an apprentice, whom you can meet; and if your employer dies, their apprentice may carry on and keep you on.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-oc2d",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc2d/Veyrath-oc2d-windows.zip",
+     "size": 75807628,
+     "sha256": "8a3542ae99429a97edaa91d70eeecd0e7763083041003a9922b32187e1501baa",
+     "unpacked": 197797439
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-oc2d/Veyrath-oc2d-linux.zip",
+     "size": 65462351,
+     "sha256": "0d195d543b7fdb46f16838c305b6a94646e24f039fa64283691b66d8abd0de62",
+     "unpacked": 162053071
+    }
+   }
+  },
   {
    "version": "ws1d",
    "title": "Scrolls teach a spell",

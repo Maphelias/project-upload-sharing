@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "wd1a",
+ "latest": "mv1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "mv1a",
+   "title": "Map overview, WASD",
+   "date": "2026-11-28",
+   "notes": "M opens a map overview of where you are: click a tile to see how long the walk is and how many dangerous tiles are on the way, then go; the places on the map (doors, ways out) are listed to go to straight away, and the world map is one press away. Out on the land M opens the world map. Walk with W, A, S and D (the arrow keys still work). The schools moved to B.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-mv1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-mv1a/Veyrath-mv1a-windows.zip",
+     "size": 75887356,
+     "sha256": "6e9771f8497b68a8fcf70e9e004df95b4c8dbab913e17cd6aa8be56bfbe8dec3",
+     "unpacked": 198041177
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-mv1a/Veyrath-mv1a-linux.zip",
+     "size": 65542079,
+     "sha256": "470f61b4a2c6fa302f9a125ec1c6d0d25735f7263855d7d60e5833f168597ffc",
+     "unpacked": 162296809
+    }
+   }
+  },
   {
    "version": "wd1a",
    "title": "Workshop districts",

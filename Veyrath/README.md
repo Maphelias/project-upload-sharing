@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [mv1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-mv1a) | Map overview, WASD | 2026-11-28 |
 | [wd1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-wd1a) | Workshop districts | 2026-11-28 |
 | [cb1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cb1a) | Category bars | 2026-11-28 |
 | [cs1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cs1a) | Crafting by discipline | 2026-11-28 |

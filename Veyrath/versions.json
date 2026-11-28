@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "cs1a",
+ "latest": "cb1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "cb1a",
+   "title": "Category bars",
+   "date": "2026-11-28",
+   "notes": "Screens with many actions get a row of category tabs above the choices (Shift + Q / Shift + E switch): talking with people (them, hiring and household, work and trade, magic; in the conversation: getting to know them, work, the place and news, intimate) and intimate encounters (with them, your own, positions, other actions). Other screens stay as they were.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cb1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cb1a/Veyrath-cb1a-windows.zip",
+     "size": 75883159,
+     "sha256": "cdfc1fb53f3c572b8f9aa1e4c557dc286636e623125bbefcb596f90f9d7640a0",
+     "unpacked": 198022394
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cb1a/Veyrath-cb1a-linux.zip",
+     "size": 65537878,
+     "sha256": "cde2157cfc65a2727f291d63e3718787bd1594293deff2b564ef7c5455cd5ace",
+     "unpacked": 162278026
+    }
+   }
+  },
   {
    "version": "cs1a",
    "title": "Crafting by discipline",

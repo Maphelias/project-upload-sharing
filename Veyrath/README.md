@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [cb1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cb1a) | Category bars | 2026-11-28 |
 | [cs1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cs1a) | Crafting by discipline | 2026-11-28 |
 | [ac1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1c) | More achievements count | 2026-11-28 |
 | [fx1g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1g) | Key labels written out | 2026-11-28 |

@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ac1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1c) | More achievements count | 2026-11-28 |
 | [fx1g](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1g) | Key labels written out | 2026-11-28 |
 | [fx1f](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1f) | Choice keys by row | 2026-11-28 |
 | [fx1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx1e) | In at the door | 2026-11-27 |

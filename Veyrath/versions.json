@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "fx1g",
+ "latest": "ac1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ac1c",
+   "title": "More achievements count",
+   "date": "2026-11-28",
+   "notes": "Nearly every achievement can now be earned: origins, governments lived under and led, ruling, wars won and ended, realms falling, peace you made, settlements founded and grown, dungeons, crafting masterworks and draughts, performances, herds, cradle gems, children, every trait deed, schooling finished in play, the species met, the lands walked, and your records. Schooling picked at creation no longer counts, nor does a rented room as a house.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ac1c/Veyrath-ac1c-windows.zip",
+     "size": 75879318,
+     "sha256": "90901d0bfa865ba71e702f18a5f0c102edf3b6dd8aadf212d4d2cde3b3442442",
+     "unpacked": 198011024
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ac1c/Veyrath-ac1c-linux.zip",
+     "size": 65534037,
+     "sha256": "25bdc36f596fdc6ae1e5c1029857478eb02847985cb1db2e3f3aaf68d34e1e5d",
+     "unpacked": 162266656
+    }
+   }
+  },
   {
    "version": "fx1g",
    "title": "Key labels written out",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "cb1a",
+ "latest": "wd1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "wd1a",
+   "title": "Workshop districts",
+   "date": "2026-11-28",
+   "notes": "Towns can build a workshop district: its builders make the town's other buildings cheaper, and it opens ten crafting buildings (carpenter's shop, cookhouse, tannery, pottery, weavery, press house, distillery, mill, dye works, gem cutter's), each with its own workstation. The universal bench in the district's hall reaches every workshop built in that town.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-wd1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-wd1a/Veyrath-wd1a-windows.zip",
+     "size": 75885023,
+     "sha256": "704afd27a68ffbaed6208900d105e2c00482c112b220c38b923393bdc6ba63fd",
+     "unpacked": 198033857
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-wd1a/Veyrath-wd1a-linux.zip",
+     "size": 65539742,
+     "sha256": "ce4ed7a716a7d78c0f21fcb0ea8c240940010db9e55ca979a47856a95cbf2acb",
+     "unpacked": 162289489
+    }
+   }
+  },
   {
    "version": "cb1a",
    "title": "Category bars",

@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "tl1b",
+ "latest": "tl1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "tl1c",
+   "title": "Towns grow by the block",
+   "date": "2026-11-28",
+   "notes": "A settlement now grows only by investing: when it has no free lot for what it wants to build, or its houses overflow, it spends its fund on a new block of streets and lots instead of a building (a block costs more the bigger the town). Until it has room, nothing new goes up on a lot, whether it pays or you do. On a settlement's screen you can see its area and free lots, and pay for a new block yourself: its choice of side, or north, east, south or west.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1c/Veyrath-tl1c-windows.zip",
+     "size": 75913909,
+     "sha256": "6786307fc223d5cb11ee245f8af839088d8e9d1bcb0bb03e995b1649c88f86e4",
+     "unpacked": 198099901
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1c/Veyrath-tl1c-linux.zip",
+     "size": 65568632,
+     "sha256": "65fa7b2f651b3f91e1f7d3360161aa01ddd4e64556e6e2130f120a0bc097a07d",
+     "unpacked": 162355533
+    }
+   }
+  },
   {
    "version": "tl1b",
    "title": "Town walls and gates",

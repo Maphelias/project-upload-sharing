@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ky1a",
+ "latest": "tl1e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "tl1e",
+   "title": "Forts laid out like forts",
+   "date": "2026-11-28",
+   "notes": "Outposts, forts and castles are no longer small fixed maps: they are laid out like towns, walled from the start (a palisade, or a castle's stone walls) with a gate on the road, a parade ground in the middle, barracks on the lots, the keep and armoury by the parade ground, stores and stables at the edge. They grow by the block like towns, paid from their realm's purse.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1e",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1e/Veyrath-tl1e-windows.zip",
+     "size": 75918257,
+     "sha256": "2ddffd62cf6e23fddd3c41d6e57244011fd72a8dc4fc161eeae3359062e6ce34",
+     "unpacked": 198114222
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1e/Veyrath-tl1e-linux.zip",
+     "size": 65572976,
+     "sha256": "83f1de3327be9e4ec5c23f063d3d28ace02fd547cdd24e979e03783691f665f3",
+     "unpacked": 162369854
+    }
+   }
+  },
   {
    "version": "ky1a",
    "title": "Keys and keyholes",

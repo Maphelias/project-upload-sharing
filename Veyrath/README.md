@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [tl1e](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1e) | Forts laid out like forts | 2026-11-28 |
 | [ky1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ky1a) | Keys and keyholes | 2026-11-28 |
 | [tl1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1d) | Capitals | 2026-11-28 |
 | [tl1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1c) | Towns grow by the block | 2026-11-28 |

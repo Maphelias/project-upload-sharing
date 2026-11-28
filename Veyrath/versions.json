@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "tl1a",
+ "latest": "tl1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "tl1b",
+   "title": "Town walls and gates",
+   "date": "2026-11-28",
+   "notes": "A town with a palisade or stone walls is ringed by them, all the way round, just outside its outer streets; the ring moves out with the town as it grows. Wherever a road goes through there is a gate (a gatehouse in stone walls), and a harbour gate onto a port's pier; the gates are the only way in and out. Watchtowers stand on the wall beside the gates.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1b/Veyrath-tl1b-windows.zip",
+     "size": 75911650,
+     "sha256": "b1f16e1d834874294610d17e1834bf11b9545aea4a5fe9fefb8f58e980784fc1",
+     "unpacked": 198094965
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1b/Veyrath-tl1b-linux.zip",
+     "size": 65566373,
+     "sha256": "2249bdd22cb9e086b5879ef1fbffd16114d9a48db8356d99af24d0238263dd8e",
+     "unpacked": 162350597
+    }
+   }
+  },
   {
    "version": "tl1a",
    "title": "Towns laid out like towns",

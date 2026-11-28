@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [tl1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1b) | Town walls and gates | 2026-11-28 |
 | [tl1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1a) | Towns laid out like towns | 2026-11-28 |
 | [ac1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1d) | When you got it | 2026-11-28 |
 | [mv1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-mv1c) | Walking the open land on the minimap | 2026-11-28 |

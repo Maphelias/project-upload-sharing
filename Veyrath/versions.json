@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "po1a",
+ "latest": "fx2a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "fx2a",
+   "title": "Hold to walk; back yards",
+   "date": "2026-11-28",
+   "notes": "Holding W, A, S or D (or an arrow key) in a place now takes a step at once and then, after a moment, keeps walking that way until you let go, or until a wall, a door or a way out stops you. The middles of town blocks are back yards now: private, behind the houses, and you can't walk into them. On the map (M), the way to walk is chosen at the top of the side panel: Walk (safest), around tiles with a risk of an attack where there is another way, or Walk (fastest).",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx2a/Veyrath-fx2a-windows.zip",
+     "size": 75918398,
+     "sha256": "6af5b86cd417ee5fb6038c0b5a30fa958660de6ce99e0de15d60f5ab59332e65",
+     "unpacked": 198114412
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx2a/Veyrath-fx2a-linux.zip",
+     "size": 65573117,
+     "sha256": "77116b334e4a41f43cef025459dd9f9330513ea9a731668bc6916e9f776e96f0",
+     "unpacked": 162370044
+    }
+   }
+  },
   {
    "version": "po1a",
    "title": "Port towns",

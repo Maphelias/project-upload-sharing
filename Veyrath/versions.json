@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "op1e",
+ "latest": "cl1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "cl1a",
+   "title": "Familiar calendar names",
+   "date": "2026-11-28",
+   "notes": "Options, Calendar: show familiar month and weekday names instead of Veyrath's (Monday, 14 March). The months keep their 30 days, and the names are shifted so the seasons fit: Frostwane is February, spring starts in March, and the year runs February to January.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cl1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cl1a/Veyrath-cl1a-windows.zip",
+     "size": 75890689,
+     "sha256": "5252c81f45f485bfb3284b2946f2fd6ff35ed0c61482f9a07550e60f557443c3",
+     "unpacked": 198054533
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cl1a/Veyrath-cl1a-linux.zip",
+     "size": 65545412,
+     "sha256": "0e9d2e9a16db9ba06f580dcf077a8e4fd8d78b820600c66adbe5306db8967c80",
+     "unpacked": 162310165
+    }
+   }
+  },
   {
    "version": "op1e",
    "title": "Save a new game's settings as defaults",

@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [ac1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1d) | When you got it | 2026-11-28 |
 | [mv1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-mv1c) | Walking the open land on the minimap | 2026-11-28 |
 | [cl1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cl1c) | The craft row's yard | 2026-11-28 |
 | [cl1b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cl1b) | Steady left column | 2026-11-28 |

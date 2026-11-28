@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "mv1c",
+ "latest": "ac1d",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "ac1d",
+   "title": "When you got it",
+   "date": "2026-11-28",
+   "notes": "Each achievement now shows the date and time it was earned and the version of the game it was earned in, and each record the date, time and version it was set in, so you can compare later when exactly you got what. Ones earned before this show their date only.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-ac1d",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ac1d/Veyrath-ac1d-windows.zip",
+     "size": 75892608,
+     "sha256": "a49708996fb0fef65bddc48175174128a5109db29c7c61faa6b17b0005c1cec9",
+     "unpacked": 198061172
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-ac1d/Veyrath-ac1d-linux.zip",
+     "size": 65547331,
+     "sha256": "73d7d26f1db3be2f51ffce9e2ec9d9af246f247f8f7c9bb4b9a49ab9d62b4aeb",
+     "unpacked": 162316804
+    }
+   }
+  },
   {
    "version": "mv1c",
    "title": "Walking the open land on the minimap",

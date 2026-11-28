@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "cl1a",
+ "latest": "cl1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "cl1b",
+   "title": "Steady left column",
+   "date": "2026-11-28",
+   "notes": "The place box at the top left keeps its size whether or not the spot you stand on has a name, so the column below no longer jumps as you walk.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-cl1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cl1b/Veyrath-cl1b-windows.zip",
+     "size": 75890776,
+     "sha256": "0684d5a3fc6b7ee27ee7fd9e0821d1378e70709efca326aaa3619522e36e06b5",
+     "unpacked": 198054533
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-cl1b/Veyrath-cl1b-linux.zip",
+     "size": 65545499,
+     "sha256": "8d36774072712b8ba644c3a5adb0818dbf6e023adc707129ec8192c15bb94679",
+     "unpacked": 162310165
+    }
+   }
+  },
   {
    "version": "cl1a",
    "title": "Familiar calendar names",

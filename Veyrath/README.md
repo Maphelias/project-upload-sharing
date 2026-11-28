@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [bk1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-bk1a) | Blocks as slots | 2026-11-28 |
 | [fx2a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2a) | Hold to walk; back yards | 2026-11-28 |
 | [po1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-po1a) | Port towns | 2026-11-28 |
 | [sw1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-sw1a) | Screen width for wide monitors | 2026-11-28 |

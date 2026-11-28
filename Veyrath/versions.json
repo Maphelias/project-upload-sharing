@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "fx2b",
+ "latest": "fx2c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "fx2c",
+   "title": "Inn rooms, shifts explained, work in the journal",
+   "date": "2026-11-28",
+   "notes": "At the inn you rent a room, take the stairs up, and choose in your room how long to sleep (4 hours, 8 hours or until morning). A night's sleep no longer makes you tired in your bed. Shifts are explained plainly: 8 hours, started between the hours given. Your work and the letters and parcels you carry are in the journal now, and a parcel you take is marked on the maps. Go there on the map overview walks you there without closing the map.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2c",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx2c/Veyrath-fx2c-windows.zip",
+     "size": 75925592,
+     "sha256": "ba306626d955f64065238008f1d0616ecfb02e4c47c564a738ebfbe51fc17e0e",
+     "unpacked": 198142212
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx2c/Veyrath-fx2c-linux.zip",
+     "size": 65580311,
+     "sha256": "5691e2ef4cbf73649cbdd724d8d156ff9fd58cb90dd341f8fb02432c70cc1be8",
+     "unpacked": 162397844
+    }
+   }
+  },
   {
    "version": "fx2b",
    "title": "Hand-testing fixes: settings, map, work board, autosaves",

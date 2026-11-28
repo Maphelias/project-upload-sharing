@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [fx2c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2c) | Inn rooms, shifts explained, work in the journal | 2026-11-28 |
 | [fx2b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2b) | Hand-testing fixes: settings, map, work board, autosaves | 2026-11-28 |
 | [bk1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-bk1a) | Blocks as slots | 2026-11-28 |
 | [fx2a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2a) | Hold to walk; back yards | 2026-11-28 |

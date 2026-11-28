@@ -8,6 +8,7 @@ Every version is a release here (Windows and Linux zips). The game's main menu h
 
 | Version | What | Date |
 |---|---|---|
+| [bu1d](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-bu1d) | Hand-testing fixes: creation, versions, board, crafting | 2026-11-28 |
 | [bu1c](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-bu1c) | Towns, work and the road: the big update | 2026-11-28 |
 | [fx2b](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2b) | Hand-testing fixes: settings, map, work board, autosaves | 2026-11-28 |
 | [bk1a](https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-bk1a) | Blocks as slots | 2026-11-28 |

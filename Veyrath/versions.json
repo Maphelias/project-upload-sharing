@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "mv1b",
+ "latest": "wd1b",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "wd1b",
+   "title": "Workshop districts in every town",
+   "date": "2026-11-28",
+   "notes": "The workshop district now comes before any crafter, the smithy included: every town and city has one from the start (and saves from before get theirs), so the universal bench is in every town. The W, A, S and D marks on the map are blue now, and the map's tiles have a light gap between them.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-wd1b",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-wd1b/Veyrath-wd1b-windows.zip",
+     "size": 75889464,
+     "sha256": "ec93dd992884bb7bb7fea02776aa9c521fbe6357fce4ed56beb36f98c6b53d83",
+     "unpacked": 198049947
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-wd1b/Veyrath-wd1b-linux.zip",
+     "size": 65544187,
+     "sha256": "48c849e90e700e59c61fbd0536ade82c47e14fd709d4f3d48e27cb97438e3ca5",
+     "unpacked": 162305579
+    }
+   }
+  },
   {
    "version": "mv1b",
    "title": "Map ways and maps",

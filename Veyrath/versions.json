@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "fx2c",
+ "latest": "bu1c",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -22,27 +22,27 @@
  ],
  "versions": [
   {
-   "version": "fx2c",
-   "title": "Inn rooms, shifts explained, work in the journal",
+   "version": "bu1c",
+   "title": "Towns, work and the road: the big update",
    "date": "2026-11-28",
-   "notes": "At the inn you rent a room, take the stairs up, and choose in your room how long to sleep (4 hours, 8 hours or until morning). A night's sleep no longer makes you tired in your bed. Shifts are explained plainly: 8 hours, started between the hours given. Your work and the letters and parcels you carry are in the journal now, and a parcel you take is marked on the maps. Go there on the map overview walks you there without closing the map.",
-   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-fx2c",
+   "notes": "One big update. Towns: blocks are slots (one building, a district's few, or homes, each with its entrance and its inside), smaller blocks, a district's blocks side by side and joined, you choose the block for a building you pay for, homes need room and towns buy blocks as their people grow; you arrive at the town's gate; a clear edge between where you can and can't walk; the left map shows 5x5 round you (the wheel out to 9x9). The work board is a screen of its own (notices on the left, their details on the right); positions show their terms before you accept; plain job titles; shifts explained; your work and the parcels you carry are in the journal, a parcel marked on the maps; a tracked quest's person is marked where they stand. Inns: rent a room, take the stairs, sleep as long as you like; tiredness is gone (well rested stays). A general store and an outfitter with fixed stock for starting out; market stalls you can browse; the goods market has search and sort; towns bake their bread (rye bread, flatbread). Map overview: Go there keeps the map open. Settings controls keep their size on big monitors; a new game's settings buttons are laid out; three autosaves. Versions you switch to install beside the one you play when it came from the installer.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-bu1c",
    "picker": true,
    "cap": false,
    "open": false,
    "category": "alpha",
    "platforms": {
     "windows": {
-     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx2c/Veyrath-fx2c-windows.zip",
-     "size": 75925592,
-     "sha256": "ba306626d955f64065238008f1d0616ecfb02e4c47c564a738ebfbe51fc17e0e",
-     "unpacked": 198142212
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-bu1c/Veyrath-bu1c-windows.zip",
+     "size": 75938395,
+     "sha256": "165e522976a8dd306abeb6cff22810a9c25a1949a3b6a82b0b3f758061078c37",
+     "unpacked": 198183766
     },
     "linux": {
-     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-fx2c/Veyrath-fx2c-linux.zip",
-     "size": 65580311,
-     "sha256": "5691e2ef4cbf73649cbdd724d8d156ff9fd58cb90dd341f8fb02432c70cc1be8",
-     "unpacked": 162397844
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-bu1c/Veyrath-bu1c-linux.zip",
+     "size": 65593116,
+     "sha256": "05aa8c3e12ad5f9e4bbae94718fb3cdb0315dc9ef172a1764ad984bcb529627a",
+     "unpacked": 162439398
     }
    }
   },

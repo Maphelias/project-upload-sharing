@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "wd1b",
+ "latest": "op1e",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "op1e",
+   "title": "Save a new game's settings as defaults",
+   "date": "2026-11-28",
+   "notes": "In a new game's settings step, Save as my defaults makes what you picked there (every page) your defaults for new games, a quick way to keep a preset. It asks once more.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-op1e",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-op1e/Veyrath-op1e-windows.zip",
+     "size": 75889770,
+     "sha256": "3e43bdc9cc1f6bde62942aba07e5a59815e069e9227c07fc3a2848828a1785af",
+     "unpacked": 198051483
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-op1e/Veyrath-op1e-linux.zip",
+     "size": 65544493,
+     "sha256": "e72cc52dfea2fff2795897bd838275e7a208a58186c4239c2475be1e5a8b6e35",
+     "unpacked": 162307115
+    }
+   }
+  },
   {
    "version": "wd1b",
    "title": "Workshop districts in every town",

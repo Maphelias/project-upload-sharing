@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "sw1a",
+ "latest": "po1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "po1a",
+   "title": "Port towns",
+   "date": "2026-11-28",
+   "notes": "A settlement beside the sea can build its port: a pier (it becomes a port, so ships put in and you can sail from there), fishermen's huts (fish against the lean year) and wharves (grain and goods by sea). Only settlements next to the sea can build them, they stand by the shore on the town map, and coastal settlements want them early. Ports from the start of the world have their pier.",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-po1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-po1a/Veyrath-po1a-windows.zip",
+     "size": 75917884,
+     "sha256": "b4f460587ddbd18b17f7087f5c459e06d4fe90a846502466400bce7093ff55e3",
+     "unpacked": 198112648
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-po1a/Veyrath-po1a-linux.zip",
+     "size": 65572603,
+     "sha256": "167b4ab1e351fe8116f2163285e49e913607cab745d7809a8488d0b96efdbaba",
+     "unpacked": 162368280
+    }
+   }
+  },
   {
    "version": "sw1a",
    "title": "Screen width for wide monitors",

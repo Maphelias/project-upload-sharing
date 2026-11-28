@@ -1,7 +1,7 @@
 {
  "format": 1,
  "project": "Veyrath",
- "latest": "ac1d",
+ "latest": "tl1a",
  "rule": "Stages in order: development (Mn builds), alpha, beta, then releases numbered x.y.z, with a category per major version (id \"1\", name \"Version 1\"...). Kept: development: the last build of every finished milestone and every build of the current one; releases: within a major version, the last patch of every minor version, and every patch of the newest minor version. Take the rest out of this list and run publish.py --prune.",
  "categories": [
   {
@@ -21,6 +21,31 @@
   }
  ],
  "versions": [
+  {
+   "version": "tl1a",
+   "title": "Towns laid out like towns",
+   "date": "2026-11-28",
+   "notes": "Settlements are no longer small fixed maps. Each is laid out from its own seed: blocks ringed by streets, the square in the middle, and lots along every street taken by what is built where it belongs (the market and guild halls near the square, crafts together, stores and defence at the edge), houses on the rest, empty lots to build on. Main streets run out to the ways out, fields and woods lie round about, a town by the sea has the shore and the sea along that side and a port its pier. Towns grow by blocks as they build, so big towns are big to walk. A town keeps its layout once you have walked in. The map in the left column opens readable and follows you. Walls and gates come next (for now towns have none drawn).",
+   "page": "https://github.com/Maphelias/project-upload-sharing/releases/tag/Veyrath-tl1a",
+   "picker": true,
+   "cap": false,
+   "open": false,
+   "category": "alpha",
+   "platforms": {
+    "windows": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1a/Veyrath-tl1a-windows.zip",
+     "size": 75909763,
+     "sha256": "693aa544973bbdc380d15e00b1b94966f5c674d8ad364e4c77e5ada9b79f5411",
+     "unpacked": 198091237
+    },
+    "linux": {
+     "url": "https://github.com/Maphelias/project-upload-sharing/releases/download/Veyrath-tl1a/Veyrath-tl1a-linux.zip",
+     "size": 65564486,
+     "sha256": "71a5819d02fb5b2009a4428bdd4d587be4a34eb3b008e8d908f08c407bc36ca1",
+     "unpacked": 162346869
+    }
+   }
+  },
   {
    "version": "ac1d",
    "title": "When you got it",
